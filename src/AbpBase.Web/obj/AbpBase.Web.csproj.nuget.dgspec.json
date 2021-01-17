@@ -1,0 +1,544 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Web\\AbpBase.Web.csproj": {}
+  },
+  "projects": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\AbpBase.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\AbpBase.Application.Contracts.csproj",
+        "projectName": "AbpBase.Application.Contracts",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\AbpBase.Application.Contracts.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj",
+        "projectName": "AbpBase.Application",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\AbpBase.Application.Contracts.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application.Contracts\\AbpBase.Application.Contracts.csproj"
+              },
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\AbpBase.Database.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\AbpBase.Database.csproj"
+              },
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Volo.Abp.ObjectMapping": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\AbpBase.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\AbpBase.Database.csproj",
+        "projectName": "AbpBase.Database",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\AbpBase.Database.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.0.105, )"
+            },
+            "FreeSql.Provider.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.105, )"
+            },
+            "FreeSql.Provider.Sqlite": {
+              "target": "Package",
+              "version": "[2.0.105, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\AbpBase.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\AbpBase.Domain.Shared.csproj",
+        "projectName": "AbpBase.Domain.Shared",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\AbpBase.Domain.Shared.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj",
+        "projectName": "AbpBase.Domain",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\AbpBase.Domain.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\AbpBase.Domain.Shared.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Domain.Shared\\AbpBase.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\AbpBase.HttpApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\AbpBase.HttpApi.csproj",
+        "projectName": "AbpBase.HttpApi",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\AbpBase.HttpApi.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Web\\AbpBase.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Web\\AbpBase.Web.csproj",
+        "projectName": "AbpBase.Web",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Web\\AbpBase.Web.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.Application\\AbpBase.Application.csproj"
+              },
+              "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\AbpBase.HttpApi.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\src\\AbpBase.HttpApi\\AbpBase.HttpApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

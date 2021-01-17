@@ -1,0 +1,17 @@
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.UI.deps.json
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.UI.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\ref\CZGL.Tracing.UI.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.UI.pdb
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.pdb
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.csprojAssemblyReference.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.Properties.Resources.resources
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.csproj.GenerateResource.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.GeneratedMSBuildEditorConfig.editorconfig
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.AssemblyInfoInputs.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.AssemblyInfo.cs
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.csproj.CoreCompileInputs.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.csproj.CopyComplete
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\ref\CZGL.Tracing.UI.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\obj\Release\net5.0\CZGL.Tracing.UI.pdb

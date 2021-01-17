@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\CZGL.DT\\GrpcService1\\GrpcService1.csproj": {}
+  },
+  "projects": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\CZGL.DT\\GrpcService1\\GrpcService1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\CZGL.DT\\GrpcService1\\GrpcService1.csproj",
+        "projectName": "GrpcService1",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\CZGL.DT\\GrpcService1\\GrpcService1.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\CZGL.DT\\GrpcService1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\asset-manifest.json">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>asset-manifest.json</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>favicon.ico</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\index.html">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>index.html</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\precache-manifest.3fe0b9778ffddb5f98a84a75ac4cbc67.js">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>precache-manifest.3fe0b9778ffddb5f98a84a75ac4cbc67.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\service-worker.js">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>service-worker.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\css\1.c303f33f.chunk.css">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\css\1.c303f33f.chunk.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\css\1.c303f33f.chunk.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\css\1.c303f33f.chunk.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\css\main.ff19d057.chunk.css">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\css\main.ff19d057.chunk.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\css\main.ff19d057.chunk.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\css\main.ff19d057.chunk.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\1.aabfda20.chunk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\1.aabfda20.chunk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\1.aabfda20.chunk.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\1.aabfda20.chunk.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\main.7ae2cb61.chunk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\main.7ae2cb61.chunk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\main.7ae2cb61.chunk.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\main.7ae2cb61.chunk.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\runtime~main.4a686d48.js">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\runtime~main.4a686d48.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\js\runtime~main.4a686d48.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\js\runtime~main.4a686d48.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\static\media\jaeger-logo.a7093b12.svg">
+      <SourceType>Package</SourceType>
+      <SourceId>CZGL.Tracing.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CZGL.Tracing.UI</BasePath>
+      <RelativePath>static\media\jaeger-logo.a7093b12.svg</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

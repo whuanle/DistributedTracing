@@ -1,0 +1,12 @@
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\bin\Release\net5.0\CZGL.Tracing.deps.json
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\bin\Release\net5.0\CZGL.Tracing.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\bin\Release\net5.0\ref\CZGL.Tracing.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\bin\Release\net5.0\CZGL.Tracing.pdb
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.csprojAssemblyReference.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.GeneratedMSBuildEditorConfig.editorconfig
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.AssemblyInfoInputs.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.AssemblyInfo.cs
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.csproj.CoreCompileInputs.cache
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\ref\CZGL.Tracing.dll
+H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing\obj\Release\net5.0\CZGL.Tracing.pdb

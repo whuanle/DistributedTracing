@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mongocsharpdriver" Version="2.11.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CZGL.Tracing\CZGL.Tracing.csproj" />
+  </ItemGroup>
+  
+  
+  <ItemGroup>
+    <Content Update="wwwroot" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+</Project>

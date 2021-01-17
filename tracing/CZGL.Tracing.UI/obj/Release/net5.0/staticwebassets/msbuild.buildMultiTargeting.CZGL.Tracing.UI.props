@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CZGL.Tracing.UI.props" />
+</Project>

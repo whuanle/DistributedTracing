@@ -1,0 +1,14 @@
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Database.deps.json
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Database.dll
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Database.pdb
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Domain.dll
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Domain.Shared.dll
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Domain.pdb
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\bin\Debug\netstandard2.1\AbpBase.Domain.Shared.pdb
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.csprojAssemblyReference.cache
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.AssemblyInfoInputs.cache
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.AssemblyInfo.cs
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.csproj.CoreCompileInputs.cache
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.csproj.CopyComplete
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.dll
+H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\obj\Debug\netstandard2.1\AbpBase.Database.pdb

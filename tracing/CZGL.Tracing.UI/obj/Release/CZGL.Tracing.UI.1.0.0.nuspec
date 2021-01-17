@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CZGL.Tracing.UI</id>
+    <version>1.0.0</version>
+    <authors>CZGL.Tracing.UI</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="CZGL.Tracing" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="mongocsharpdriver" version="2.11.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="H:\文章\f分布式日志\LinkToTrack\tracing\CZGL.Tracing.UI\bin\Release\net5.0\CZGL.Tracing.UI.dll" target="lib\net5.0\CZGL.Tracing.UI.dll" />
+  </files>
+</package>

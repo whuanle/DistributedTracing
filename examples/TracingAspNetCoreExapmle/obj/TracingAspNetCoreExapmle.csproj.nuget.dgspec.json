@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\examples\\TracingAspNetCoreExapmle\\TracingAspNetCoreExapmle.csproj": {}
+  },
+  "projects": {
+    "H:\\文章\\f分布式日志\\LinkToTrack\\examples\\TracingAspNetCoreExapmle\\TracingAspNetCoreExapmle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\examples\\TracingAspNetCoreExapmle\\TracingAspNetCoreExapmle.csproj",
+        "projectName": "TracingAspNetCoreExapmle",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\examples\\TracingAspNetCoreExapmle\\TracingAspNetCoreExapmle.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\examples\\TracingAspNetCoreExapmle\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\CZGL.Tracing.UI.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\CZGL.Tracing.UI.csproj"
+              },
+              "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\CZGL.Tracing.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\CZGL.Tracing.UI.csproj",
+        "projectName": "CZGL.Tracing.UI",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\CZGL.Tracing.UI.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj": {
+                "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj",
+        "projectName": "CZGL.Tracing",
+        "projectPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\CZGL.Tracing.csproj",
+        "packagesPath": "X:\\Users\\whuanle\\.nuget\\packages\\",
+        "outputPath": "H:\\文章\\f分布式日志\\LinkToTrack\\tracing\\CZGL.Tracing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "X:\\Users\\whuanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "X:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.34.0, )"
+            },
+            "Jaeger.Communication.Grpc": {
+              "target": "Package",
+              "version": "[0.4.2, )"
+            },
+            "Jaeger.Core": {
+              "target": "Package",
+              "version": "[0.4.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.0-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "X:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
