@@ -1,0 +1,579 @@
+2020-09-16 11:28:29.703 +08:00 [INF] Starting web host.
+2020-09-16 11:28:33.963 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:28:34.117 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:28:34.118 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:28:34.119 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:28:34.120 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:28:34.120 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:28:34.121 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:28:34.122 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:28:34.123 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:28:34.123 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:28:34.124 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:28:34.124 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:28:34.125 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:28:34.125 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:28:34.127 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:28:34.128 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:28:34.129 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:28:34.129 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:28:34.130 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:28:34.130 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:28:34.131 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:28:34.131 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:28:34.132 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:28:34.132 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:28:34.133 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:28:34.133 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:28:34.134 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:28:34.135 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:28:34.138 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:28:34.139 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:28:34.140 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:28:34.141 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:28:34.142 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:28:34.142 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:28:34.143 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:28:34.144 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:28:34.145 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:28:34.145 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:28:34.146 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:28:34.149 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:28:34.150 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:28:34.150 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:28:34.151 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:28:34.152 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:28:34.152 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:28:34.736 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:28:35.170 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:28:35.171 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:28:35.173 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:28:35.173 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:28:35.174 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:28:38.901 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:28:38.956 +08:00 [INF] Request finished in 58.0746ms 404 
+2020-09-16 11:33:24.846 +08:00 [INF] Starting web host.
+2020-09-16 11:33:26.892 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:33:27.082 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:33:27.084 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:33:27.085 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:33:27.085 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:33:27.085 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:33:27.086 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:33:27.086 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:33:27.087 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:33:27.088 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:33:27.089 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:33:27.089 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:33:27.090 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:33:27.090 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:33:27.091 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:33:27.091 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:33:27.091 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:33:27.093 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:33:27.094 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:33:27.094 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:33:27.094 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:33:27.095 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:33:27.095 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:33:27.096 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:33:27.096 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:33:27.097 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:33:27.097 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:33:27.098 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:33:27.098 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:33:27.099 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:33:27.099 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:33:27.100 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:33:27.101 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:33:27.102 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:33:27.105 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:33:27.106 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:33:27.107 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:33:27.108 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:33:27.110 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:33:27.110 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:33:27.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:33:27.114 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:33:27.115 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:33:27.116 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:33:27.118 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:33:27.649 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:33:28.110 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:33:28.117 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:33:28.119 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:33:28.123 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:33:28.126 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:33:29.701 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:33:29.763 +08:00 [INF] Request finished in 66.6825ms 404 
+2020-09-16 11:33:42.304 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:33:42.309 +08:00 [INF] Request finished in 5.7792ms 404 
+2020-09-16 11:33:59.403 +08:00 [INF] Starting web host.
+2020-09-16 11:34:01.360 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:34:01.474 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:34:01.476 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:34:01.477 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:34:01.477 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:34:01.478 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:34:01.479 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:34:01.479 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:34:01.480 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:34:01.480 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:34:01.480 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:34:01.481 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:34:01.481 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:34:01.482 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:34:01.482 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:34:01.484 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:34:01.484 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:34:01.485 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:34:01.485 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:34:01.486 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:34:01.486 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:34:01.486 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:34:01.487 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:34:01.487 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:34:01.488 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:34:01.488 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:34:01.488 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:34:01.489 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:34:01.489 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:34:01.490 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:34:01.491 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:34:01.492 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:34:01.494 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:34:01.496 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:34:01.496 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:34:01.497 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:34:01.498 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:34:01.499 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:34:01.500 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:34:01.501 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:34:01.502 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:34:01.503 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:34:01.504 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:34:01.505 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:34:01.506 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:34:01.944 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:34:02.273 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:34:02.285 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:34:02.288 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:34:02.289 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:34:02.294 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:34:03.249 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:34:03.292 +08:00 [INF] Request finished in 45.3225ms 404 
+2020-09-16 11:34:12.921 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:34:12.933 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2020-09-16 11:34:12.936 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2020-09-16 11:34:12.939 +08:00 [INF] Request finished in 18.3689ms 405 
+2020-09-16 11:34:34.462 +08:00 [INF] Starting web host.
+2020-09-16 11:34:36.591 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:34:36.706 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:34:36.708 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:34:36.709 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:34:36.710 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:34:36.711 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:34:36.712 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:34:36.712 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:34:36.713 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:34:36.713 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:34:36.714 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:34:36.715 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:34:36.716 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:34:36.717 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:34:36.717 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:34:36.718 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:34:36.718 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:34:36.719 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:34:36.720 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:34:36.721 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:34:36.721 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:34:36.722 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:34:36.723 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:34:36.723 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:34:36.724 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:34:36.724 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:34:36.726 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:34:36.726 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:34:36.727 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:34:36.729 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:34:36.730 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:34:36.731 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:34:36.732 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:34:36.733 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:34:36.734 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:34:36.738 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:34:36.738 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:34:36.739 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:34:36.740 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:34:36.740 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:34:36.741 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:34:36.742 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:34:36.742 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:34:36.744 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:34:36.745 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:34:37.177 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:34:37.503 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:34:37.504 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:34:37.506 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:34:37.507 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:34:37.509 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:34:38.728 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:34:38.780 +08:00 [INF] Request finished in 55.2007ms 404 
+2020-09-16 11:34:41.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:34:41.445 +08:00 [INF] Executing endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:34:42.424 +08:00 [INF] Route matched with {action = "MyWebApi4", controller = "Test", area = ""}. Executing controller action with signature System.String MyWebApi4() on controller ApbBase.HttpApi.Controllers.TestController (ApbBase.HttpApi).
+2020-09-16 11:34:50.172 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-09-16 11:34:50.179 +08:00 [ERR] An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'AbpBase.Application.Handlers.CustomerExceptionHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Serilog.ILogger logger' of constructor 'Void .ctor(Serilog.ILogger)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(ConstructorInfo[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Volo.Abp.EventBus.IocEventHandlerFactory.GetHandler()
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlerAsync(IEventHandlerFactory asyncHandlerFactory, Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlersAsync(Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.Local.LocalEventBus.PublishAsync(Type eventType, Object eventData)
+   at AbpBase.Web.Filters.WebGlobalExceptionFilter.OnExceptionAsync(ExceptionContext context) in E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web\Filters\WebGlobalExceptionFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-09-16 11:34:50.368 +08:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = AbpBase.Application.Handlers.CustomerExceptionHandler
+
+2020-09-16 11:34:50.385 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-09-16 11:34:50.479 +08:00 [INF] Executed action ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi) in 8042.5611ms
+2020-09-16 11:34:50.487 +08:00 [INF] Executed endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:34:50.492 +08:00 [INF] Request finished in 9058.0909ms 500 application/json; charset=utf-8
+2020-09-16 11:36:40.617 +08:00 [INF] Starting web host.
+2020-09-16 11:36:42.438 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:36:42.546 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:36:42.548 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:36:42.549 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:36:42.549 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:36:42.550 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:36:42.550 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:36:42.551 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:36:42.551 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:36:42.552 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:36:42.552 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:36:42.553 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:36:42.553 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:36:42.553 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:36:42.554 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:36:42.554 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:36:42.554 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:36:42.555 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:36:42.556 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:36:42.557 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:36:42.557 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:36:42.557 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:36:42.558 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:36:42.558 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:36:42.559 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:36:42.559 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:36:42.560 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:36:42.560 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:36:42.561 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:36:42.563 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:36:42.564 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:36:42.565 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:36:42.567 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:36:42.568 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:36:42.569 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:36:42.570 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:36:42.572 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:36:42.573 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:36:42.573 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:36:42.574 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:36:42.575 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:36:42.576 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:36:42.577 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:36:42.578 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:36:42.579 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:36:43.018 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:36:43.361 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:36:43.367 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:36:43.369 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:36:43.370 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:36:43.371 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:36:44.368 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:36:44.444 +08:00 [INF] Request finished in 79.8504ms 404 
+2020-09-16 11:36:48.165 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:36:48.176 +08:00 [INF] Executing endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:36:48.365 +08:00 [INF] Route matched with {action = "MyWebApi4", controller = "Test", area = ""}. Executing controller action with signature System.String MyWebApi4() on controller ApbBase.HttpApi.Controllers.TestController (ApbBase.HttpApi).
+2020-09-16 11:36:51.523 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-09-16 11:36:51.528 +08:00 [ERR] An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'AbpBase.Application.Handlers.CustomerExceptionHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Serilog.ILogger logger' of constructor 'Void .ctor(Serilog.ILogger)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(ConstructorInfo[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Volo.Abp.EventBus.IocEventHandlerFactory.GetHandler()
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlerAsync(IEventHandlerFactory asyncHandlerFactory, Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlersAsync(Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.Local.LocalEventBus.PublishAsync(Type eventType, Object eventData)
+   at AbpBase.Web.Filters.WebGlobalExceptionFilter.OnExceptionAsync(ExceptionContext context) in E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web\Filters\WebGlobalExceptionFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-09-16 11:36:51.586 +08:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = AbpBase.Application.Handlers.CustomerExceptionHandler
+
+2020-09-16 11:36:51.596 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-09-16 11:36:51.645 +08:00 [INF] Executed action ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi) in 3260.3443ms
+2020-09-16 11:36:51.654 +08:00 [INF] Executed endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:36:51.660 +08:00 [INF] Request finished in 3495.1863ms 500 application/json; charset=utf-8
+2020-09-16 11:37:32.788 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:37:32.794 +08:00 [INF] Executing endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:37:32.797 +08:00 [INF] Route matched with {action = "MyWebApi4", controller = "Test", area = ""}. Executing controller action with signature System.String MyWebApi4() on controller ApbBase.HttpApi.Controllers.TestController (ApbBase.HttpApi).
+2020-09-16 11:37:57.860 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-09-16 11:37:57.865 +08:00 [ERR] An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'AbpBase.Application.Handlers.CustomerExceptionHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Serilog.ILogger logger' of constructor 'Void .ctor(Serilog.ILogger)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(ConstructorInfo[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Volo.Abp.EventBus.IocEventHandlerFactory.GetHandler()
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlerAsync(IEventHandlerFactory asyncHandlerFactory, Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlersAsync(Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.Local.LocalEventBus.PublishAsync(Type eventType, Object eventData)
+   at AbpBase.Web.Filters.WebGlobalExceptionFilter.OnExceptionAsync(ExceptionContext context) in E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web\Filters\WebGlobalExceptionFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-09-16 11:37:57.894 +08:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = AbpBase.Application.Handlers.CustomerExceptionHandler
+
+2020-09-16 11:37:57.898 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-09-16 11:37:57.902 +08:00 [INF] Executed action ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi) in 25100.3449ms
+2020-09-16 11:37:57.905 +08:00 [INF] Executed endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:37:57.906 +08:00 [INF] Request finished in 25117.8662ms 500 application/json; charset=utf-8
+2020-09-16 11:44:48.132 +08:00 [INF] Starting web host.
+2020-09-16 11:44:51.361 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:44:51.468 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:44:51.470 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:44:51.470 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:44:51.471 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:44:51.471 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:44:51.472 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:44:51.472 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:44:51.472 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:44:51.473 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:44:51.473 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:44:51.474 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:44:51.474 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:44:51.475 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:44:51.475 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:44:51.476 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:44:51.477 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:44:51.478 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:44:51.479 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:44:51.480 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:44:51.480 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:44:51.481 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:44:51.481 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:44:51.482 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:44:51.482 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:44:51.483 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:44:51.483 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:44:51.484 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:44:51.484 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:44:51.485 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:44:51.486 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:44:51.489 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:44:51.490 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:44:51.491 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:44:51.492 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:44:51.495 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:44:51.496 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:44:51.497 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:44:51.498 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:44:51.499 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:44:51.500 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:44:51.501 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:44:51.502 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:44:51.502 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:44:51.503 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:44:52.134 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:44:52.496 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:44:52.497 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:44:52.499 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:44:52.500 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:44:52.501 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:44:58.244 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:44:58.296 +08:00 [INF] Request finished in 57.733ms 404 
+2020-09-16 11:45:02.058 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:45:02.062 +08:00 [INF] Request finished in 4.5092ms 404 
+2020-09-16 11:45:04.785 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:45:04.790 +08:00 [INF] Request finished in 5.4967ms 404 
+2020-09-16 11:45:14.655 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:45:14.668 +08:00 [INF] Executing endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:45:14.882 +08:00 [INF] Route matched with {action = "MyWebApi4", controller = "Test", area = ""}. Executing controller action with signature System.String MyWebApi4() on controller ApbBase.HttpApi.Controllers.TestController (ApbBase.HttpApi).
+2020-09-16 11:45:21.871 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-09-16 11:45:21.875 +08:00 [ERR] An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating AbpBase.Application.Handlers.CustomerExceptionHandler.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'AbpBase.Application.Handlers.CustomerExceptionHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Serilog.ILogger logger' of constructor 'Void .ctor(Serilog.ILogger)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(ConstructorInfo[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Volo.Abp.EventBus.IocEventHandlerFactory.GetHandler()
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlerAsync(IEventHandlerFactory asyncHandlerFactory, Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlersAsync(Type eventType, Object eventData, List`1 exceptions)
+   at Volo.Abp.EventBus.Local.LocalEventBus.PublishAsync(Type eventType, Object eventData)
+   at AbpBase.Web.Filters.WebGlobalExceptionFilter.OnExceptionAsync(ExceptionContext context) in E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web\Filters\WebGlobalExceptionFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-09-16 11:45:22.012 +08:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = AbpBase.Application.Handlers.CustomerExceptionHandler
+
+2020-09-16 11:45:22.031 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-09-16 11:45:22.088 +08:00 [INF] Executed action ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi) in 7193.4552ms
+2020-09-16 11:45:22.093 +08:00 [INF] Executed endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:45:22.096 +08:00 [INF] Request finished in 7440.9862ms 500 application/json; charset=utf-8
+2020-09-16 11:49:03.028 +08:00 [INF] Starting web host.
+2020-09-16 11:49:05.184 +08:00 [INF] User profile is available. Using 'C:\Users\GW31\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-16 11:49:05.311 +08:00 [INF] Loaded ABP modules:
+2020-09-16 11:49:05.312 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2020-09-16 11:49:05.312 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2020-09-16 11:49:05.313 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2020-09-16 11:49:05.313 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-16 11:49:05.314 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-16 11:49:05.314 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-16 11:49:05.314 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-16 11:49:05.315 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-16 11:49:05.315 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-16 11:49:05.316 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-16 11:49:05.317 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-16 11:49:05.317 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-16 11:49:05.318 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-16 11:49:05.318 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-16 11:49:05.319 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-16 11:49:05.320 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-16 11:49:05.321 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-16 11:49:05.322 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-16 11:49:05.322 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-16 11:49:05.323 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-16 11:49:05.324 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-16 11:49:05.325 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2020-09-16 11:49:05.326 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-09-16 11:49:05.326 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-16 11:49:05.326 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2020-09-16 11:49:05.327 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2020-09-16 11:49:05.327 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-16 11:49:05.328 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-16 11:49:05.329 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-16 11:49:05.331 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-16 11:49:05.332 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-16 11:49:05.333 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-16 11:49:05.334 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-16 11:49:05.335 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-16 11:49:05.336 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-16 11:49:05.337 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-16 11:49:05.341 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-16 11:49:05.341 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-16 11:49:05.342 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-16 11:49:05.343 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-09-16 11:49:05.344 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-16 11:49:05.345 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2020-09-16 11:49:05.345 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2020-09-16 11:49:05.850 +08:00 [INF] Initialized all ABP modules.
+2020-09-16 11:49:06.199 +08:00 [INF] Now listening on: https://localhost:5001
+2020-09-16 11:49:06.206 +08:00 [INF] Now listening on: http://localhost:5000
+2020-09-16 11:49:06.208 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-16 11:49:06.209 +08:00 [INF] Hosting environment: Development
+2020-09-16 11:49:06.210 +08:00 [INF] Content root path: E:\abp版本\1\AbpBaseStruct\src\4\AbpBase\src\AbpBase.Web
+2020-09-16 11:49:08.933 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-16 11:49:08.999 +08:00 [INF] Request finished in 69.0398ms 404 
+2020-09-16 11:49:14.037 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/T4  
+2020-09-16 11:49:14.044 +08:00 [INF] Executing endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:49:14.229 +08:00 [INF] Route matched with {action = "MyWebApi4", controller = "Test", area = ""}. Executing controller action with signature System.String MyWebApi4() on controller ApbBase.HttpApi.Controllers.TestController (ApbBase.HttpApi).
+2020-09-16 11:49:27.750 +08:00 [FTL] 
+Action:    ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)
+Source:    ApbBase.HttpApi
+TargetSite:    System.String MyWebApi4()
+InnerException:    
+Message:    Attempted to divide by zero.
+HelpLink:    
+
+2020-09-16 11:49:33.645 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2020-09-16 11:49:33.667 +08:00 [INF] Executed action ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi) in 19427.0199ms
+2020-09-16 11:49:33.672 +08:00 [INF] Executed endpoint 'ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)'
+2020-09-16 11:49:33.675 +08:00 [INF] Request finished in 19638.7929ms 200 application/json; charset=utf-8

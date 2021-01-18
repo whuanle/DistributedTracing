@@ -1,0 +1,8 @@
+2020-09-16 11:49:27.750 +08:00 [FTL] 
+Action:    ApbBase.HttpApi.Controllers.TestController.MyWebApi4 (ApbBase.HttpApi)
+Source:    ApbBase.HttpApi
+TargetSite:    System.String MyWebApi4()
+InnerException:    
+Message:    Attempted to divide by zero.
+HelpLink:    
+

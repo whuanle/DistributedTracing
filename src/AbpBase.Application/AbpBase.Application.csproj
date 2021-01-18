@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.1.1" />
+    <PackageReference Include="Volo.Abp.ObjectMapping" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpBase.Application.Contracts\AbpBase.Application.Contracts.csproj" />
+    <ProjectReference Include="..\AbpBase.Database\AbpBase.Database.csproj" />
+    <ProjectReference Include="..\AbpBase.Domain\AbpBase.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

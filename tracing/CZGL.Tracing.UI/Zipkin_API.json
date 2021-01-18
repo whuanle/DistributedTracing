@@ -1,0 +1,536 @@
+{
+	"info": {
+		"_postman_id": "142ebdda-c6a0-4edf-b5a0-0f46a5c81b8c",
+		"name": "Zipkin API",
+		"description": "Zipkin's v2 api currently includes a POST endpoint that can receive spans.\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "spans",
+			"item": [
+				{
+					"name": "/spans",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/spans?serviceName=<string>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"spans"
+							],
+							"query": [
+								{
+									"key": "serviceName",
+									"value": "<string>",
+									"description": "(Required) Ex favstar (required) - Lower-case label of a node in the service\ngraph. The /services endpoint enumerates possible input values.\n"
+								}
+							]
+						},
+						"description": "Get all the span names recorded by a particular service"
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/spans?serviceName=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"spans"
+									],
+									"query": [
+										{
+											"key": "serviceName",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Bad Request Error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/spans?serviceName=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"spans"
+									],
+									"query": [
+										{
+											"key": "serviceName",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "/spans",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"traceId\": \"<string>\",\n        \"id\": \"<string>\",\n        \"name\": \"<string>\",\n        \"parentId\": \"<string>\",\n        \"kind\": \"<string>\",\n        \"timestamp\": \"<long>\",\n        \"duration\": \"<long>\",\n        \"debug\": \"<boolean>\",\n        \"shared\": \"<boolean>\",\n        \"localEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"remoteEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"annotations\": [\n            {\n                \"timestamp\": \"<integer>\",\n                \"value\": \"<string>\"\n            }\n        ],\n        \"tags\": \"<object>\"\n    },\n    {\n        \"traceId\": \"<string>\",\n        \"id\": \"<string>\",\n        \"name\": \"<string>\",\n        \"parentId\": \"<string>\",\n        \"kind\": \"<string>\",\n        \"timestamp\": \"<long>\",\n        \"duration\": \"<long>\",\n        \"debug\": \"<boolean>\",\n        \"shared\": \"<boolean>\",\n        \"localEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"remoteEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"annotations\": [\n            {\n                \"timestamp\": \"<integer>\",\n                \"value\": \"<string>\"\n            }\n        ],\n        \"tags\": \"<object>\"\n    }\n]",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/spans",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"spans"
+							]
+						},
+						"description": "Uploads a list of spans encoded per content-type, for example json.\n"
+					},
+					"response": [
+						{
+							"name": "Accepted",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"traceId\": \"<string>\",\n        \"id\": \"<string>\",\n        \"name\": \"<string>\",\n        \"parentId\": \"<string>\",\n        \"kind\": \"<string>\",\n        \"timestamp\": \"<long>\",\n        \"duration\": \"<long>\",\n        \"debug\": \"<boolean>\",\n        \"shared\": \"<boolean>\",\n        \"localEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"remoteEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"annotations\": [\n            {\n                \"timestamp\": \"<integer>\",\n                \"value\": \"<string>\"\n            }\n        ],\n        \"tags\": \"<object>\"\n    },\n    {\n        \"traceId\": \"<string>\",\n        \"id\": \"<string>\",\n        \"name\": \"<string>\",\n        \"parentId\": \"<string>\",\n        \"kind\": \"<string>\",\n        \"timestamp\": \"<long>\",\n        \"duration\": \"<long>\",\n        \"debug\": \"<boolean>\",\n        \"shared\": \"<boolean>\",\n        \"localEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"remoteEndpoint\": {\n            \"serviceName\": \"<string>\",\n            \"ipv4\": \"<ipv4>\",\n            \"ipv6\": \"<ipv6>\",\n            \"port\": \"<integer>\"\n        },\n        \"annotations\": [\n            {\n                \"timestamp\": \"<integer>\",\n                \"value\": \"<string>\"\n            }\n        ],\n        \"tags\": \"<object>\"\n    }\n]"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/spans",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"spans"
+									]
+								}
+							},
+							"status": "Accepted",
+							"code": 202,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "/services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/services",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"services"
+					]
+				},
+				"description": "Returns a list of all service names associated with span endpoints.\n"
+			},
+			"response": [
+				{
+					"name": "Bad Request Error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/services",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"services"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Succes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/services",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"services"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/traces",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/traces?serviceName=<string>&spanName=<string>&annotationQuery=<string>&minDuration=<integer>&maxDuration=<integer>&endTs=<long>&lookback=<long>&limit=10",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"traces"
+					],
+					"query": [
+						{
+							"key": "serviceName",
+							"value": "<string>",
+							"description": "Ex favstar (required) - Lower-case label of a node in the service\ngraph. The /services endpoint enumerates possible input values.\n"
+						},
+						{
+							"key": "spanName",
+							"value": "<string>",
+							"description": "Ex get - name of a span in a trace.\nOnly return traces that contains spans with this name.\n"
+						},
+						{
+							"key": "annotationQuery",
+							"value": "<string>",
+							"description": "Ex. `http.uri=/foo and retried` - If key/value (has an `=`),\nconstrains against Span.tags entres. If just a word, constrains\nagainst Span.annotations[].value or Span.tags[].key. Any values are\nAND against eachother. This means a span in the trace must match\nall of these.\n"
+						},
+						{
+							"key": "minDuration",
+							"value": "<integer>",
+							"description": "Ex. 100000 (for 100ms). Only return traces whose `Span.duration` is\ngreater than or equal to minDuration microseconds.\n"
+						},
+						{
+							"key": "maxDuration",
+							"value": "<integer>",
+							"description": "Only return traces whose Span.duration is less than or equal to\n`maxDuration` microseconds. Only valid with minDuration.\n"
+						},
+						{
+							"key": "endTs",
+							"value": "<long>",
+							"description": "Only return traces where all Span.timestamp are at or before this\ntime in epoch milliseconds. Defaults to current time.\n"
+						},
+						{
+							"key": "lookback",
+							"value": "<long>",
+							"description": "Only return traces where all  Span.timestamp are at or after (endTs\n- * lookback) in milliseconds. Defaults to endTs, limited to a\nsystem parameter QUERY_LOOKBACK\n"
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"description": "Maximum number of traces to return. Defaults to 10\n"
+						}
+					]
+				},
+				"description": "Invoking this request retrieves traces matching the below filters.\nResults should be filtered against endTs, subject to limit and\nlookback. For example, if endTs is 10:20 today, limit is 10, and\nlookback is 7 days, traces returned should be those nearest to 10:20\ntoday, not 10:20 a week ago.\nTime units of endTs and lookback are milliseconds as opposed to\nmicroseconds, the grain of Span.timestamp. Milliseconds is a more\nfamiliar and supported granularity for query, index and windowing\nfunctions\n"
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/traces?serviceName=<string>&spanName=<string>&annotationQuery=<string>&minDuration=<integer>&maxDuration=<integer>&endTs=<long>&lookback=<long>&limit=10",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"traces"
+							],
+							"query": [
+								{
+									"key": "serviceName",
+									"value": "<string>"
+								},
+								{
+									"key": "spanName",
+									"value": "<string>"
+								},
+								{
+									"key": "annotationQuery",
+									"value": "<string>"
+								},
+								{
+									"key": "minDuration",
+									"value": "<integer>"
+								},
+								{
+									"key": "maxDuration",
+									"value": "<integer>"
+								},
+								{
+									"key": "endTs",
+									"value": "<long>"
+								},
+								{
+									"key": "lookback",
+									"value": "<long>"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/trace/:traceId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/trace/:traceId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"trace",
+						":traceId"
+					],
+					"variable": [
+						{
+							"id": "323029e1-0c70-49b6-b7b9-84c6c0de4e88",
+							"key": "traceId",
+							"value": "<string>",
+							"type": "string",
+							"description": "(Required) Trace identifier, set on all spans within it.\n\nEncoded as 16 or 32 lowercase hex characters corresponding to 64 or 128 bits.\nFor example, a 128bit trace ID looks like 4e441824ec2b6a44ffdc9bb9a6453df3\n"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "`traceId` not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/trace/:traceId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"trace",
+								":traceId"
+							],
+							"variable": [
+								{
+									"key": "traceId"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/trace/:traceId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"trace",
+								":traceId"
+							],
+							"variable": [
+								{
+									"key": "traceId"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/dependencies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/dependencies?endTs=<long>&lookback=<long>",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"dependencies"
+					],
+					"query": [
+						{
+							"key": "endTs",
+							"value": "<long>",
+							"description": "(Required) only return links from spans where `Span.timestamp`  are at or before\nthis time in epoch milliseconds.\n"
+						},
+						{
+							"key": "lookback",
+							"value": "<long>",
+							"description": "only return links where all Span.timestamp are at or after\n(`endTs - * lookback`) in milliseconds. Defaults to `endTs`, limited\nto a system parameter `QUERY_LOOKBACK`\n"
+						}
+					]
+				},
+				"description": "Returns service links derived from spans.\n"
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/dependencies?endTs=<long>&lookback=<long>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"dependencies"
+							],
+							"query": [
+								{
+									"key": "endTs",
+									"value": "<long>"
+								},
+								{
+									"key": "lookback",
+									"value": "<long>"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "http://localhost:9411/api/v2",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
