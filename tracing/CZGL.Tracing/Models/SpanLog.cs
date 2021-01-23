@@ -8,7 +8,7 @@ namespace CZGL.Tracing.Models
 {
     public class SpanLog
     {
-        public DateTime DateTime { get; set; }
+        public long Timestamp { get; set; }
         public SpanTag[] Fields { get; set; }
     }
 }

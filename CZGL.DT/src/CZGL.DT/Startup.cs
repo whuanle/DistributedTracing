@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CZGL.Tracing;
 
 namespace CZGL.DT
 {
@@ -32,7 +33,8 @@ namespace CZGL.DT
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<TestClass>();
+                endpoints.MapTracing();
+                //endpoints.MapGrpcService<TestClass>();
 
                 endpoints.MapGet("/", async context =>
                 {

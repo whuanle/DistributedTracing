@@ -9,4 +9,10 @@
     <PackageReference Include="Jaeger.Senders.Grpc" Version="0.4.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="CZGL.Tracing">
+      <HintPath>..\..\..\tracing\CZGL.Tracing\bin\Release\net5.0\CZGL.Tracing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

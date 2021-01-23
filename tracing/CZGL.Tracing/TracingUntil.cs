@@ -99,12 +99,12 @@ namespace CZGL.Tracing
                     References = item.References.Select(x => x.ToSpanReference()).ToArray(),
                     Flags = item.Flags,
                     StartTime = item.StartTime.ToDateTime().GetTimestamp(),
-                    Duration = (int)item.Duration.ToTimeSpan().TotalMilliseconds/10
+                    Duration = (int)item.Duration.ToTimeSpan().TotalMilliseconds / 10
                 };
 
                 tracingSpan.Tags = item.Tags.BuildTags().ToArray();
                 tracingSpan.Logs = item.Logs.BuildLogs().ToArray();
-                tracingSpan.Process = item.Process.BuildProcess();
+                //tracingSpan.Process = item.Process.BuildProcess();
                 tracingSpan.ProcessId = item.ProcessId;
                 tracingSpan.Warnings = item.Warnings.ToArray();
 
@@ -152,7 +152,7 @@ namespace CZGL.Tracing
             {
                 SpanLog span = new SpanLog()
                 {
-                    DateTime = item.Timestamp.ToDateTime(),
+                    Timestamp = item.Timestamp.ToDateTime().GetTimestamp(),
                     Fields = item.Fields.BuildTags().ToArray()
                 };
                 spans.Add(span);

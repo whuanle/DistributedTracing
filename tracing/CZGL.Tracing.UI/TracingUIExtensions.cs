@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using CZGL.Tracing.Models;
+using CZGL.Tracing.UI.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System;
@@ -17,20 +19,34 @@ namespace CZGL.Tracing.UI
         /// <param name="services"></param>
         public static void AddTracingUI(this IServiceCollection services)
         {
-
+            services.AddTransient<QueryService>();
+            services.AddControllers().AddApplicationPart(typeof(TracingUIExtensions).Assembly);
         }
 
-        /// <summary>
-        /// API 路由表
-        /// </summary>
-        private static readonly Dictionary<string, string> Route = new Dictionary<string, string>()
+
+        public static IEnumerable<QueryTracingObject> ToQuery(this IEnumerable<TracingObject> objects)
         {
-            {"/api/services","/api/Tracing/services"}
-        };
+            List<QueryTracingObject> queries = new List<QueryTracingObject>();
+            foreach (var item in objects)
+            {
+                QueryTracingObject queryTracingObject = new QueryTracingObject()
+                {
+                    Spans = item.Spans,
+                    Processes = new Dictionary<string, TracingProcess>()
+                    {
+                        { "p1",item.Process}
+                    }
+                };
+                queries.Add(queryTracingObject);
+            }
+
+            return queries;
+        }
+
 
         private static readonly Dictionary<string, string> Route302 = new Dictionary<string, string>
         {
-            { "/search","/index.html?search"},
+            { "/search","/index.html"},
         };
 
 
@@ -44,13 +60,7 @@ namespace CZGL.Tracing.UI
             app.Use(async (context, next) =>
            {
                var path = context.Request.Path.ToUriComponent().ToLowerInvariant();
-               //if (Route.TryGetValue(path, out var value))
-               //{
-               //    context.Request.Path = value;
-               //    await next();
-               //}
-               //else
-               if (Route302.TryGetValue(path,out var value302))
+               if (Route302.TryGetValue(path, out var value302))
                {
                    context.Response.Redirect(value302);
                }

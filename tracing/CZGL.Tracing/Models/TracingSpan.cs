@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace CZGL.Tracing.Models
 {
     public class TracingSpan
     {
+        [JsonPropertyName("traceID")]
         public string TraceId { get; set; }
+
+        [JsonPropertyName("spanID")]
         public string SpanId { get; set; }
         public string OperationName { get; set; }
         public SpanReference[] References { get; set; }
@@ -20,8 +24,18 @@ namespace CZGL.Tracing.Models
         public SpanTag[] Tags { get; set; }
 
         public SpanLog[] Logs { get; set; }
-        public TracingProcess Process { get; set; }
-        public string ProcessId { get; set; }
+        [JsonPropertyName("processID")]
+        public string ProcessId
+        {
+            get
+            {
+                return "p1";
+            }
+            set
+            {
+                _ = value;
+            }
+        }
 
         public string[] Warnings { get; set; }
     }

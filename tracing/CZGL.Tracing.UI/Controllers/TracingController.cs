@@ -10,6 +10,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json;
+using CZGL.Tracing.UI.Models;
+using CZGL.Tracing.UI.Services;
 
 namespace CZGL.Tracing.UI.Controllers
 {
@@ -24,11 +26,11 @@ namespace CZGL.Tracing.UI.Controllers
     [Route("/api")]
     public class TracingController : ControllerBase
     {
-        private readonly IMongoDatabase database;
+        private readonly QueryService _queryService;
         private readonly ILogger<TracingController> logger;
-        public TracingController(MongoClient mongoClient, ILoggerFactory loggerFactory)
+        public TracingController(QueryService queryService, ILoggerFactory loggerFactory)
         {
-            database = mongoClient.GetDatabase(TracingBuilder.Option.DataName);
+            _queryService = queryService;
             logger = loggerFactory.CreateLogger<TracingController>();
         }
 
@@ -37,28 +39,32 @@ namespace CZGL.Tracing.UI.Controllers
         // 只查询 Process.ServiceName
         private static readonly ProjectionDefinition<TracingObject> ServiceNameProjection = Builders<TracingObject>.Projection.Include("Process.ServiceName");
 
-        public class TracingResponseServices<T>
-        {
-            public T[] Data { get; set; }
-            public int Total => Data.Count();
-            public int Limit { get; set; }
-            public int Offset { get; set; }
-            public string Errors { get; set; } = null;
-        }
+
 
         /// <summary>
         /// 查询所有的服务
         /// </summary>
         /// <returns></returns>
         [HttpGet("services")]
-        public async Task<TracingResponseServices<string>> Services()
+        public async Task<QueryResponseServices<string>> Services()
         {
-            var collection = database.GetCollection<TracingObject>(TracingBuilder.Option.DocumentName);
-            var result = await collection.Distinct(a => a.Process.ServiceName, EmptyFilter).ToListAsync();
-            return new TracingResponseServices<string>
-            {
-                Data = result.ToArray()
-            };
+            return await _queryService.GetServices();
+        }
+
+        [HttpGet("dependencies")]
+        public async Task<QueryResponseServices<SpanReference>> Dependencies(long endTs, long lookback)
+        {
+            return await _queryService.Dependencies(endTs, lookback);
+        }
+
+        /// <summary>
+        /// 查询服务
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("/traces/{serviceId}")]
+        public async Task<QueryResponseServices<QueryTracingObject>> Services(string serviceId)
+        {
+            return await _queryService.GetService(serviceId);
         }
 
         /// <summary>
@@ -66,25 +72,12 @@ namespace CZGL.Tracing.UI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("services/{service}/operations")]
-        public async Task<TracingResponseServices<string>> ServiceOperation(string service)
+        public async Task<QueryResponseServices<string>> ServiceOperation(string service)
         {
-            var operation = service;
+            if (string.IsNullOrWhiteSpace(service))
+                return new QueryResponseServices<string>();
 
-            var collection = database.GetCollection<TracingObject>(TracingBuilder.Option.DocumentName);
-
-            // 查询条件 
-            var filter = Builders<TracingObject>.Filter.Eq("Process.ServiceName", operation);
-
-            ProjectionDefinition<TracingObject> projection = Builders<TracingObject>.Projection.Include("Spans.OperationName");
-
-            var result = await collection.Find(filter).Limit(1).Project(projection).FirstAsync();
-            return new TracingResponseServices<string>
-            {
-                Data = result.GetElement("Spans")
-                .Value.AsBsonArray
-                .Select(x => x.AsBsonDocument.GetElement("OperationName").Value.AsString)
-                .ToArray()
-            };
+            return await _queryService.ServiceOperation(service);
         }
 
         /// <summary>
@@ -92,7 +85,7 @@ namespace CZGL.Tracing.UI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("traces")]
-        public async Task<TracingResponseServices<QueryTracingObject>> Traces(
+        public async Task<QueryResponseServices<QueryTracingObject>> Traces(
             [Required] string service,
             string operation,
             string tags,
@@ -105,45 +98,40 @@ namespace CZGL.Tracing.UI.Controllers
             )
         {
             if (string.IsNullOrWhiteSpace(service))
-                return new TracingResponseServices<QueryTracingObject>();
+                return new QueryResponseServices<QueryTracingObject>();
 
-            var collection = database.GetCollection<TracingObject>(TracingBuilder.Option.DocumentName);
+            SearchTrace model = new SearchTrace();
+            model.ServiceName = service;
+            model.Operation = string.IsNullOrWhiteSpace(operation) ? null : operation;
 
-            var filterBuilder = Builders<TracingObject>.Filter;
-            filterBuilder.Eq("Process.ServiceName", service);
-            if (!string.IsNullOrEmpty(operation))
-                filterBuilder.Eq("Spans.OperationName", operation);
-
+            // 格式
+            // http.status_code=200 error=true
             if (!string.IsNullOrWhiteSpace(tags))
             {
-                Dictionary<string, object> dic = JsonSerializer.Deserialize<Dictionary<string, object>>(tags);
-                foreach (var item in dic)
+                try
                 {
-                    filterBuilder.Eq("Spans.Tags.Key", item.Key);
-                    filterBuilder.Eq("Spans.Tags.Value", item.Value);
+                    model.Tags = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, object>>(tags);
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex, "Tags 格式有误！", tags);
+                    return new QueryResponseServices<QueryTracingObject>()
+                    {
+                        Errors = "Tags 格式有误！"
+                    };
                 }
             }
 
-            if (minDuration.HasValue)
-            {
-                filterBuilder.Gt("Spans.Duration", minDuration.Value);
-            }
 
+            model.MaxDuration = maxDuration;
+            model.MinDuration = minDuration;
 
-            if (maxDuration.HasValue)
-            {
-                filterBuilder.Lt("Spans.Duration", maxDuration.Value);
-            }
+            model.Start = start;
+            model.End = end;
 
-            filterBuilder.Gt("Spans.StartTime", start);
-            filterBuilder.Lt("Spans.StartTime", end);
+            model.Limit = limit;
 
-            var filter = filterBuilder.Empty;
-            var result = await collection.Find(filter).Limit(limit).ToListAsync();
-            
-
-
-            return null;
+            return await _queryService.SearchTraces(model);
         }
     }
 }

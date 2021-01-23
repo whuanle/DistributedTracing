@@ -17,13 +17,13 @@ namespace CZGL.Tracing.Services
         private readonly ILogger<TraceCollector> logger;
         public TraceCollector(MongoClient mongoClient, ILoggerFactory loggerFactory)
         {
-            database = mongoClient.GetDatabase(TracingBuilder.Option.DataName);
+            database = mongoClient.GetDatabase(TracingOption.Options.DataName);
             logger = loggerFactory.CreateLogger<TraceCollector>();
         }
 
         public override async Task<PostSpansResponse> PostSpans(PostSpansRequest request, ServerCallContext context)
         {
-            var collection = database.GetCollection<BsonDocument>(TracingBuilder.Option.DocumentName);
+            var collection = database.GetCollection<BsonDocument>(TracingOption.Options.DocumentName);
 
             var traceObject = request.BuildTracingObject();
             logger.LogInformation($"get one trace message,trace id:{traceObject.Spans.FirstOrDefault().TraceId}");

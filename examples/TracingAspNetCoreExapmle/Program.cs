@@ -21,7 +21,7 @@ namespace TracingAspNetCoreExapmle
 
             //var str = TracingUntil.ByteStringToString(tmptmp);
 
-            TracingBuilder tracingBuilder = new TracingBuilder();
+            TracingOption tracingBuilder = new TracingOption();
             tracingBuilder.WithDataName("test")
                 .WithDocument("test");
             CreateHostBuilder(args).Build().Run();
