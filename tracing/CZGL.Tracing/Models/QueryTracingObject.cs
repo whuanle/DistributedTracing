@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace CZGL.Tracing.Models
 {
+    /// <summary>
+    /// 前端 Query 响应结构
+    /// </summary>
     public class QueryTracingObject
     {
         public string TraceID

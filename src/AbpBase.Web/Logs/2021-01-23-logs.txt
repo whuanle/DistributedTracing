@@ -1,0 +1,1564 @@
+2021-01-23 17:15:37.510 +08:00 [INF] Starting web host.
+2021-01-23 17:15:39.841 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:15:39.846 +08:00 [FTL] An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+2021-01-23 17:17:48.748 +08:00 [INF] Starting web host.
+2021-01-23 17:17:50.720 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:17:50.725 +08:00 [FTL] Host Error
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.Exception: 参数 masterConnectionString 不可为空，请检查 UseConnectionString
+   at FreeSql.FreeSqlBuilder.Build[TMark]()
+   at FreeSql.FreeSqlBuilder.Build()
+   at AbpBase.Database.FreesqlContext.Init(String connectStr, DataType dataType) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\BaseData\FreesqlContext.cs:line 18
+   at AbpBase.Database.AbpBaseDatabaseModule.ConfigureServices(ServiceConfigurationContext context) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\AbpBaseDatabaseModule.cs:line 53
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at AbpBase.Web.Startup.ConfigureServices(IServiceCollection services) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Startup.cs:line 10
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AbpBase.Web.Program.Main(String[] args) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Program.cs:line 23
+2021-01-23 17:20:50.917 +08:00 [INF] Starting web host.
+2021-01-23 17:20:52.813 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:20:52.818 +08:00 [FTL] Host Error
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.Exception: 参数 masterConnectionString 不可为空，请检查 UseConnectionString
+   at FreeSql.FreeSqlBuilder.Build[TMark]()
+   at FreeSql.FreeSqlBuilder.Build()
+   at AbpBase.Database.FreesqlContext.Init(String connectStr, DataType dataType) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\BaseData\FreesqlContext.cs:line 18
+   at AbpBase.Database.AbpBaseDatabaseModule.ConfigureServices(ServiceConfigurationContext context) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\AbpBaseDatabaseModule.cs:line 53
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at AbpBase.Web.Startup.ConfigureServices(IServiceCollection services) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Startup.cs:line 10
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AbpBase.Web.Program.Main(String[] args) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Program.cs:line 23
+2021-01-23 17:21:23.966 +08:00 [INF] Starting web host.
+2021-01-23 17:22:38.684 +08:00 [INF] Starting web host.
+2021-01-23 17:22:55.089 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:22:55.250 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:22:55.252 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:22:55.253 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:22:55.255 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:22:55.256 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:22:55.257 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:22:55.258 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:22:55.259 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:22:55.259 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:22:55.260 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:22:55.261 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:22:55.262 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:22:55.263 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:22:55.264 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:22:55.265 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:22:55.266 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:22:55.267 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:22:55.268 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:22:55.269 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:22:55.272 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:22:55.273 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:22:55.274 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:22:55.275 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:22:55.276 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:22:55.277 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:22:55.278 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:22:55.279 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:22:55.280 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:22:55.281 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:22:55.283 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:22:55.284 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:22:55.288 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:22:55.290 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:22:55.291 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:22:55.293 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:22:55.294 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:22:55.296 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:22:55.297 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:22:55.299 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:22:55.300 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:22:55.304 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:22:55.305 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:22:55.307 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:22:55.308 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:22:55.310 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:22:55.311 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:22:57.094 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:22:57.868 +08:00 [INF] Now listening on: https://localhost:5001
+2021-01-23 17:22:57.872 +08:00 [INF] Now listening on: http://localhost:5000
+2021-01-23 17:22:57.875 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:22:57.877 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:22:57.881 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 17:23:12.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-01-23 17:23:13.053 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 106.1273ms
+2021-01-23 17:25:42.075 +08:00 [INF] Starting web host.
+2021-01-23 17:25:45.925 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:25:46.063 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:25:46.065 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:25:46.067 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:25:46.068 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:25:46.069 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:25:46.070 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:25:46.071 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:25:46.072 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:25:46.072 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:25:46.073 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:25:46.076 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:25:46.077 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:25:46.078 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:25:46.079 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:25:46.080 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:25:46.080 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:25:46.081 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:25:46.082 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:25:46.083 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:25:46.084 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:25:46.085 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:25:46.086 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:25:46.087 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:25:46.088 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:25:46.089 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:25:46.090 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:25:46.093 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:25:46.094 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:25:46.097 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:25:46.099 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:25:46.101 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:25:46.103 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:25:46.104 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:25:46.107 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:25:46.109 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:25:46.110 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:25:46.112 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:25:46.113 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:25:46.115 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:25:46.116 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:25:46.118 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:25:46.119 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:25:46.121 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:25:46.124 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:25:46.126 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:25:46.128 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:25:46.818 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:25:47.364 +08:00 [INF] Now listening on: https://localhost:5001
+2021-01-23 17:25:47.372 +08:00 [INF] Now listening on: http://localhost:5000
+2021-01-23 17:25:47.374 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:25:47.375 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:25:47.377 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 17:26:10.843 +08:00 [INF] Starting web host.
+2021-01-23 17:26:39.759 +08:00 [INF] Starting web host.
+2021-01-23 17:28:17.243 +08:00 [INF] Starting web host.
+2021-01-23 17:28:26.791 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:28:26.922 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:28:26.925 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:28:26.926 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:28:26.927 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:28:26.928 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:28:26.929 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:28:26.930 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:28:26.930 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:28:26.932 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:28:26.933 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:28:26.933 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:28:26.934 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:28:26.935 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:28:26.936 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:28:26.938 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:28:26.940 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:28:26.941 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:28:26.943 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:28:26.944 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:28:26.945 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:28:26.946 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:28:26.947 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:28:26.948 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:28:26.949 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:28:26.950 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:28:26.951 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:28:26.952 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:28:26.953 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:28:26.957 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:28:26.959 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:28:26.961 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:28:26.963 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:28:26.965 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:28:26.967 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:28:26.968 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:28:26.970 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:28:26.973 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:28:26.975 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:28:26.977 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:28:26.979 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:28:26.980 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:28:26.982 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:28:26.983 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:28:26.985 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:28:26.989 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:28:26.991 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:28:27.729 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:28:28.283 +08:00 [INF] Now listening on: https://localhost:5001
+2021-01-23 17:28:28.285 +08:00 [INF] Now listening on: http://localhost:5000
+2021-01-23 17:28:28.288 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:28:28.289 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:28:28.291 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 17:28:30.894 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-01-23 17:28:31.020 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 127.8976ms
+2021-01-23 17:38:06.444 +08:00 [INF] Starting web host.
+2021-01-23 17:38:10.658 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:38:10.803 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:38:10.805 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:38:10.806 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:38:10.807 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:38:10.809 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:38:10.810 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:38:10.811 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:38:10.813 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:38:10.814 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:38:10.815 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:38:10.816 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:38:10.820 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:38:10.821 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:38:10.822 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:38:10.823 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:38:10.824 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:38:10.825 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:38:10.826 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:38:10.827 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:38:10.828 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:38:10.829 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:38:10.830 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:38:10.831 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:38:10.832 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:38:10.836 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:38:10.838 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:38:10.839 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:38:10.840 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:38:10.842 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:38:10.844 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:38:10.846 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:38:10.847 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:38:10.851 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:38:10.854 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:38:10.856 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:38:10.859 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:38:10.861 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:38:10.864 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:38:10.867 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:38:10.870 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:38:10.872 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:38:10.874 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:38:10.876 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:38:10.878 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:38:10.880 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:38:10.884 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:38:11.700 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:38:11.949 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 17:38:11.951 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 17:38:11.954 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:38:11.958 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:38:11.960 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 17:38:38.022 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-01-23 17:38:38.072 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-23 17:38:38.098 +08:00 [DBG] Reading message.
+2021-01-23 17:38:39.791 +08:00 [INF] get one trace message,trace id:84f81b58e678f8e7
+2021-01-23 17:38:39.793 +08:00 [INF] spans id:
+2021-01-23 17:38:39.796 +08:00 [INF] d857c7338fbdb279
+0f8fab837e0884a9
+84f81b58e678f8e7
+2021-01-23 17:38:40.259 +08:00 [DBG] Sending message.
+2021-01-23 17:38:40.270 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-23 17:38:40.278 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 2258.5517ms
+2021-01-23 17:42:41.527 +08:00 [INF] Starting web host.
+2021-01-23 17:42:45.506 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:42:45.634 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:42:45.636 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:42:45.638 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:42:45.639 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:42:45.640 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:42:45.641 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:42:45.642 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:42:45.643 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:42:45.644 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:42:45.645 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:42:45.646 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:42:45.648 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:42:45.649 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:42:45.650 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:42:45.651 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:42:45.654 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:42:45.655 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:42:45.656 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:42:45.657 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:42:45.658 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:42:45.659 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:42:45.660 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:42:45.661 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:42:45.662 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:42:45.663 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:42:45.664 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:42:45.665 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:42:45.667 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:42:45.671 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:42:45.673 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:42:45.675 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:42:45.677 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:42:45.678 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:42:45.680 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:42:45.682 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:42:45.685 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:42:45.687 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:42:45.689 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:42:45.690 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:42:45.692 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:42:45.694 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:42:45.696 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:42:45.698 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:42:45.702 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:42:45.704 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:42:45.707 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:42:46.425 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:42:46.660 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 17:42:46.662 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 17:42:46.664 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:42:46.665 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:42:46.668 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 17:52:25.040 +08:00 [INF] Starting web host.
+2021-01-23 17:52:28.883 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 17:52:29.017 +08:00 [INF] Loaded ABP modules:
+2021-01-23 17:52:29.019 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 17:52:29.020 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 17:52:29.021 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 17:52:29.022 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 17:52:29.023 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 17:52:29.024 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 17:52:29.026 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 17:52:29.027 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 17:52:29.028 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 17:52:29.029 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 17:52:29.030 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 17:52:29.031 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 17:52:29.032 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 17:52:29.033 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 17:52:29.035 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 17:52:29.036 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 17:52:29.037 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 17:52:29.038 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 17:52:29.039 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 17:52:29.040 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 17:52:29.041 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 17:52:29.042 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 17:52:29.043 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 17:52:29.044 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 17:52:29.045 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 17:52:29.046 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 17:52:29.048 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 17:52:29.052 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 17:52:29.054 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 17:52:29.055 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 17:52:29.057 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 17:52:29.058 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 17:52:29.060 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 17:52:29.061 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 17:52:29.063 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 17:52:29.064 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 17:52:29.068 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 17:52:29.069 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 17:52:29.071 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 17:52:29.072 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 17:52:29.074 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 17:52:29.075 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 17:52:29.077 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 17:52:29.079 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 17:52:29.080 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 17:52:29.795 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 17:52:30.011 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 17:52:30.014 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 17:52:30.016 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 17:52:30.017 +08:00 [INF] Hosting environment: Development
+2021-01-23 17:52:30.019 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:04:49.077 +08:00 [INF] Starting web host.
+2021-01-23 18:04:53.725 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:04:53.863 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:04:53.865 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:04:53.866 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:04:53.867 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:04:53.869 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:04:53.870 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:04:53.871 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:04:53.872 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:04:53.873 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:04:53.874 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:04:53.875 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:04:53.876 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:04:53.877 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:04:53.878 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:04:53.882 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:04:53.883 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:04:53.885 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:04:53.886 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:04:53.887 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:04:53.888 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:04:53.889 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:04:53.890 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:04:53.891 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:04:53.892 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:04:53.893 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:04:53.894 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:04:53.897 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:04:53.899 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:04:53.900 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:04:53.902 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:04:53.903 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:04:53.905 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:04:53.907 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:04:53.908 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:04:53.910 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:04:53.913 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:04:53.915 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:04:53.917 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:04:53.919 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:04:53.921 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:04:53.923 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:04:53.924 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:04:53.929 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:04:53.931 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:04:53.933 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:04:53.935 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:04:54.699 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:04:54.896 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:04:54.898 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:04:54.901 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:04:54.902 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:04:54.904 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:10:05.379 +08:00 [INF] Starting web host.
+2021-01-23 18:10:09.651 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:10:09.792 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:10:09.794 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:10:09.795 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:10:09.796 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:10:09.797 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:10:09.798 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:10:09.800 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:10:09.801 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:10:09.802 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:10:09.803 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:10:09.804 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:10:09.805 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:10:09.806 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:10:09.807 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:10:09.808 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:10:09.809 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:10:09.811 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:10:09.812 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:10:09.813 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:10:09.814 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:10:09.819 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:10:09.820 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:10:09.821 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:10:09.822 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:10:09.823 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:10:09.824 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:10:09.825 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:10:09.827 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:10:09.828 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:10:09.830 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:10:09.834 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:10:09.835 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:10:09.837 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:10:09.839 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:10:09.840 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:10:09.842 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:10:09.844 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:10:09.848 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:10:09.850 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:10:09.852 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:10:09.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:10:09.856 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:10:09.858 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:10:09.861 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:10:09.864 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:10:09.866 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:10:10.773 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:10:11.000 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:10:11.002 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:10:11.005 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:10:11.007 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:10:11.010 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:14:14.725 +08:00 [INF] Starting web host.
+2021-01-23 18:14:18.622 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:14:18.753 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:14:18.754 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:14:18.756 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:14:18.757 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:14:18.758 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:14:18.759 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:14:18.760 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:14:18.761 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:14:18.763 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:14:18.764 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:14:18.765 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:14:18.766 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:14:18.767 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:14:18.768 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:14:18.769 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:14:18.770 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:14:18.771 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:14:18.772 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:14:18.774 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:14:18.775 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:14:18.776 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:14:18.777 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:14:18.780 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:14:18.781 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:14:18.782 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:14:18.783 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:14:18.784 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:14:18.786 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:14:18.788 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:14:18.790 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:14:18.791 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:14:18.795 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:14:18.797 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:14:18.800 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:14:18.802 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:14:18.804 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:14:18.806 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:14:18.808 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:14:18.811 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:14:18.814 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:14:18.815 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:14:18.817 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:14:18.819 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:14:18.820 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:14:18.822 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:14:18.826 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:14:19.594 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:14:19.809 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:14:19.811 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:14:19.814 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:14:19.817 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:14:19.819 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:15:16.156 +08:00 [INF] Starting web host.
+2021-01-23 18:15:19.865 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:15:19.986 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:15:19.988 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:15:19.989 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:15:19.990 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:15:19.991 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:15:19.993 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:15:19.994 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:15:19.995 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:15:19.996 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:15:19.997 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:15:19.998 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:15:19.999 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:15:20.000 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:15:20.001 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:15:20.002 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:15:20.003 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:15:20.004 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:15:20.005 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:15:20.006 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:15:20.007 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:15:20.010 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:15:20.011 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:15:20.012 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:15:20.013 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:15:20.014 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:15:20.015 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:15:20.016 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:15:20.018 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:15:20.020 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:15:20.021 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:15:20.023 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:15:20.026 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:15:20.028 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:15:20.030 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:15:20.031 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:15:20.033 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:15:20.035 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:15:20.036 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:15:20.038 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:15:20.039 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:15:20.042 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:15:20.044 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:15:20.045 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:15:20.047 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:15:20.048 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:15:20.050 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:15:20.797 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:15:20.999 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:15:21.001 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:15:21.003 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:15:21.005 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:15:21.007 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:17:11.619 +08:00 [INF] Starting web host.
+2021-01-23 18:17:15.375 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:17:15.500 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:17:15.502 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:17:15.504 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:17:15.505 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:17:15.506 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:17:15.508 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:17:15.509 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:17:15.510 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:17:15.510 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:17:15.511 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:17:15.512 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:17:15.513 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:17:15.515 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:17:15.516 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:17:15.517 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:17:15.520 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:17:15.521 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:17:15.522 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:17:15.523 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:17:15.524 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:17:15.525 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:17:15.526 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:17:15.527 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:17:15.528 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:17:15.529 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:17:15.530 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:17:15.531 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:17:15.533 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:17:15.536 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:17:15.538 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:17:15.540 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:17:15.541 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:17:15.543 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:17:15.544 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:17:15.546 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:17:15.547 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:17:15.551 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:17:15.553 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:17:15.555 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:17:15.556 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:17:15.558 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:17:15.559 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:17:15.561 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:17:15.562 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:17:15.564 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:17:15.568 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:17:16.301 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:17:16.498 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:17:16.500 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:17:16.502 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:17:16.504 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:17:16.506 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:22:35.408 +08:00 [INF] Starting web host.
+2021-01-23 18:22:39.216 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:22:39.346 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:22:39.349 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:22:39.350 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:22:39.351 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:22:39.352 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:22:39.353 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:22:39.354 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:22:39.355 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:22:39.356 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:22:39.357 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:22:39.357 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:22:39.358 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:22:39.361 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:22:39.362 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:22:39.363 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:22:39.364 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:22:39.365 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:22:39.366 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:22:39.367 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:22:39.368 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:22:39.369 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:22:39.370 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:22:39.371 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:22:39.372 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:22:39.373 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:22:39.374 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:22:39.377 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:22:39.378 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:22:39.380 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:22:39.382 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:22:39.383 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:22:39.385 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:22:39.387 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:22:39.389 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:22:39.393 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:22:39.395 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:22:39.397 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:22:39.398 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:22:39.400 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:22:39.402 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:22:39.403 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:22:39.405 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:22:39.409 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:22:39.412 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:22:39.414 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:22:39.416 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:22:39.419 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:22:40.195 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:22:40.421 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:22:40.423 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:22:40.426 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:22:40.427 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:22:40.431 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:31:21.549 +08:00 [INF] Starting web host.
+2021-01-23 18:31:25.418 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:31:25.550 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:31:25.552 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:31:25.553 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:31:25.554 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:31:25.556 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:31:25.557 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:31:25.558 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:31:25.559 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:31:25.560 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:31:25.562 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:31:25.563 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:31:25.564 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:31:25.565 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:31:25.566 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:31:25.567 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:31:25.568 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:31:25.569 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:31:25.570 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:31:25.571 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:31:25.572 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:31:25.576 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:31:25.577 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:31:25.578 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:31:25.579 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:31:25.580 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:31:25.581 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:31:25.583 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:31:25.584 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:31:25.586 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:31:25.588 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:31:25.589 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:31:25.594 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:31:25.596 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:31:25.597 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:31:25.599 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:31:25.601 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:31:25.603 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:31:25.605 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:31:25.609 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:31:25.610 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:31:25.612 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:31:25.614 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:31:25.616 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:31:25.618 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:31:25.619 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:31:25.621 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:31:25.624 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:31:26.415 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:31:26.625 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:31:26.627 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:31:26.629 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:31:26.631 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:31:26.634 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:35:02.083 +08:00 [INF] Starting web host.
+2021-01-23 18:35:05.933 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:35:06.065 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:35:06.066 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:35:06.067 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:35:06.068 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:35:06.069 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:35:06.070 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:35:06.071 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:35:06.072 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:35:06.073 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:35:06.074 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:35:06.075 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:35:06.076 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:35:06.077 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:35:06.078 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:35:06.079 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:35:06.080 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:35:06.081 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:35:06.082 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:35:06.083 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:35:06.084 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:35:06.085 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:35:06.086 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:35:06.087 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:35:06.088 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:35:06.089 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:35:06.090 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:35:06.093 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:35:06.094 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:35:06.095 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:35:06.096 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:35:06.097 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:35:06.098 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:35:06.099 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:35:06.100 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:35:06.101 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:35:06.102 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:35:06.103 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:35:06.105 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:35:06.106 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:35:06.111 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:35:06.113 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:35:06.114 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:35:06.116 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:35:06.118 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:35:06.119 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:35:06.121 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:35:06.124 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:35:06.970 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:35:07.194 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:35:07.196 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:35:07.200 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:35:07.203 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:35:07.206 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:36:37.727 +08:00 [INF] Starting web host.
+2021-01-23 18:36:41.885 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:36:42.014 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:36:42.016 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:36:42.017 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:36:42.019 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:36:42.020 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:36:42.021 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:36:42.022 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:36:42.023 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:36:42.024 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:36:42.026 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:36:42.027 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:36:42.028 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:36:42.029 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:36:42.030 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:36:42.031 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:36:42.035 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:36:42.037 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:36:42.038 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:36:42.039 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:36:42.040 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:36:42.041 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:36:42.042 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:36:42.043 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:36:42.044 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:36:42.045 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:36:42.046 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:36:42.047 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:36:42.052 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:36:42.053 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:36:42.055 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:36:42.057 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:36:42.059 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:36:42.061 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:36:42.062 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:36:42.066 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:36:42.067 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:36:42.071 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:36:42.073 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:36:42.075 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:36:42.077 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:36:42.078 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:36:42.082 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:36:42.085 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:36:42.087 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:36:42.089 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:36:42.090 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:36:42.092 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:36:42.851 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:36:43.728 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:36:43.731 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:36:43.734 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:36:43.743 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:36:43.746 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:36:43.749 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:40:43.715 +08:00 [INF] Starting web host.
+2021-01-23 18:40:47.792 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:40:47.931 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:40:47.933 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:40:47.934 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:40:47.935 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:40:47.936 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:40:47.938 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:40:47.939 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:40:47.940 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:40:47.941 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:40:47.942 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:40:47.944 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:40:47.945 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:40:47.946 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:40:47.947 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:40:47.948 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:40:47.949 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:40:47.950 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:40:47.951 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:40:47.953 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:40:47.954 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:40:47.958 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:40:47.959 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:40:47.961 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:40:47.962 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:40:47.963 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:40:47.964 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:40:47.965 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:40:47.968 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:40:47.969 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:40:47.973 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:40:47.975 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:40:47.977 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:40:47.979 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:40:47.981 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:40:47.983 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:40:47.984 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:40:47.986 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:40:47.990 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:40:47.993 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:40:47.994 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:40:47.996 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:40:47.998 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:40:48.000 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:40:48.001 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:40:48.029 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:40:48.031 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:40:48.033 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:40:48.918 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:40:49.566 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:40:49.568 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:40:49.571 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:40:49.574 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:40:49.588 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:40:49.596 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:41:28.709 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger - -
+2021-01-23 18:41:28.848 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger - - - 301 0 - 141.4662ms
+2021-01-23 18:41:28.848 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:41:28.960 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 111.8791ms
+2021-01-23 18:41:29.334 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:41:29.405 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:41:29.439 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:41:29.460 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:41:29.460 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:41:29.462 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:41:29.477 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 142.8139ms
+2021-01-23 18:41:30.139 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:30.139 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:30.228 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:41:30.335 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 500 - text/plain 896.0677ms
+2021-01-23 18:41:30.363 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 500 - text/plain 957.9545ms
+2021-01-23 18:41:30.371 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:41:30.395 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 936.0287ms
+2021-01-23 18:41:30.585 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:30.605 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 500 - text/plain 234.4717ms
+2021-01-23 18:41:30.611 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:41:30.617 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 1154.7281ms
+2021-01-23 18:41:30.852 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:41:30.855 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:41:30.966 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:41:31.211 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:31.352 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:31.425 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-23 18:41:31.425 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-16x16.png - -
+2021-01-23 18:41:31.449 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 500 - text/plain 597.3010ms
+2021-01-23 18:41:31.471 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 500 - text/plain 615.6827ms
+2021-01-23 18:41:31.490 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 500 - text/plain 545.2545ms
+2021-01-23 18:41:31.512 +08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-01-23 18:41:31.516 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-16x16.png - - - 200 665 image/png 90.9285ms
+2021-01-23 18:42:04.859 +08:00 [INF] Starting web host.
+2021-01-23 18:42:09.184 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:42:09.381 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:42:09.383 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:42:09.384 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:42:09.386 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:42:09.387 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:42:09.389 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:42:09.390 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:42:09.392 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:42:09.393 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:42:09.395 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:42:09.396 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:42:09.397 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:42:09.399 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:42:09.401 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:42:09.402 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:42:09.403 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:42:09.405 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:42:09.406 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:42:09.408 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:42:09.409 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:42:09.411 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:42:09.413 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:42:09.415 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:42:09.416 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:42:09.418 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:42:09.419 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:42:09.420 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:42:09.421 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:42:09.423 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:42:09.425 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:42:09.426 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:42:09.427 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:42:09.429 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:42:09.430 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:42:09.433 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:42:09.434 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:42:09.436 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:42:09.437 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:42:09.440 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:42:09.442 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:42:09.447 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:42:09.450 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:42:09.451 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:42:09.453 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:42:09.455 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:42:09.457 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:42:09.458 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:42:10.298 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:42:10.807 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:42:10.809 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:42:10.811 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:42:10.813 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:42:10.814 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:42:10.815 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:42:11.560 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:42:11.744 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 187.9850ms
+2021-01-23 18:42:11.899 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:42:11.942 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:42:11.943 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:42:11.943 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:42:11.944 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:42:11.948 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 6.3751ms
+2021-01-23 18:42:12.018 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 76.3375ms
+2021-01-23 18:42:12.042 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:42:12.042 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:42:12.048 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:42:12.050 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 151.0050ms
+2021-01-23 18:42:12.061 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 115.8720ms
+2021-01-23 18:42:12.069 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 126.5600ms
+2021-01-23 18:42:12.077 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:42:12.088 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 10.3585ms
+2021-01-23 18:42:12.376 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:42:12.376 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:42:12.383 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 6.3633ms
+2021-01-23 18:42:12.390 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 13.3188ms
+2021-01-23 18:42:12.392 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:42:12.408 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 16.2738ms
+2021-01-23 18:42:12.784 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-16x16.png - -
+2021-01-23 18:42:12.790 +08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-01-23 18:42:12.794 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-16x16.png - - - 200 665 image/png 10.0048ms
+2021-01-23 18:42:21.687 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:42:21.689 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 2.9804ms
+2021-01-23 18:42:21.749 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:42:21.757 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:42:21.760 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 10.3553ms
+2021-01-23 18:42:21.763 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:42:21.764 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:42:21.768 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 3.6620ms
+2021-01-23 18:42:21.768 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 4.3628ms
+2021-01-23 18:42:22.140 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:42:22.140 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:42:22.142 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 2.6459ms
+2021-01-23 18:42:22.145 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 5.2427ms
+2021-01-23 18:42:22.158 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:42:22.160 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 2.3084ms
+2021-01-23 18:42:26.432 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger - -
+2021-01-23 18:42:26.435 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger - - - 301 0 - 2.8732ms
+2021-01-23 18:42:26.513 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:42:26.516 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 3.4627ms
+2021-01-23 18:42:26.592 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:42:26.599 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:42:26.603 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 10.5240ms
+2021-01-23 18:42:26.620 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:42:26.621 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:42:26.628 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 9.4172ms
+2021-01-23 18:42:26.631 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 9.7460ms
+2021-01-23 18:42:26.810 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:42:26.810 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:42:26.812 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:42:26.816 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 5.6438ms
+2021-01-23 18:42:26.819 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 9.9123ms
+2021-01-23 18:42:26.823 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 10.6672ms
+2021-01-23 18:42:41.434 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:42:41.437 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 2.6579ms
+2021-01-23 18:42:41.491 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:42:41.500 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:42:41.502 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:42:41.501 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:42:41.503 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:42:41.503 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:42:41.506 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 14.3757ms
+2021-01-23 18:42:41.510 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 8.4846ms
+2021-01-23 18:42:41.517 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 15.5889ms
+2021-01-23 18:42:41.527 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:42:41.548 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:42:41.550 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 47.1860ms
+2021-01-23 18:42:41.576 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 73.1345ms
+2021-01-23 18:42:41.857 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - -
+2021-01-23 18:42:41.859 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:42:41.862 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - - - 200 628 image/png 5.1265ms
+2021-01-23 18:43:00.139 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:43:00.142 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 2.6368ms
+2021-01-23 18:43:00.200 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:43:00.205 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:43:00.207 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 7.1953ms
+2021-01-23 18:43:00.220 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:43:00.223 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:43:00.223 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:43:00.224 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:43:00.229 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 8.9446ms
+2021-01-23 18:43:00.265 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 40.8245ms
+2021-01-23 18:43:00.340 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:43:00.342 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:43:00.350 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 125.9556ms
+2021-01-23 18:43:00.373 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 149.2086ms
+2021-01-23 18:43:01.898 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:43:01.901 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 2.5099ms
+2021-01-23 18:43:01.945 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:43:01.948 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 2.6490ms
+2021-01-23 18:43:01.950 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:43:01.955 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 5.2919ms
+2021-01-23 18:43:02.075 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - -
+2021-01-23 18:43:02.080 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:43:02.090 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - - - 200 628 image/png 15.1714ms
+2021-01-23 18:43:03.617 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:43:03.618 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:43:03.619 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 2.5973ms
+2021-01-23 18:43:03.622 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:43:03.623 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 4.9253ms
+2021-01-23 18:43:03.628 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 5.6757ms
+2021-01-23 18:43:05.006 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:43:05.009 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 2.7156ms
+2021-01-23 18:43:05.061 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - -
+2021-01-23 18:43:05.061 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:43:05.064 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 3.0150ms
+2021-01-23 18:43:05.069 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.js - - - 404 0 - 7.9177ms
+2021-01-23 18:43:05.076 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - -
+2021-01-23 18:43:05.085 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/abp.swagger.js - - - 404 0 - 10.0607ms
+2021-01-23 18:43:05.297 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - -
+2021-01-23 18:43:05.300 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:43:05.306 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - - - 200 628 image/png 8.5033ms
+2021-01-23 18:43:05.328 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:43:05.329 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:43:05.329 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:43:05.331 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 2.9567ms
+2021-01-23 18:43:05.338 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 9.1593ms
+2021-01-23 18:43:05.341 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 11.8118ms
+2021-01-23 18:46:05.326 +08:00 [INF] Starting web host.
+2021-01-23 18:46:09.385 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:46:09.517 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:46:09.520 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:46:09.521 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:46:09.523 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:46:09.524 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:46:09.525 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:46:09.527 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:46:09.528 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:46:09.529 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:46:09.530 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:46:09.531 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:46:09.532 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:46:09.533 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:46:09.534 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:46:09.536 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:46:09.537 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:46:09.541 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:46:09.542 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:46:09.543 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:46:09.544 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:46:09.545 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:46:09.546 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:46:09.547 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:46:09.548 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:46:09.550 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:46:09.551 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:46:09.553 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:46:09.559 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:46:09.561 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:46:09.563 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:46:09.565 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:46:09.575 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:46:09.578 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:46:09.583 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:46:09.588 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:46:09.590 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:46:09.592 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:46:09.596 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:46:09.599 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:46:09.603 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:46:09.606 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:46:09.608 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:46:09.610 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:46:09.612 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:46:09.614 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:46:09.618 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:46:09.620 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:46:10.447 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:46:11.008 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:46:11.010 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:46:11.012 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:46:11.015 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:46:11.017 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:46:11.022 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:46:12.285 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:46:12.402 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 404 0 - 119.4980ms
+2021-01-23 18:46:17.453 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:46:17.458 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 404 0 - 5.1437ms
+2021-01-23 18:46:24.350 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui - -
+2021-01-23 18:46:24.355 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui - - - 301 0 - 15.9247ms
+2021-01-23 18:46:24.364 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/index.html - -
+2021-01-23 18:46:24.465 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/index.html - - - 200 - text/html;charset=utf-8 100.5785ms
+2021-01-23 18:46:24.503 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui.css - -
+2021-01-23 18:46:24.509 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.js - -
+2021-01-23 18:46:24.511 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-standalone-preset.js - -
+2021-01-23 18:46:24.511 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.swagger.js - -
+2021-01-23 18:46:24.511 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-bundle.js - -
+2021-01-23 18:46:24.512 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.js - - - 404 0 - 3.1545ms
+2021-01-23 18:46:24.574 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.swagger.js - - - 404 0 - 64.3878ms
+2021-01-23 18:46:24.585 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:46:24.586 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:46:24.602 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui.css - - - 200 142933 text/css 99.3456ms
+2021-01-23 18:46:24.602 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 91.3807ms
+2021-01-23 18:46:24.607 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:46:24.623 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-bundle.js - - - 200 986342 application/javascript 111.9906ms
+2021-01-23 18:46:24.626 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.swagger.js - -
+2021-01-23 18:46:24.631 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/ui/abp.swagger.js - - - 404 0 - 5.1885ms
+2021-01-23 18:46:24.756 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui.css.map - -
+2021-01-23 18:46:24.759 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui.css.map - - - 404 0 - 2.7024ms
+2021-01-23 18:46:24.933 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/favicon-32x32.png - -
+2021-01-23 18:46:24.937 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-bundle.js.map - -
+2021-01-23 18:46:24.938 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:46:24.940 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:46:24.945 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-bundle.js.map - - - 404 0 - 7.7311ms
+2021-01-23 18:46:24.947 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/swagger-ui-standalone-preset.js.map - - - 404 0 - 9.6046ms
+2021-01-23 18:46:24.952 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/ui/favicon-32x32.png - - - 200 628 image/png 19.1945ms
+2021-01-23 18:47:05.838 +08:00 [INF] Starting web host.
+2021-01-23 18:47:09.672 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:47:09.804 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:47:09.806 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:47:09.808 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:47:09.809 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:47:09.810 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:47:09.811 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:47:09.812 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:47:09.813 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:47:09.814 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:47:09.815 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:47:09.816 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:47:09.817 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:47:09.818 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:47:09.819 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:47:09.820 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:47:09.821 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:47:09.824 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:47:09.825 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:47:09.826 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:47:09.828 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:47:09.829 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:47:09.831 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:47:09.832 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:47:09.833 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:47:09.834 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:47:09.835 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:47:09.836 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:47:09.840 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:47:09.842 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:47:09.844 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:47:09.845 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:47:09.847 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:47:09.849 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:47:09.851 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:47:09.852 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:47:09.856 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:47:09.858 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:47:09.865 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:47:09.867 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:47:09.869 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:47:09.872 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:47:09.873 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:47:09.875 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:47:09.877 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:47:09.879 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:47:09.881 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:47:09.882 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:47:10.668 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:47:11.184 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:47:11.186 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:47:11.188 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:47:11.190 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:47:11.193 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:47:11.194 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:47:11.673 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger - -
+2021-01-23 18:47:11.778 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger - - - 301 0 - 106.8853ms
+2021-01-23 18:47:11.780 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:47:11.890 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 109.5829ms
+2021-01-23 18:47:11.933 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:47:11.936 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:47:11.937 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:47:12.025 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:47:12.025 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:47:12.037 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 100.2402ms
+2021-01-23 18:47:12.037 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 103.7180ms
+2021-01-23 18:47:12.041 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:47:12.053 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 117.0428ms
+2021-01-23 18:47:12.146 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:47:12.160 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 26.9235ms
+2021-01-23 18:47:12.358 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - -
+2021-01-23 18:47:12.373 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:47:12.373 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:47:12.388 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 14.7197ms
+2021-01-23 18:47:12.391 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 17.6341ms
+2021-01-23 18:47:12.392 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - -
+2021-01-23 18:47:12.405 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:47:12.413 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - - - 200 628 image/png 21.7400ms
+2021-01-23 18:47:12.594 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.8225ms
+2021-01-23 18:47:22.092 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-23 18:47:22.096 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:47:22.280 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:47:30.314 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)
+Source:    Autofac
+TargetSite:    System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+InnerException:    
+Message:    The requested service 'CZGL.Tracing.UI.Controllers.TracingController' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+HelpLink:    
+
+2021-01-23 18:47:30.566 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-01-23 18:47:30.581 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 8286.723ms
+2021-01-23 18:47:30.587 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:47:30.591 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 69 application/json;+charset=utf-8 8499.1557ms
+2021-01-23 18:48:49.101 +08:00 [INF] Application is shutting down...
+2021-01-23 18:50:34.207 +08:00 [INF] Starting web host.
+2021-01-23 18:50:38.441 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 18:50:38.617 +08:00 [INF] Loaded ABP modules:
+2021-01-23 18:50:38.619 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-23 18:50:38.620 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-23 18:50:38.621 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-23 18:50:38.622 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-23 18:50:38.623 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-23 18:50:38.624 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-23 18:50:38.625 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-23 18:50:38.626 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-23 18:50:38.627 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-23 18:50:38.628 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-23 18:50:38.629 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-23 18:50:38.630 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-23 18:50:38.631 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-23 18:50:38.632 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-23 18:50:38.634 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-23 18:50:38.635 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-23 18:50:38.636 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-23 18:50:38.637 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-23 18:50:38.637 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-23 18:50:38.641 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-23 18:50:38.642 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-23 18:50:38.643 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-23 18:50:38.644 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-23 18:50:38.645 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-23 18:50:38.646 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-23 18:50:38.647 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-23 18:50:38.649 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-23 18:50:38.651 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-23 18:50:38.652 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-23 18:50:38.656 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-23 18:50:38.659 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-23 18:50:38.661 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-23 18:50:38.662 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-23 18:50:38.664 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-23 18:50:38.666 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-23 18:50:38.667 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-23 18:50:38.669 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-23 18:50:38.674 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-23 18:50:38.676 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-23 18:50:38.678 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-23 18:50:38.680 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-23 18:50:38.681 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-23 18:50:38.684 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-23 18:50:38.687 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-23 18:50:38.690 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-23 18:50:38.691 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-23 18:50:39.466 +08:00 [INF] Initialized all ABP modules.
+2021-01-23 18:50:40.002 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-23 18:50:40.004 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-23 18:50:40.006 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-23 18:50:40.009 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 18:50:40.011 +08:00 [INF] Hosting environment: Development
+2021-01-23 18:50:40.013 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-23 18:50:40.655 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-23 18:50:40.861 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 207.8566ms
+2021-01-23 18:50:40.977 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-23 18:50:40.978 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-23 18:50:40.979 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-23 18:50:41.077 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-23 18:50:41.077 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-23 18:50:41.091 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-23 18:50:41.093 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 113.6614ms
+2021-01-23 18:50:41.093 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 115.5305ms
+2021-01-23 18:50:41.096 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 118.1734ms
+2021-01-23 18:50:41.182 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - -
+2021-01-23 18:50:41.185 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css.map - - - 404 0 - 3.6818ms
+2021-01-23 18:50:41.434 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - -
+2021-01-23 18:50:41.456 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 18:50:41.456 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 18:50:41.459 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js.map - - - 404 0 - 3.2290ms
+2021-01-23 18:50:41.463 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 7.6286ms
+2021-01-23 18:50:41.484 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - -
+2021-01-23 18:50:41.490 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-23 18:50:41.498 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/favicon-32x32.png - - - 200 628 image/png 11.8380ms
+2021-01-23 18:50:41.681 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 247.1580ms
+2021-01-23 18:50:52.991 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-23 18:50:52.995 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:50:53.113 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:50:54.858 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.UI.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-23 18:50:54.885 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 1761.1061ms
+2021-01-23 18:50:54.889 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:50:54.893 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 1901.5155ms
+2021-01-23 18:51:05.092 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-01-23 18:51:05.094 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 2.2579ms
+2021-01-23 18:51:16.335 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-01-23 18:51:16.368 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-01-23 18:51:16.373 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 38.1121ms
+2021-01-23 18:51:16.402 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-01-23 18:51:16.411 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-01-23 18:51:16.412 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - -
+2021-01-23 18:51:16.413 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - -
+2021-01-23 18:51:16.522 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-01-23 18:51:16.525 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 114.1126ms
+2021-01-23 18:51:16.817 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-01-23 18:51:16.825 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 423.1658ms
+2021-01-23 18:51:16.950 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js'
+2021-01-23 18:51:16.954 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-01-23 18:51:16.955 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-01-23 18:51:16.955 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - - - 200 2161777 application/javascript 542.9588ms
+2021-01-23 18:51:17.010 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-01-23 18:51:17.102 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js'
+2021-01-23 18:51:17.107 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - - - 200 2475934 application/javascript 694.1457ms
+2021-01-23 18:51:17.156 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-01-23 18:51:17.164 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 209.7215ms
+2021-01-23 18:51:17.186 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-01-23 18:51:17.189 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 235.5630ms
+2021-01-23 18:51:17.468 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-01-23 18:51:17.471 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 460.9930ms
+2021-01-23 18:51:17.829 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-23 18:51:17.829 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - -
+2021-01-23 18:51:17.837 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:51:17.840 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:51:17.845 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-01-23 18:51:17.867 +08:00 [INF] Sending file. Request path: '/static/media/jaeger-logo.a7093b12.svg'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\media\jaeger-logo.a7093b12.svg'
+2021-01-23 18:51:17.871 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - - - 200 161920 image/svg+xml 42.2180ms
+2021-01-23 18:51:17.890 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.UI.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-23 18:51:17.899 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 53.1626ms
+2021-01-23 18:51:17.903 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-23 18:51:17.907 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 78.6527ms
+2021-01-23 18:51:17.992 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-01-23 18:51:17.997 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 151.8863ms
+2021-01-23 18:51:18.067 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-01-23 18:51:18.082 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-01-23 18:51:18.087 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 19.4009ms
+2021-01-23 18:51:21.489 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-01-23 18:51:21.492 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-23 18:51:21.514 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:51:21.701 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.UI.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-23 18:51:21.707 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 181.4721ms
+2021-01-23 18:51:21.710 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-23 18:51:21.715 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 226.3672ms
+2021-01-23 18:51:23.471 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611399083448000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611395483448000 - -
+2021-01-23 18:51:23.475 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-23 18:51:23.490 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:51:24.027 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.UI.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 18:51:24.034 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 534.086ms
+2021-01-23 18:51:24.036 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-23 18:51:24.044 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611399083448000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611395483448000 - - - 200 - application/json;+charset=utf-8 573.5363ms
+2021-01-23 18:51:29.840 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611399089690000&limit=20&lookback=6h&maxDuration&minDuration&service=hello-world&start=1611377489690000 - -
+2021-01-23 18:51:29.842 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-23 18:51:29.844 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.UI.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-23 18:51:29.934 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.UI.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 18:51:29.967 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 116.2946ms
+2021-01-23 18:51:29.969 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-23 18:51:29.974 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611399089690000&limit=20&lookback=6h&maxDuration&minDuration&service=hello-world&start=1611377489690000 - - - 200 - application/json;+charset=utf-8 133.6140ms

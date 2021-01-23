@@ -1,7 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\tracing\CZGL.Tracing\CZGL.Tracing.csproj" />
     <ProjectReference Include="..\AbpBase.Application.Contracts\AbpBase.Application.Contracts.csproj" />
     <ProjectReference Include="..\AbpBase.Database\AbpBase.Database.csproj" />
     <ProjectReference Include="..\AbpBase.Domain\AbpBase.Domain.csproj" />

@@ -5,42 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\asset-manifest.json" />
-    <Content Remove="wwwroot\favicon.ico" />
-    <Content Remove="wwwroot\index.html" />
-    <Content Remove="wwwroot\precache-manifest.3fe0b9778ffddb5f98a84a75ac4cbc67.js" />
-    <Content Remove="wwwroot\service-worker.js" />
-    <Content Remove="wwwroot\static\css\1.c303f33f.chunk.css" />
-    <Content Remove="wwwroot\static\css\1.c303f33f.chunk.css.map" />
-    <Content Remove="wwwroot\static\css\main.ff19d057.chunk.css" />
-    <Content Remove="wwwroot\static\css\main.ff19d057.chunk.css.map" />
-    <Content Remove="wwwroot\static\js\1.aabfda20.chunk.js" />
-    <Content Remove="wwwroot\static\js\1.aabfda20.chunk.js.map" />
-    <Content Remove="wwwroot\static\js\main.7ae2cb61.chunk.js" />
-    <Content Remove="wwwroot\static\js\main.7ae2cb61.chunk.js.map" />
-    <Content Remove="wwwroot\static\js\runtime~main.4a686d48.js" />
-    <Content Remove="wwwroot\static\js\runtime~main.4a686d48.js.map" />
-    <Content Remove="wwwroot\static\media\jaeger-logo.a7093b12.svg" />
+    <Content Include="wwwroot" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\asset-manifest.json" />
-    <None Include="wwwroot\favicon.ico" />
-    <None Include="wwwroot\index.html" />
-    <None Include="wwwroot\precache-manifest.3fe0b9778ffddb5f98a84a75ac4cbc67.js" />
-    <None Include="wwwroot\service-worker.js" />
-    <None Include="wwwroot\static\css\1.c303f33f.chunk.css" />
-    <None Include="wwwroot\static\css\1.c303f33f.chunk.css.map" />
-    <None Include="wwwroot\static\css\main.ff19d057.chunk.css" />
-    <None Include="wwwroot\static\css\main.ff19d057.chunk.css.map" />
-    <None Include="wwwroot\static\js\1.aabfda20.chunk.js" />
-    <None Include="wwwroot\static\js\1.aabfda20.chunk.js.map" />
-    <None Include="wwwroot\static\js\main.7ae2cb61.chunk.js" />
-    <None Include="wwwroot\static\js\main.7ae2cb61.chunk.js.map" />
-    <None Include="wwwroot\static\js\runtime~main.4a686d48.js" />
-    <None Include="wwwroot\static\js\runtime~main.4a686d48.js.map" />
-    <None Include="wwwroot\static\media\jaeger-logo.a7093b12.svg" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.34.0" />

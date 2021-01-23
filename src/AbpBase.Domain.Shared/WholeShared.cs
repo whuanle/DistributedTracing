@@ -14,7 +14,7 @@ namespace AbpBase.Domain.Shared
         /// <summary>
         /// 数据库连接字符串
         /// </summary>
-        public static readonly string SqlConnectString = "";
+        public static readonly string SqlConnectString = "filename=./test.db";
 
         /// <summary>
         /// 要使用的数据库类型

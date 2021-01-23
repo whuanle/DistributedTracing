@@ -1,7 +1,5 @@
 ﻿using AbpBase.Application;
 using AbpBase.Application.Contracts;
-using System;
-using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Modularity;
 
@@ -21,10 +19,7 @@ namespace AbpBase.HttpApi
             {
                 options
                     .ConventionalControllers
-                    .Create(typeof(AbpBaseHttpApiModule).Assembly, opts =>
-                    {
-                        opts.RootPath = "api/1.0";
-                    });
+                    .Create(typeof(AbpBaseHttpApiModule).Assembly);
             });
         }
     }

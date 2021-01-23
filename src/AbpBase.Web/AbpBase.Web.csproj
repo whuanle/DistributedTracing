@@ -1,15 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.1.1" />
-    <PackageReference Include="Volo.Abp.Autofac" Version="4.1.1" />
+    <Content Include="wwwroot" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.1.1" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="4.1.1" />
+    <PackageReference Include="Volo.Abp.Swashbuckle" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\tracing\CZGL.Tracing.UI\CZGL.Tracing.UI.csproj" />
     <ProjectReference Include="..\AbpBase.Application\AbpBase.Application.csproj" />
     <ProjectReference Include="..\AbpBase.HttpApi\AbpBase.HttpApi.csproj" />
   </ItemGroup>

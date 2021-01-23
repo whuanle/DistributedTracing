@@ -8,10 +8,14 @@ using System.Threading.Tasks;
 
 namespace CZGL.Tracing.Models
 {
+    /// <summary>
+    /// MongoDB 数据库存储结构
+    /// </summary>
     public class TracingObject
     {
         [JsonIgnore]
         public ObjectId _id { get; set; }
+
         public TracingSpan[] Spans { get; set; }
 
         public TracingProcess Process { get; set; }

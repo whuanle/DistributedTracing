@@ -26,7 +26,7 @@ namespace AbpBase.Web
             catch (Exception ex)
             {
                 Serilog.Log.Fatal("Host terminated unexpectedly!");
-                Serilog.Log.Fatal(ex.Message);
+                Serilog.Log.Fatal(ex,"Host Error");
                 return 1;
             }
             finally
@@ -39,6 +39,7 @@ namespace AbpBase.Web
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("http://*:14250;http://*:16686;https://*:4433");
                     webBuilder.UseStartup<Startup>();
                 })
             .UseAutofac()
@@ -67,7 +68,7 @@ namespace AbpBase.Web
                 .WriteTo.Logger(log =>
                         log.Filter.ByIncludingOnly(evt => evt.Level == LogEventLevel.Error)
                             .WriteTo.File(
-                                $"Logs/{(DateTime.Now.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.CurrentCulture) + "-Error.txt")}",
+                                $"{System.IO.Directory.GetParent(typeof(Program).Assembly.Location)}/Logs/{(DateTime.Now.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.CurrentCulture) + "-Error.txt")}",
                                 fileSizeLimitBytes: 83886080),
                     LogEventLevel.Fatal)
                 .WriteTo.Console()

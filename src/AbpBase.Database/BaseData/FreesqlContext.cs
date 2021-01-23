@@ -19,9 +19,9 @@ namespace AbpBase.Database
                 .UseNameConvert(NameConvertType.PascalCaseToUnderscore)
                 .UseConnectionString(dataType, connectStr)
 
-                //.UseAutoSyncStructure(true) // 自动同步实体结构到数据库，生产环境禁止使用！
-
+                .UseAutoSyncStructure(true) // 自动同步实体结构到数据库，生产环境禁止使用！
                 .Build();
+
             OnModelCreating(Freesql_Instance);
         }
 

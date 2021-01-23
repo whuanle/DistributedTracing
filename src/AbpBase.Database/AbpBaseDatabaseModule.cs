@@ -25,16 +25,24 @@ namespace AbpBase.Database
         {
             context.Services.AddAbpDbContext<AbpBaseDataContext>();
 
-            string connectString = default;
+            string connectString = WholeShared.SqlConnectString;
 
             Configure<AbpDbConnectionOptions>(options =>
             {
-                connectString = WholeShared.SqlConnectString;
                 options.ConnectionStrings.Default = connectString;
             });
 
 
             FreeSql.DataType dataType = default;
+            switch (WholeShared.DataType)
+            {
+                case AbpBaseDataType.Sqlite:
+                    dataType = FreeSql.DataType.Sqlite; break;
+                case AbpBaseDataType.Mysql:
+                    dataType = FreeSql.DataType.MySql; break;
+                case AbpBaseDataType.Sqlserver:
+                    dataType = FreeSql.DataType.SqlServer; break;
+            }
 
             Configure<AbpDbContextOptions>(options =>
             {

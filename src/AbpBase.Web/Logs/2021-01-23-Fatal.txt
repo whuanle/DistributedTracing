@@ -1,0 +1,66 @@
+2021-01-23 17:15:39.841 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:15:39.846 +08:00 [FTL] An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+2021-01-23 17:17:50.720 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:17:50.725 +08:00 [FTL] Host Error
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.Exception: 参数 masterConnectionString 不可为空，请检查 UseConnectionString
+   at FreeSql.FreeSqlBuilder.Build[TMark]()
+   at FreeSql.FreeSqlBuilder.Build()
+   at AbpBase.Database.FreesqlContext.Init(String connectStr, DataType dataType) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\BaseData\FreesqlContext.cs:line 18
+   at AbpBase.Database.AbpBaseDatabaseModule.ConfigureServices(ServiceConfigurationContext context) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\AbpBaseDatabaseModule.cs:line 53
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at AbpBase.Web.Startup.ConfigureServices(IServiceCollection services) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Startup.cs:line 10
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AbpBase.Web.Program.Main(String[] args) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Program.cs:line 23
+2021-01-23 17:20:52.813 +08:00 [FTL] Host terminated unexpectedly!
+2021-01-23 17:20:52.818 +08:00 [FTL] Host Error
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module AbpBase.Database.AbpBaseDatabaseModule, AbpBase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.Exception: 参数 masterConnectionString 不可为空，请检查 UseConnectionString
+   at FreeSql.FreeSqlBuilder.Build[TMark]()
+   at FreeSql.FreeSqlBuilder.Build()
+   at AbpBase.Database.FreesqlContext.Init(String connectStr, DataType dataType) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\BaseData\FreesqlContext.cs:line 18
+   at AbpBase.Database.AbpBaseDatabaseModule.ConfigureServices(ServiceConfigurationContext context) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Database\AbpBaseDatabaseModule.cs:line 53
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at AbpBase.Web.Startup.ConfigureServices(IServiceCollection services) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Startup.cs:line 10
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AbpBase.Web.Program.Main(String[] args) in H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\Program.cs:line 23
+2021-01-23 18:47:30.314 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)
+Source:    Autofac
+TargetSite:    System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+InnerException:    
+Message:    The requested service 'CZGL.Tracing.UI.Controllers.TracingController' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+HelpLink:    
+

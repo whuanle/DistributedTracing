@@ -28,6 +28,10 @@ namespace CZGL.Tracing
             }
         }
 
+        /// <summary>
+        /// 添加 Tracing GRPC 中间件
+        /// </summary>
+        /// <param name="builder"></param>
         public static void MapTracing(this IEndpointRouteBuilder builder)
         {
             builder.MapGrpcService<TraceCollector>();

@@ -13,6 +13,10 @@ using System.Threading.Tasks;
 
 namespace CZGL.Tracing.UI.Services
 {
+
+    /// <summary>
+    /// UI 查询服务
+    /// </summary>
     public class QueryService
     {
         private static Option Options = new Option();
@@ -75,6 +79,13 @@ namespace CZGL.Tracing.UI.Services
             return response;
         }
 
+
+        /// <summary>
+        /// 查询依赖服务
+        /// </summary>
+        /// <param name="endTs"></param>
+        /// <param name="lookback"></param>
+        /// <returns></returns>
         public async Task<QueryResponseServices<SpanReference>> Dependencies(long endTs, long lookback)
         {
             var collection = database.GetCollection<BsonDocument>(Options.DocumentName);
