@@ -1,23 +1,19 @@
 ﻿using CZGL.Tracing.Models;
-using CZGL.Tracing.UI.Models;
 using Microsoft.Extensions.Logging;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CZGL.Tracing.UI.Services
+namespace CZGL.Tracing.Services
 {
 
     /// <summary>
     /// UI 查询服务
     /// </summary>
-    public class QueryService
+    public class TracingQueryService
     {
         private static Option Options = new Option();
         private class Option : TracingOption { }
@@ -27,11 +23,11 @@ namespace CZGL.Tracing.UI.Services
         private static readonly FilterDefinition<TracingObject> EmptyFilter = Builders<TracingObject>.Filter.Empty;
 
         private readonly IMongoDatabase database;
-        private readonly ILogger<QueryService> logger;
-        public QueryService(MongoClient mongoClient, ILoggerFactory loggerFactory)
+        private readonly ILogger<TracingQueryService> logger;
+        public TracingQueryService(MongoClient mongoClient, ILoggerFactory loggerFactory)
         {
             database = mongoClient.GetDatabase(Options.DataName);
-            logger = loggerFactory.CreateLogger<QueryService>();
+            logger = loggerFactory.CreateLogger<TracingQueryService>();
         }
 
         /// <summary>
@@ -86,7 +82,7 @@ namespace CZGL.Tracing.UI.Services
         /// <param name="endTs"></param>
         /// <param name="lookback"></param>
         /// <returns></returns>
-        public async Task<QueryResponseServices<SpanReference>> Dependencies(long endTs, long lookback)
+        public async Task<QueryResponseServices<SpanReference>> Dependencies(long startTs, long endTs)
         {
             var collection = database.GetCollection<BsonDocument>(Options.DocumentName);
 
@@ -95,7 +91,7 @@ namespace CZGL.Tracing.UI.Services
             ProjectionDefinition<BsonDocument> projection = Builders<BsonDocument>.Projection.Include("Spans.References");
 
             var filterBuilder = Builders<BsonDocument>.Filter;
-            var f_start = filterBuilder.Gt("Spans.StartTime", endTs- lookback);
+            var f_start = filterBuilder.Gt("Spans.StartTime", startTs);
             var f_end = filterBuilder.Lt("Spans.StartTime", endTs);
             var filter = filterBuilder.And(f_start, f_end);
             var result = await collection

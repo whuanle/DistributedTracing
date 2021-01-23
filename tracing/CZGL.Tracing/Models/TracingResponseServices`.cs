@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CZGL.Tracing.UI.Models
+namespace CZGL.Tracing.Models
 {
     /// <summary>
     /// Query 查询统一返回格式

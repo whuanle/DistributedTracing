@@ -1,4 +1,5 @@
 ﻿using CZGL.Tracing.Models;
+using CZGL.Tracing.Services;
 using CZGL.Tracing.UI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,32 +21,8 @@ namespace CZGL.Tracing.UI
         public static void AddTracingUI(this IServiceCollection services)
         {
             services.AddGrpc();
-            services.AddTransient<QueryService>();
+            services.AddTransient<TracingQueryService>();
             services.AddControllers().AddApplicationPart(typeof(TracingUIExtensions).Assembly);
-        }
-
-        /// <summary>
-        /// TracingObject 转 QueryTracingObject
-        /// </summary>
-        /// <param name="objects"></param>
-        /// <returns></returns>
-        public static IEnumerable<QueryTracingObject> ToQuery(this IEnumerable<TracingObject> objects)
-        {
-            List<QueryTracingObject> queries = new List<QueryTracingObject>();
-            foreach (var item in objects)
-            {
-                QueryTracingObject queryTracingObject = new QueryTracingObject()
-                {
-                    Spans = item.Spans,
-                    Processes = new Dictionary<string, TracingProcess>()
-                    {
-                        { "p1",item.Process}
-                    }
-                };
-                queries.Add(queryTracingObject);
-            }
-
-            return queries;
         }
     }
 }

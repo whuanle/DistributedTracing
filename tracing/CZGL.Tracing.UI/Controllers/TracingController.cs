@@ -1,17 +1,12 @@
 ﻿using CZGL.Tracing.Models;
+using CZGL.Tracing.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
-using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Text.Json;
-using CZGL.Tracing.UI.Models;
-using CZGL.Tracing.UI.Services;
 
 namespace CZGL.Tracing.UI.Controllers
 {
@@ -26,9 +21,9 @@ namespace CZGL.Tracing.UI.Controllers
     [Route("/api")]
     public class TracingController : ControllerBase
     {
-        private readonly QueryService _queryService;
+        private readonly TracingQueryService _queryService;
         private readonly ILogger<TracingController> logger;
-        public TracingController(QueryService queryService, ILoggerFactory loggerFactory)
+        public TracingController(TracingQueryService queryService, ILoggerFactory loggerFactory)
         {
             _queryService = queryService;
             logger = loggerFactory.CreateLogger<TracingController>();
@@ -54,7 +49,7 @@ namespace CZGL.Tracing.UI.Controllers
         [HttpGet("dependencies")]
         public async Task<QueryResponseServices<SpanReference>> Dependencies(long endTs, long lookback)
         {
-            return await _queryService.Dependencies(endTs, lookback);
+            return await _queryService.Dependencies(endTs - lookback, lookback);
         }
 
         /// <summary>

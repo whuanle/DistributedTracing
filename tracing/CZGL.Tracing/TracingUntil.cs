@@ -1,6 +1,8 @@
 ﻿using CZGL.Tracing.Models;
 using Google.Protobuf;
 using Google.Protobuf.Collections;
+using Google.Protobuf.WellKnownTypes;
+using Jaeger;
 using Jaeger.ApiV2;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -86,7 +88,7 @@ namespace CZGL.Tracing
             return tracingProcess;
         }
 
-        public static List<TracingSpan> BuildTracingSpan(this RepeatedField<Span> spans)
+        public static List<TracingSpan> BuildTracingSpan(this RepeatedField<Jaeger.ApiV2.Span> spans)
         {
             List<TracingSpan> tracingSpans = new List<TracingSpan>();
             foreach (var item in spans)
@@ -98,7 +100,7 @@ namespace CZGL.Tracing
                     OperationName = item.OperationName,
                     References = item.References.Select(x => x.ToSpanReference()).ToArray(),
                     Flags = item.Flags,
-                    StartTime = item.StartTime.ToDateTime().GetTimestamp(),
+                    StartTime = item.StartTime.ToDateTime().ToTimestamp(),
                     Duration = (int)item.Duration.ToTimeSpan().TotalMilliseconds / 10
                 };
 
@@ -114,10 +116,18 @@ namespace CZGL.Tracing
             return tracingSpans;
         }
 
-        public static long GetTimestamp(this DateTime dateTime)
+        public static long ToTimestamp(this DateTime dateTime)
         {
             DateTime dt1970 = new DateTime(1970, 1, 1, 0, 0, 0, 0);
             return (dateTime.Ticks - dt1970.Ticks) / 10;
+        }
+
+        public static Timestamp GetTimestamp(long time)
+        {
+            DateTime dt1970 = new DateTime(1970, 1, 1, 0, 0, 0, 0);
+            var ticks = time * 10;
+            var newTime = dt1970.AddTicks(ticks);
+            return Timestamp.FromDateTime(newTime);
         }
 
         public static List<SpanTag> BuildTags(this RepeatedField<KeyValue> spans)
@@ -145,6 +155,63 @@ namespace CZGL.Tracing
             return tags;
         }
 
+        public static RepeatedField<Log> BuildLogs(this IEnumerable<SpanLog> logs)
+        {
+            RepeatedField<Log> list = new RepeatedField<Log>();
+
+            foreach (var item in logs)
+            {
+                Log log = new Log()
+                {
+                    Timestamp = TracingUntil.GetTimestamp(item.Timestamp)
+                };
+                var fields = log.Fields;
+                foreach (var field in item.Fields)
+                {
+                    KeyValue value = new KeyValue()
+                    {
+                        Key = field.Key
+                    };
+                    Jaeger.ApiV2.ValueType type = (Jaeger.ApiV2.ValueType)System.Enum.Parse(typeof(Jaeger.ApiV2.ValueType), field.Type);
+                    switch (type)
+                    {
+                        case Jaeger.ApiV2.ValueType.String: value.VStr = field.Value.ToString(); break;
+                        case Jaeger.ApiV2.ValueType.Bool: value.VBool = (bool)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Int64: value.VInt64 = (long)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Float64: value.VFloat64 = (double)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Binary: value.VBinary = ByteString.CopyFrom(Encoding.Unicode.GetBytes(field.Value.ToString())); break;
+                    }
+                    fields.Add(value);
+                }
+                list.Add(log);
+            }
+            return list;
+        }
+
+        public static RepeatedField<KeyValue> BuildTags(this IEnumerable<SpanTag> spans)
+        {
+            RepeatedField<KeyValue> list = new RepeatedField<KeyValue>();
+
+                foreach (var field in spans)
+                {
+                    KeyValue value = new KeyValue()
+                    {
+                        Key = field.Key
+                    };
+                    Jaeger.ApiV2.ValueType type = (Jaeger.ApiV2.ValueType)System.Enum.Parse(typeof(Jaeger.ApiV2.ValueType), field.Type);
+                    switch (type)
+                    {
+                        case Jaeger.ApiV2.ValueType.String: value.VStr = field.Value.ToString(); break;
+                        case Jaeger.ApiV2.ValueType.Bool: value.VBool = (bool)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Int64: value.VInt64 = (long)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Float64: value.VFloat64 = (double)field.Value; break;
+                        case Jaeger.ApiV2.ValueType.Binary: value.VBinary = ByteString.CopyFrom(Encoding.Unicode.GetBytes(field.Value.ToString())); break;
+                    }
+                list.Add(value);
+            }
+            return list;
+        }
+
         public static List<SpanLog> BuildLogs(this RepeatedField<Log> logs)
         {
             List<SpanLog> spans = new List<SpanLog>();
@@ -152,7 +219,7 @@ namespace CZGL.Tracing
             {
                 SpanLog span = new SpanLog()
                 {
-                    Timestamp = item.Timestamp.ToDateTime().GetTimestamp(),
+                    Timestamp = item.Timestamp.ToDateTime().ToTimestamp(),
                     Fields = item.Fields.BuildTags().ToArray()
                 };
                 spans.Add(span);
@@ -163,6 +230,7 @@ namespace CZGL.Tracing
 
         #region
 
+
         public static SpanReference ToSpanReference(this SpanRef spanRef)
         {
             return new SpanReference
@@ -172,6 +240,53 @@ namespace CZGL.Tracing
                 RefType = spanRef.RefType
             };
         }
+
+        public static RepeatedField<SpanRef> ToSpanTref(this IEnumerable<SpanReference> spans)
+        {
+            RepeatedField<SpanRef> refs = new RepeatedField<SpanRef>();
+            foreach (var item in spans)
+            {
+                refs.Add(item.ToSpanRef());
+            }
+            return refs;
+        }
+
+        public static SpanRef ToSpanRef(this SpanReference span)
+        {
+            return new SpanRef
+            {
+                TraceId = ByteString.CopyFrom(TraceId.FromString(span.TraceId).ToByteArray()),
+                SpanId = ByteString.CopyFrom(SpanId.FromString(span.SpanId).ToByteArray()),
+                RefType = span.RefType
+            };
+        }
+
+
         #endregion
+
+
+        /// <summary>
+        /// TracingObject 转 QueryTracingObject
+        /// </summary>
+        /// <param name="objects"></param>
+        /// <returns></returns>
+        public static IEnumerable<QueryTracingObject> ToQuery(this IEnumerable<TracingObject> objects)
+        {
+            List<QueryTracingObject> queries = new List<QueryTracingObject>();
+            foreach (var item in objects)
+            {
+                QueryTracingObject queryTracingObject = new QueryTracingObject()
+                {
+                    Spans = item.Spans,
+                    Processes = new Dictionary<string, TracingProcess>()
+                    {
+                        { "p1",item.Process}
+                    }
+                };
+                queries.Add(queryTracingObject);
+            }
+
+            return queries;
+        }
     }
 }
