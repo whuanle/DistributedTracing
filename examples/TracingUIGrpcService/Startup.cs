@@ -45,6 +45,8 @@ namespace TracingUIGrpcService
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CZGL.Tracing v1"));
             }
 
             app.UseDefaultFiles();
