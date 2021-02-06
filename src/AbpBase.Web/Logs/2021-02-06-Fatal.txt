@@ -1,0 +1,32 @@
+2021-02-06 19:13:08.928 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)
+Source:    MongoDB.Driver
+TargetSite:    MongoDB.Driver.RenderedFieldDefinition`1[TField] Render(MongoDB.Bson.Serialization.IBsonSerializer`1[TDocument], MongoDB.Bson.Serialization.IBsonSerializerRegistry, Boolean)
+InnerException:    
+Message:    Unable to determine the serialization information for a => "Process.ServiceName".
+HelpLink:    
+
+2021-02-06 19:13:10.433 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-06 19:28:43.115 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-06 19:39:36.364 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+

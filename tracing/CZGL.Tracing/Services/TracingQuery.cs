@@ -1,4 +1,5 @@
-﻿using CZGL.Tracing.Models;
+﻿using CZGL.Tracing.Extensions;
+using CZGL.Tracing.Models;
 using Google.Protobuf;
 using Google.Protobuf.Collections;
 using Grpc.Core;
@@ -34,7 +35,8 @@ namespace CZGL.Tracing.Services
 
         public override async Task<GetDependenciesResponse> GetDependencies(GetDependenciesRequest request, ServerCallContext context)
         {
-            QueryResponseServices<SpanReference> result = await _queryService.Dependencies(request.StartTime.ToDateTime().ToTimestamp(), request.EndTime.ToDateTime().ToTimestamp());
+            QueryResponseServices<SpanReference> result = await _queryService
+                .Dependencies(TracingUtil.GetLongTime(request.StartTime), TracingUtil.GetLongTime(request.EndTime));
 
             var response = new GetDependenciesResponse();
 
@@ -78,7 +80,7 @@ namespace CZGL.Tracing.Services
 
         public override async Task GetTrace(GetTraceRequest request, IServerStreamWriter<SpansResponseChunk> responseStream, ServerCallContext context)
         {
-            var result = await _queryService.GetService(request.TraceId.ByteStringToString());
+            var result = await _queryService.GetService(TracingUtil.GetTraceId(request.TraceId));
             SpansResponseChunk response = new SpansResponseChunk();
             RepeatedField<Jaeger.ApiV2.Span> spans = response.Spans;
 
@@ -91,7 +93,7 @@ namespace CZGL.Tracing.Services
                     OperationName = item.OperationName,
                     // References
                     Flags = item.Flags,
-                    StartTime = TracingUntil.GetTimestamp(item.StartTime),
+                    StartTime = TracingUtil.GetTraceTimestamp(item.StartTime),
                     Duration = Google.Protobuf.WellKnownTypes.Duration.FromTimeSpan(TimeSpan.FromMilliseconds(item.Duration)),
                     ProcessId = item.ProcessId,
                     // Tags

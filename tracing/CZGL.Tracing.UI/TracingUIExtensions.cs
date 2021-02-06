@@ -1,13 +1,5 @@
-﻿using CZGL.Tracing.Models;
-using CZGL.Tracing.Services;
-using CZGL.Tracing.UI.Services;
-using Microsoft.AspNetCore.Builder;
+﻿using CZGL.Tracing.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CZGL.Tracing.UI
 {

@@ -7,6 +7,8 @@ using OpenTracing;
 using OpenTracing.Propagation;
 using OpenTracing.Tag;
 using System;
+using System.Buffers.Binary;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using static Jaeger.Configuration;
@@ -35,24 +37,32 @@ namespace ConsoleApp1
         {
             using (var scope = _tracer.BuildSpan("format-string").StartActive(true))
             {
-                using WebClient webClient = new WebClient();
-                var url = $"http://localhost:8081/api/format/{helloTo}";
-                var helloString = webClient.DownloadString(url);
+
+                var url = $"http://127.0.0.1:18081/api/format/{helloTo}";
+
+                // 为 Header 头生成信息
                 var span = scope.Span
                     .SetTag(Tags.SpanKind, Tags.SpanKindClient)
                     .SetTag(Tags.HttpMethod, "GET")
                     .SetTag(Tags.HttpUrl, url);
+                var dictionary = new Dictionary<string, string>();
+                _tracer.Inject(span.Context, BuiltinFormats.HttpHeaders, new TextMapInjectAdapter(dictionary));
 
+                // 注入 Header 头
+                using WebClient webClient = new WebClient();
+                foreach (var entry in dictionary)
+                    webClient.Headers.Add(entry.Key, entry.Value);
+
+                // 请求远程 Web 服务
+                var helloString = webClient.DownloadString(url);
+
+                // 获得 Web 响应内容
                 span.Log(new Dictionary<string, object>
                 {
                     [LogFields.Event] = "string.Format",
                     ["value"] = helloString
                 });
 
-                var dictionary = new Dictionary<string, string>();
-                _tracer.Inject(span.Context, BuiltinFormats.HttpHeaders, new TextMapInjectAdapter(dictionary));
-                foreach (var entry in dictionary)
-                    webClient.Headers.Add(entry.Key, entry.Value);
                 return helloString;
             }
         }
@@ -105,6 +115,17 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
+            byte[] bytes = BitConverter.GetBytes(1611318628516206);
+            Array.Reverse(bytes);
+            if (BitConverter.IsLittleEndian)
+            {
+                var tmp =  BinaryPrimitives.ReadInt64LittleEndian(bytes);
+            }
+            else
+            {
+                var tmp = BinaryPrimitives.ReadInt64BigEndian(bytes);
+            }
+            Console.WriteLine();
             using ILoggerFactory loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
             while (true)
             {

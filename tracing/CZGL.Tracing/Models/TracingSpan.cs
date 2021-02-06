@@ -25,18 +25,7 @@ namespace CZGL.Tracing.Models
 
         public SpanLog[] Logs { get; set; }
         [JsonPropertyName("processID")]
-        public string ProcessId
-        {
-            get
-            {
-                return "p1";
-            }
-            set
-            {
-                _ = value;
-            }
-        }
-
+        public string ProcessId { get; set; }
         public string[] Warnings { get; set; }
     }
 }

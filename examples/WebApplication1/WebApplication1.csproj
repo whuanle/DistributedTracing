@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="G:\临时缓存\jaeger-client-csharp-master\src\Senders\Jaeger.Senders.Grpc\Jaeger.Senders.Grpc.csproj" />
     <PackageReference Include="OpenTracing" Version="0.12.1" />
     <PackageReference Include="OpenTracing.Contrib.NetCore" Version="0.7.1" />
     <PackageReference Include="Jaeger" Version="0.4.2" />

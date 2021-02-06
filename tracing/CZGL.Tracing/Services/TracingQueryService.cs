@@ -1,4 +1,5 @@
-﻿using CZGL.Tracing.Models;
+﻿using CZGL.Tracing.Extensions;
+using CZGL.Tracing.Models;
 using Microsoft.Extensions.Logging;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -20,7 +21,7 @@ namespace CZGL.Tracing.Services
 
 
         // 空过滤
-        private static readonly FilterDefinition<TracingObject> EmptyFilter = Builders<TracingObject>.Filter.Empty;
+        private static readonly FilterDefinition<BsonDocument> EmptyFilter = Builders<BsonDocument>.Filter.Empty;
 
         private readonly IMongoDatabase database;
         private readonly ILogger<TracingQueryService> logger;
@@ -37,11 +38,19 @@ namespace CZGL.Tracing.Services
         /// <returns></returns>
         public async Task<QueryResponseServices<string>> GetServices()
         {
-            var collection = database.GetCollection<TracingObject>(Options.DocumentName);
-            var result = await collection.Distinct(a => a.Process.ServiceName, EmptyFilter).ToListAsync();
+            var collection = database.GetCollection<BsonDocument>(Options.DocumentName);
+            // 查询字段
+            ProjectionDefinition<BsonDocument> projection = Builders<BsonDocument>.Projection.Include("Process.ServiceName");
+            FieldDefinition<BsonDocument, string> field = "Process.ServiceName";
+
+
+            var result = await collection
+                .Distinct(field, EmptyFilter)
+                .ToListAsync();
+
             return new QueryResponseServices<string>
             {
-                Data = result.ToArray()
+                Data = result.AsEnumerable()
             };
         }
 
@@ -57,7 +66,7 @@ namespace CZGL.Tracing.Services
             // 构建筛选规则
             FilterDefinitionBuilder<BsonDocument> filterBuilder = Builders<BsonDocument>.Filter;
             // 从 MongoDB 按照条件查询结果
-            FilterDefinition<BsonDocument> filter = filterBuilder.Eq("Spans.TraceId",serviceId);
+            FilterDefinition<BsonDocument> filter = filterBuilder.Eq("Spans.TraceId", serviceId);
             var queryResult = await collection
                 .Find(filter)
                 .ToListAsync();
@@ -69,7 +78,7 @@ namespace CZGL.Tracing.Services
             // 获得查询结果
             var response = new QueryResponseServices<QueryTracingObject>
             {
-                Data = objects.ToQuery()
+                Data = objects.Select(x => x.BuildQuery())
             };
 
             return response;
@@ -159,9 +168,9 @@ namespace CZGL.Tracing.Services
             // 构建筛选规则
             FilterDefinitionBuilder<BsonDocument> filterBuilder = Builders<BsonDocument>.Filter;
 
+
             var f_service = filterBuilder.Eq("Process.ServiceName", model.ServiceName);
             filterList.Add(f_service);
-
 
             if (!string.IsNullOrEmpty(model.Operation))
             {
@@ -191,14 +200,14 @@ namespace CZGL.Tracing.Services
 
             if (model.MaxDuration.HasValue)
             {
-                var f_duration=filterBuilder.Lt("Spans.Duration", model.MaxDuration.Value);
+                var f_duration = filterBuilder.Lt("Spans.Duration", model.MaxDuration.Value);
                 filterList.Add(f_duration);
             }
 
             var f_start = filterBuilder.Gt("Spans.StartTime", model.Start);
             var f_end = filterBuilder.Lt("Spans.StartTime", model.End);
 
-            filterList.Add(filterBuilder.And(f_service, f_start, f_end));
+            filterList.Add(filterBuilder.And(f_start, f_end));
 
             // 从 MongoDB 按照条件查询结果
             FilterDefinition<BsonDocument> filter = filterBuilder.And(filterList);

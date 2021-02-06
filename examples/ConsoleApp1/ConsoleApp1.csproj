@@ -7,12 +7,13 @@
 
   <ItemGroup>
     <PackageReference Include="CZGL.AOP" Version="1.0.0" />
-    <PackageReference Include="Jaeger.Senders.Grpc" Version="0.4.2" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
   </ItemGroup>
 
-
+  <ItemGroup>
+    <ProjectReference Include="G:\临时缓存\jaeger-client-csharp-master\src\Senders\Jaeger.Senders.Grpc\Jaeger.Senders.Grpc.csproj" />
+  </ItemGroup>
   <ItemGroup>
     <None Update="ssl.pfx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

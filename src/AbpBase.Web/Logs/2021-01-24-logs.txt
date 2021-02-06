@@ -1,0 +1,454 @@
+2021-01-24 13:43:49.642 +08:00 [INF] Starting web host.
+2021-01-24 13:44:02.010 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-24 13:44:02.263 +08:00 [INF] Loaded ABP modules:
+2021-01-24 13:44:02.265 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-24 13:44:02.266 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-24 13:44:02.267 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-24 13:44:02.268 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-24 13:44:02.270 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-24 13:44:02.271 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-24 13:44:02.272 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-24 13:44:02.273 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-24 13:44:02.274 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-24 13:44:02.275 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-24 13:44:02.276 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-24 13:44:02.277 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-24 13:44:02.278 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-24 13:44:02.279 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-24 13:44:02.280 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-24 13:44:02.281 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-24 13:44:02.282 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-24 13:44:02.284 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-24 13:44:02.285 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-24 13:44:02.289 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-24 13:44:02.290 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-24 13:44:02.291 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-24 13:44:02.292 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-24 13:44:02.293 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-24 13:44:02.294 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-24 13:44:02.295 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-24 13:44:02.297 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-24 13:44:02.299 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-24 13:44:02.303 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-24 13:44:02.305 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-24 13:44:02.306 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-24 13:44:02.308 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-24 13:44:02.309 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-24 13:44:02.311 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-24 13:44:02.312 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-24 13:44:02.314 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-24 13:44:02.316 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-24 13:44:02.319 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-24 13:44:02.321 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-24 13:44:02.322 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-24 13:44:02.324 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-24 13:44:02.325 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-24 13:44:02.327 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-24 13:44:02.329 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-24 13:44:02.330 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-24 13:44:02.332 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-24 13:44:04.630 +08:00 [INF] Initialized all ABP modules.
+2021-01-24 13:44:05.225 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-24 13:44:05.227 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-24 13:44:05.231 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-24 13:44:05.233 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-24 13:44:05.234 +08:00 [INF] Hosting environment: Development
+2021-01-24 13:44:05.237 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-24 13:44:06.011 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-01-24 13:44:06.103 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-24 13:44:06.145 +08:00 [DBG] Reading message.
+2021-01-24 13:44:08.149 +08:00 [INF] get one trace message,trace id:ead63e6e36746f51
+2021-01-24 13:44:08.151 +08:00 [INF] spans id:
+2021-01-24 13:44:08.153 +08:00 [INF] e08fd923ac5d540e
+4bb12462c0c964eb
+ead63e6e36746f51
+2021-01-24 13:44:08.585 +08:00 [DBG] Sending message.
+2021-01-24 13:44:08.595 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-24 13:44:08.606 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 2596.9717ms
+2021-01-24 13:44:24.991 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger - -
+2021-01-24 13:44:24.998 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger - - - 301 0 - 7.0687ms
+2021-01-24 13:44:25.007 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - -
+2021-01-24 13:44:25.085 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/index.html - - - 200 - text/html;charset=utf-8 77.8176ms
+2021-01-24 13:44:25.304 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - -
+2021-01-24 13:44:25.379 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - -
+2021-01-24 13:44:25.379 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - -
+2021-01-24 13:44:25.466 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-24 13:44:25.466 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-24 13:44:25.468 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui.css - - - 200 142933 text/css 164.4166ms
+2021-01-24 13:44:25.471 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 92.1608ms
+2021-01-24 13:44:25.549 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-24 13:44:25.555 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 176.9322ms
+2021-01-24 13:44:26.132 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - -
+2021-01-24 13:44:26.310 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.0752ms
+2021-01-24 13:44:27.983 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-01-24 13:44:27.985 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 2.1851ms
+2021-01-24 13:44:35.175 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-01-24 13:44:35.255 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-01-24 13:44:35.273 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 98.2840ms
+2021-01-24 13:44:35.361 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-01-24 13:44:35.364 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - -
+2021-01-24 13:44:35.365 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-01-24 13:44:35.365 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - -
+2021-01-24 13:44:35.417 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-01-24 13:44:35.426 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 61.7980ms
+2021-01-24 13:44:35.711 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-01-24 13:44:35.715 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 353.6983ms
+2021-01-24 13:44:35.844 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js'
+2021-01-24 13:44:35.847 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - - - 200 2161777 application/javascript 483.4102ms
+2021-01-24 13:44:35.861 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js'
+2021-01-24 13:44:35.866 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - - - 200 2475934 application/javascript 501.1223ms
+2021-01-24 13:44:36.256 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-24 13:44:36.259 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:44:36.272 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - -
+2021-01-24 13:44:36.303 +08:00 [INF] Sending file. Request path: '/static/media/jaeger-logo.a7093b12.svg'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\media\jaeger-logo.a7093b12.svg'
+2021-01-24 13:44:36.310 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - - - 200 161920 image/svg+xml 36.0938ms
+2021-01-24 13:44:36.449 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:44:36.528 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-01-24 13:44:36.547 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-01-24 13:44:36.552 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 23.2569ms
+2021-01-24 13:44:36.613 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:44:36.641 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 178.7563ms
+2021-01-24 13:44:36.646 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:44:36.648 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 392.1387ms
+2021-01-24 13:44:39.186 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-01-24 13:44:39.190 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:44:39.213 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:44:39.342 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:44:39.348 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 130.7791ms
+2021-01-24 13:44:39.354 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:44:39.357 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 171.2081ms
+2021-01-24 13:44:41.170 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467081042000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611463481042000 - -
+2021-01-24 13:44:41.172 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:44:41.180 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:44:41.639 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-24 13:44:41.659 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 474.197ms
+2021-01-24 13:44:41.662 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:44:41.666 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467081042000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611463481042000 - - - 200 - application/json;+charset=utf-8 495.7339ms
+2021-01-24 13:44:59.711 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-01-24 13:44:59.712 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-01-24 13:44:59.712 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-01-24 13:44:59.711 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-01-24 13:44:59.729 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-01-24 13:44:59.739 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-01-24 13:44:59.745 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 33.8387ms
+2021-01-24 13:44:59.754 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 42.4398ms
+2021-01-24 13:45:00.119 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-01-24 13:45:00.120 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-01-24 13:45:00.336 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-01-24 13:45:00.341 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 221.1945ms
+2021-01-24 13:45:03.460 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-01-24 13:45:03.466 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 3346.5602ms
+2021-01-24 13:45:05.201 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-01-24 13:45:05.212 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 5500.4179ms
+2021-01-24 13:45:05.762 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-24 13:45:05.764 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:45:05.770 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:45:05.787 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-01-24 13:45:05.789 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:45:05.792 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:45:05.794 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:45:05.823 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 41.9754ms
+2021-01-24 13:45:05.825 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:45:05.825 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:45:05.827 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 65.3986ms
+2021-01-24 13:45:05.833 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 23.9469ms
+2021-01-24 13:45:05.842 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:45:05.844 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 56.9209ms
+2021-01-24 13:45:08.410 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-01-24 13:45:08.415 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 8702.9523ms
+2021-01-24 13:45:09.952 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-24 13:45:09.953 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-01-24 13:45:09.955 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:45:09.960 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:45:09.967 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:45:09.973 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:45:09.996 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:45:10.011 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:45:10.013 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 29.3496ms
+2021-01-24 13:45:10.022 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 27.7557ms
+2021-01-24 13:45:10.022 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:45:10.030 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:45:10.034 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 81.8748ms
+2021-01-24 13:45:10.038 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 85.2820ms
+2021-01-24 13:45:14.118 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467113964000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611463513964000 - -
+2021-01-24 13:45:14.121 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:45:14.126 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:45:14.147 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-24 13:45:14.160 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 26.9479ms
+2021-01-24 13:45:14.162 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:45:14.166 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467113964000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611463513964000 - - - 200 - application/json;+charset=utf-8 47.5105ms
+2021-01-24 13:53:37.704 +08:00 [INF] Starting web host.
+2021-01-24 13:53:41.652 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-24 13:53:41.783 +08:00 [INF] Loaded ABP modules:
+2021-01-24 13:53:41.785 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-24 13:53:41.787 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-24 13:53:41.788 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-24 13:53:41.789 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-24 13:53:41.790 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-24 13:53:41.791 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-24 13:53:41.792 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-24 13:53:41.793 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-24 13:53:41.794 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-24 13:53:41.795 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-24 13:53:41.796 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-24 13:53:41.797 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-24 13:53:41.798 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-24 13:53:41.800 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-24 13:53:41.802 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-24 13:53:41.803 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-24 13:53:41.805 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-24 13:53:41.806 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-24 13:53:41.807 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-24 13:53:41.808 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-24 13:53:41.809 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-24 13:53:41.810 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-24 13:53:41.811 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-24 13:53:41.812 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-24 13:53:41.813 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-24 13:53:41.814 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-24 13:53:41.816 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-24 13:53:41.818 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-24 13:53:41.819 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-24 13:53:41.820 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-24 13:53:41.822 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-24 13:53:41.823 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-24 13:53:41.825 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-24 13:53:41.826 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-24 13:53:41.827 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-24 13:53:41.829 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-24 13:53:41.830 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-24 13:53:41.832 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-24 13:53:41.833 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-24 13:53:41.835 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-24 13:53:41.836 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-24 13:53:41.838 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-24 13:53:41.839 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-24 13:53:41.840 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-24 13:53:41.842 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-24 13:53:41.843 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-24 13:53:42.609 +08:00 [INF] Initialized all ABP modules.
+2021-01-24 13:53:43.142 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-24 13:53:43.144 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-24 13:53:43.146 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-24 13:53:43.147 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-24 13:53:43.148 +08:00 [INF] Hosting environment: Development
+2021-01-24 13:53:43.150 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-24 13:54:00.084 +08:00 [INF] Starting web host.
+2021-01-24 13:54:04.012 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-24 13:54:04.148 +08:00 [INF] Loaded ABP modules:
+2021-01-24 13:54:04.150 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-24 13:54:04.151 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-24 13:54:04.152 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-24 13:54:04.153 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-24 13:54:04.154 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-24 13:54:04.155 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-24 13:54:04.156 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-24 13:54:04.157 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-24 13:54:04.158 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-24 13:54:04.159 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-24 13:54:04.160 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-24 13:54:04.162 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-24 13:54:04.163 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-24 13:54:04.164 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-24 13:54:04.165 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-24 13:54:04.166 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-24 13:54:04.167 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-24 13:54:04.168 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-24 13:54:04.169 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-24 13:54:04.171 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-24 13:54:04.172 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-24 13:54:04.174 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-24 13:54:04.175 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-24 13:54:04.177 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-24 13:54:04.179 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-24 13:54:04.180 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-24 13:54:04.183 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-24 13:54:04.186 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-24 13:54:04.188 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-24 13:54:04.191 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-24 13:54:04.194 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-24 13:54:04.198 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-24 13:54:04.201 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-24 13:54:04.204 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-24 13:54:04.205 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-24 13:54:04.207 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-24 13:54:04.209 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-24 13:54:04.211 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-24 13:54:04.212 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-24 13:54:04.214 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-24 13:54:04.216 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-24 13:54:04.218 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-24 13:54:04.220 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-24 13:54:04.222 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-24 13:54:04.224 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-24 13:54:04.226 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-24 13:54:04.972 +08:00 [INF] Initialized all ABP modules.
+2021-01-24 13:54:05.539 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-24 13:54:05.541 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-24 13:54:05.543 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-24 13:54:05.545 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-24 13:54:05.546 +08:00 [INF] Hosting environment: Development
+2021-01-24 13:54:05.547 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-24 13:55:20.479 +08:00 [INF] Starting web host.
+2021-01-24 13:55:24.320 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-24 13:55:24.445 +08:00 [INF] Loaded ABP modules:
+2021-01-24 13:55:24.447 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-24 13:55:24.448 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-24 13:55:24.449 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-24 13:55:24.450 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-24 13:55:24.451 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-24 13:55:24.452 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-24 13:55:24.453 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-24 13:55:24.454 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-24 13:55:24.456 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-24 13:55:24.457 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-24 13:55:24.458 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-24 13:55:24.460 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-24 13:55:24.461 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-24 13:55:24.462 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-24 13:55:24.463 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-24 13:55:24.464 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-24 13:55:24.465 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-24 13:55:24.466 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-24 13:55:24.467 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-24 13:55:24.468 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-24 13:55:24.469 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-24 13:55:24.470 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-24 13:55:24.471 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-24 13:55:24.473 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-24 13:55:24.474 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-24 13:55:24.475 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-24 13:55:24.476 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-24 13:55:24.477 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-24 13:55:24.479 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-24 13:55:24.480 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-24 13:55:24.481 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-24 13:55:24.482 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-24 13:55:24.484 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-24 13:55:24.485 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-24 13:55:24.486 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-24 13:55:24.488 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-24 13:55:24.489 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-24 13:55:24.491 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-24 13:55:24.492 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-24 13:55:24.493 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-24 13:55:24.495 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-24 13:55:24.496 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-24 13:55:24.497 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-24 13:55:24.498 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-24 13:55:24.500 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-24 13:55:24.501 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-24 13:55:25.301 +08:00 [INF] Initialized all ABP modules.
+2021-01-24 13:55:25.850 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-24 13:55:25.853 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-24 13:55:25.854 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-24 13:55:25.856 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-24 13:55:25.857 +08:00 [INF] Hosting environment: Development
+2021-01-24 13:55:25.859 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-24 13:55:35.036 +08:00 [INF] Starting web host.
+2021-01-24 13:55:39.160 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-24 13:55:39.287 +08:00 [INF] Loaded ABP modules:
+2021-01-24 13:55:39.289 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-01-24 13:55:39.291 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-01-24 13:55:39.292 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-01-24 13:55:39.294 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-01-24 13:55:39.295 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-01-24 13:55:39.296 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-01-24 13:55:39.297 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-01-24 13:55:39.298 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-01-24 13:55:39.299 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-01-24 13:55:39.300 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-01-24 13:55:39.301 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-01-24 13:55:39.302 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-01-24 13:55:39.303 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-01-24 13:55:39.304 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-01-24 13:55:39.305 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-01-24 13:55:39.306 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-01-24 13:55:39.307 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-01-24 13:55:39.308 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-01-24 13:55:39.309 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-01-24 13:55:39.310 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-01-24 13:55:39.311 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-01-24 13:55:39.312 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-01-24 13:55:39.313 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-01-24 13:55:39.314 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-01-24 13:55:39.315 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-01-24 13:55:39.317 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-01-24 13:55:39.318 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-01-24 13:55:39.319 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-01-24 13:55:39.320 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-01-24 13:55:39.322 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-01-24 13:55:39.323 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-01-24 13:55:39.325 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-01-24 13:55:39.327 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-01-24 13:55:39.328 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-01-24 13:55:39.330 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-01-24 13:55:39.331 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-01-24 13:55:39.333 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-01-24 13:55:39.335 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-01-24 13:55:39.336 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-01-24 13:55:39.338 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-01-24 13:55:39.339 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-01-24 13:55:39.341 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-01-24 13:55:39.342 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-01-24 13:55:39.344 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-01-24 13:55:39.346 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-01-24 13:55:39.347 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-01-24 13:55:40.103 +08:00 [INF] Initialized all ABP modules.
+2021-01-24 13:55:40.682 +08:00 [INF] Now listening on: http://[::]:14250
+2021-01-24 13:55:40.683 +08:00 [INF] Now listening on: http://[::]:16686
+2021-01-24 13:55:40.685 +08:00 [INF] Now listening on: https://[::]:4433
+2021-01-24 13:55:40.688 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-24 13:55:40.690 +08:00 [INF] Hosting environment: Development
+2021-01-24 13:55:40.692 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-01-24 13:55:40.815 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-01-24 13:55:40.893 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-24 13:55:40.913 +08:00 [DBG] Reading message.
+2021-01-24 13:55:41.953 +08:00 [INF] get one trace message,trace id:0ce2c9b5454e6f51
+2021-01-24 13:55:41.954 +08:00 [INF] spans id:
+2021-01-24 13:55:41.957 +08:00 [INF] 3eb7897ffef63978
+af92622addd5e358
+0ce2c9b5454e6f51
+2021-01-24 13:55:42.377 +08:00 [DBG] Sending message.
+2021-01-24 13:55:42.387 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-01-24 13:55:42.397 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1584.1596ms
+2021-01-24 13:55:52.435 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467752197000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611464152197000 - -
+2021-01-24 13:55:52.441 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:55:52.596 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:55:53.175 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-24 13:55:53.257 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 650.5868ms
+2021-01-24 13:55:53.263 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:55:53.266 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467752197000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611464152197000 - - - 200 - application/json;+charset=utf-8 830.7864ms
+2021-01-24 13:56:03.224 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-01-24 13:56:03.224 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-01-24 13:56:03.229 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:56:03.229 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:56:03.239 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:56:03.239 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:56:03.289 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:56:03.296 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 50.1176ms
+2021-01-24 13:56:03.301 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-01-24 13:56:03.304 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 80.0079ms
+2021-01-24 13:56:03.316 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-24 13:56:03.320 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 65.6527ms
+2021-01-24 13:56:03.322 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-01-24 13:56:03.325 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 101.0057ms
+2021-01-24 13:56:06.382 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-01-24 13:56:06.382 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-01-24 13:56:06.406 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-01-24 13:56:06.407 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-01-24 13:56:06.451 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-01-24 13:56:06.472 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 80.4832ms
+2021-01-24 13:56:06.474 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-01-24 13:56:06.479 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 97.0575ms
+2021-01-24 13:56:06.974 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-01-24 13:56:06.979 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 572.2745ms
+2021-01-24 13:56:07.970 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-01-24 13:56:07.973 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 1567.3599ms
+2021-01-24 13:56:09.045 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467769041000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611464169041000 - -
+2021-01-24 13:56:09.047 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:56:09.050 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-01-24 13:56:09.075 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-24 13:56:09.085 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 27.3013ms
+2021-01-24 13:56:09.091 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-01-24 13:56:09.094 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1611467769041000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1611464169041000 - - - 200 - application/json;+charset=utf-8 49.1229ms

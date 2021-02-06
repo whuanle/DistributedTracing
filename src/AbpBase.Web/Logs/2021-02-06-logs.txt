@@ -1,0 +1,1457 @@
+2021-02-06 19:12:26.106 +08:00 [INF] Starting web host.
+2021-02-06 19:12:38.465 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 19:12:38.601 +08:00 [INF] Loaded ABP modules:
+2021-02-06 19:12:38.604 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 19:12:38.605 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 19:12:38.606 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 19:12:38.607 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 19:12:38.608 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 19:12:38.609 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 19:12:38.610 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 19:12:38.611 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 19:12:38.612 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 19:12:38.613 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 19:12:38.614 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 19:12:38.615 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 19:12:38.616 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 19:12:38.617 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 19:12:38.618 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 19:12:38.619 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 19:12:38.620 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 19:12:38.621 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 19:12:38.622 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 19:12:38.623 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 19:12:38.626 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 19:12:38.628 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 19:12:38.629 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 19:12:38.630 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 19:12:38.631 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 19:12:38.632 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 19:12:38.633 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 19:12:38.635 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 19:12:38.636 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 19:12:38.638 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 19:12:38.639 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 19:12:38.643 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 19:12:38.645 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 19:12:38.646 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 19:12:38.648 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 19:12:38.649 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 19:12:38.651 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 19:12:38.652 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 19:12:38.654 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 19:12:38.655 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 19:12:38.659 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 19:12:38.661 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 19:12:38.662 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 19:12:38.663 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 19:12:38.665 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 19:12:38.666 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 19:12:40.463 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 19:12:41.019 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 19:12:41.023 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 19:12:41.025 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 19:12:41.027 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 19:12:41.029 +08:00 [INF] Hosting environment: Development
+2021-02-06 19:12:41.030 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 19:12:44.983 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.013 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.013 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.158 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.158 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.158 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.194 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.194 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.194 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.492 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.502 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.506 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.506 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.508 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.534 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.536 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.536 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.546 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.546 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:45.552 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.553 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.555 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.559 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:45.561 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.564 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.566 +08:00 [DBG] Reading message.
+2021-02-06 19:12:45.568 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.071 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.076 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.079 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.500 +08:00 [INF] get one trace message,trace id:1927795186977207328
+2021-02-06 19:12:46.500 +08:00 [INF] get one trace message,trace id:-9174577685520459175
+2021-02-06 19:12:46.500 +08:00 [INF] get one trace message,trace id:5024554670063959493
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:-8620320423023842036
+2021-02-06 19:12:46.500 +08:00 [INF] get one trace message,trace id:-4374247683370426564
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:-9105162192373864646
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:-9174577685520459175
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:-8110658679386416375
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:4550753682163836942
+2021-02-06 19:12:46.501 +08:00 [INF] get one trace message,trace id:-2582170868030975547
+2021-02-06 19:12:46.528 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.528 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.528 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.528 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.528 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.531 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.533 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.535 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.536 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.538 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.547 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.547 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.547 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.547 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.548 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.550 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.551 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.553 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.554 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.556 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.566 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1017.9275ms
+2021-02-06 19:12:46.566 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1028.6801ms
+2021-02-06 19:12:46.566 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1018.0423ms
+2021-02-06 19:12:46.568 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1075.9390ms
+2021-02-06 19:12:46.572 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1558.8974ms
+2021-02-06 19:12:46.574 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1597.1805ms
+2021-02-06 19:12:46.576 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1563.2255ms
+2021-02-06 19:12:46.578 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1076.7059ms
+2021-02-06 19:12:46.580 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1043.9696ms
+2021-02-06 19:12:46.582 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 511.0691ms
+2021-02-06 19:12:46.605 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.606 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.613 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.615 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.623 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.625 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.627 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.629 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.631 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.634 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.637 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.639 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.641 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.643 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.645 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.648 +08:00 [INF] get one trace message,trace id:1024905116146837449
+2021-02-06 19:12:46.650 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.654 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.656 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.665 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.669 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.671 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.673 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.675 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.678 +08:00 [INF] get one trace message,trace id:-7962376779045483982
+2021-02-06 19:12:46.679 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.682 +08:00 [INF] get one trace message,trace id:4774823844871772798
+2021-02-06 19:12:46.686 +08:00 [INF] get one trace message,trace id:6442343594967226525
+2021-02-06 19:12:46.689 +08:00 [INF] get one trace message,trace id:4790022118127925799
+2021-02-06 19:12:46.692 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.696 +08:00 [INF] get one trace message,trace id:1222225399710744624
+2021-02-06 19:12:46.701 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.703 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.707 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.708 +08:00 [INF] get one trace message,trace id:6482073650880830623
+2021-02-06 19:12:46.710 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.712 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.718 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 105.3986ms
+2021-02-06 19:12:46.720 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.723 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.725 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.727 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.729 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.732 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.735 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.737 +08:00 [INF] get one trace message,trace id:1608049389350861274
+2021-02-06 19:12:46.740 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 125.7520ms
+2021-02-06 19:12:46.742 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.744 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.748 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 124.6254ms
+2021-02-06 19:12:46.750 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.752 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 147.1054ms
+2021-02-06 19:12:46.756 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 149.0994ms
+2021-02-06 19:12:46.758 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.760 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.764 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.767 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 129.5407ms
+2021-02-06 19:12:46.769 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.771 +08:00 [INF] get one trace message,trace id:-8525633204966494471
+2021-02-06 19:12:46.773 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.775 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.776 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.780 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 154.7371ms
+2021-02-06 19:12:46.781 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.788 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.789 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.791 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.794 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.796 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.798 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.800 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.801 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.803 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.805 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 177.7404ms
+2021-02-06 19:12:46.806 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.810 +08:00 [INF] get one trace message,trace id:5746391508910257158
+2021-02-06 19:12:46.812 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.814 +08:00 [INF] get one trace message,trace id:-8864539913849595764
+2021-02-06 19:12:46.815 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.817 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.819 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.821 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.822 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 99.1016ms
+2021-02-06 19:12:46.824 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.828 +08:00 [INF] get one trace message,trace id:2330135881703777624
+2021-02-06 19:12:46.829 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.831 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.833 +08:00 [INF] get one trace message,trace id:6283890828963304118
+2021-02-06 19:12:46.835 +08:00 [INF] get one trace message,trace id:6393019835327638930
+2021-02-06 19:12:46.836 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.838 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.839 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.843 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.844 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.846 +08:00 [INF] get one trace message,trace id:-3036311485930725332
+2021-02-06 19:12:46.847 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.849 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.851 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.852 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.854 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 94.3722ms
+2021-02-06 19:12:46.856 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.860 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 91.1535ms
+2021-02-06 19:12:46.861 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.863 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.864 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.866 +08:00 [INF] get one trace message,trace id:5496170838660578422
+2021-02-06 19:12:46.868 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.869 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.871 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 96.4963ms
+2021-02-06 19:12:46.875 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.876 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.878 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 96.4427ms
+2021-02-06 19:12:46.880 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 91.8208ms
+2021-02-06 19:12:46.881 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.883 +08:00 [INF] get one trace message,trace id:3869210773361757253
+2021-02-06 19:12:46.885 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.887 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.893 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.898 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 98.2244ms
+2021-02-06 19:12:46.900 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.902 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.904 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.909 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.911 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.913 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.915 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.917 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.919 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.924 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.931 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 110.6830ms
+2021-02-06 19:12:46.934 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.939 +08:00 [INF] get one trace message,trace id:743065816506067153
+2021-02-06 19:12:46.941 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.943 +08:00 [INF] get one trace message,trace id:-7676526972731963394
+2021-02-06 19:12:46.945 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.947 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.949 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.950 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:46.955 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 117.4974ms
+2021-02-06 19:12:46.962 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.966 +08:00 [INF] get one trace message,trace id:-2886543614218929847
+2021-02-06 19:12:46.967 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.972 +08:00 [DBG] Reading message.
+2021-02-06 19:12:46.978 +08:00 [INF] get one trace message,trace id:-7106719651044546860
+2021-02-06 19:12:46.983 +08:00 [INF] get one trace message,trace id:-477640191180143875
+2021-02-06 19:12:46.987 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.991 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.994 +08:00 [DBG] Sending message.
+2021-02-06 19:12:46.995 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:46.998 +08:00 [INF] get one trace message,trace id:3564047147528187504
+2021-02-06 19:12:47.000 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.010 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.015 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.020 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 150.2521ms
+2021-02-06 19:12:47.023 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.029 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 154.4157ms
+2021-02-06 19:12:47.035 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.040 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.042 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.045 +08:00 [INF] get one trace message,trace id:-4602032206283525524
+2021-02-06 19:12:47.049 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.052 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 164.9130ms
+2021-02-06 19:12:47.054 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.056 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.058 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 157.9574ms
+2021-02-06 19:12:47.060 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 158.1983ms
+2021-02-06 19:12:47.065 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.071 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.074 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.076 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.081 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 163.9380ms
+2021-02-06 19:12:47.085 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.088 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.090 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.092 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.094 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.098 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.100 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.102 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.104 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.106 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 155.9117ms
+2021-02-06 19:12:47.109 +08:00 [INF] get one trace message,trace id:-746536113778915357
+2021-02-06 19:12:47.113 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.115 +08:00 [INF] get one trace message,trace id:-3047529533226524243
+2021-02-06 19:12:47.117 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.119 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.121 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.123 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.125 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.129 +08:00 [INF] get one trace message,trace id:7220947320970867773
+2021-02-06 19:12:47.130 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.132 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.135 +08:00 [INF] get one trace message,trace id:-9128805074760160450
+2021-02-06 19:12:47.136 +08:00 [INF] get one trace message,trace id:3669251781135587975
+2021-02-06 19:12:47.138 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.140 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.141 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.144 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.147 +08:00 [INF] get one trace message,trace id:-5723675129075847739
+2021-02-06 19:12:47.148 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.150 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.151 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.153 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 104.7886ms
+2021-02-06 19:12:47.155 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.157 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 103.4082ms
+2021-02-06 19:12:47.162 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.163 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.165 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.167 +08:00 [INF] get one trace message,trace id:-3129112885726321252
+2021-02-06 19:12:47.168 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.170 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 96.4245ms
+2021-02-06 19:12:47.172 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.174 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.177 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 92.3265ms
+2021-02-06 19:12:47.179 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 91.3523ms
+2021-02-06 19:12:47.181 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.184 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.188 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.190 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 89.6597ms
+2021-02-06 19:12:47.191 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.195 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.197 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.198 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.200 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.202 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.203 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.205 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.208 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.210 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.214 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 90.8546ms
+2021-02-06 19:12:47.216 +08:00 [INF] get one trace message,trace id:4864922580047368571
+2021-02-06 19:12:47.217 +08:00 [INF] get one trace message,trace id:5984784195733037312
+2021-02-06 19:12:47.219 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.220 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.224 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.226 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.227 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.229 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.230 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.232 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.234 +08:00 [INF] get one trace message,trace id:8254543555089747726
+2021-02-06 19:12:47.236 +08:00 [INF] get one trace message,trace id:-5829266799713392275
+2021-02-06 19:12:47.237 +08:00 [INF] get one trace message,trace id:2220275670863570510
+2021-02-06 19:12:47.241 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.242 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.244 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.245 +08:00 [INF] get one trace message,trace id:-2640281781739176690
+2021-02-06 19:12:47.247 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.248 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.250 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.251 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.255 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 86.5152ms
+2021-02-06 19:12:47.257 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 84.7000ms
+2021-02-06 19:12:47.258 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.260 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.261 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.263 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.265 +08:00 [INF] get one trace message,trace id:-2344833395754415948
+2021-02-06 19:12:47.266 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.268 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.271 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.273 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 82.4423ms
+2021-02-06 19:12:47.275 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 80.3687ms
+2021-02-06 19:12:47.277 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 80.4678ms
+2021-02-06 19:12:47.279 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.280 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.282 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.284 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 80.5085ms
+2021-02-06 19:12:47.288 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.293 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.294 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.296 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.300 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.303 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 75.8134ms
+2021-02-06 19:12:47.305 +08:00 [INF] get one trace message,trace id:3096384409662095721
+2021-02-06 19:12:47.307 +08:00 [INF] get one trace message,trace id:1651716389260532856
+2021-02-06 19:12:47.308 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.312 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.313 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.315 +08:00 [INF] get one trace message,trace id:-1107253998353193360
+2021-02-06 19:12:47.316 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.320 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.322 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.324 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 57.8179ms
+2021-02-06 19:12:47.326 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 57.9562ms
+2021-02-06 19:12:47.328 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.337 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 48.8516ms
+2021-02-06 19:12:47.395 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:12:47.398 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.401 +08:00 [DBG] Reading message.
+2021-02-06 19:12:47.408 +08:00 [INF] get one trace message,trace id:-4602032206283525524
+2021-02-06 19:12:47.412 +08:00 [DBG] Sending message.
+2021-02-06 19:12:47.420 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:12:47.425 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 29.8332ms
+2021-02-06 19:13:05.923 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:13:06.013 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:13:06.017 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 93.8393ms
+2021-02-06 19:13:06.181 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:13:06.213 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - -
+2021-02-06 19:13:06.213 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:13:06.213 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - -
+2021-02-06 19:13:06.370 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:13:06.370 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:13:06.377 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 164.2957ms
+2021-02-06 19:13:06.382 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 201.2139ms
+2021-02-06 19:13:07.094 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js'
+2021-02-06 19:13:07.097 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - - - 200 2161777 application/javascript 884.0729ms
+2021-02-06 19:13:07.217 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js'
+2021-02-06 19:13:07.221 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - - - 200 2475934 application/javascript 1008.1483ms
+2021-02-06 19:13:08.030 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:13:08.030 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - -
+2021-02-06 19:13:08.033 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:13:08.035 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:13:08.041 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - -
+2021-02-06 19:13:08.159 +08:00 [INF] Sending file. Request path: '/static/media/jaeger-logo.a7093b12.svg'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\media\jaeger-logo.a7093b12.svg'
+2021-02-06 19:13:08.163 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - - - 200 161920 image/svg+xml 122.3166ms
+2021-02-06 19:13:08.194 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:13:08.200 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:13:08.928 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)
+Source:    MongoDB.Driver
+TargetSite:    MongoDB.Driver.RenderedFieldDefinition`1[TField] Render(MongoDB.Bson.Serialization.IBsonSerializer`1[TDocument], MongoDB.Bson.Serialization.IBsonSerializerRegistry, Boolean)
+InnerException:    
+Message:    Unable to determine the serialization information for a => "Process.ServiceName".
+HelpLink:    
+
+2021-02-06 19:13:09.121 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-06 19:13:09.144 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 936.248ms
+2021-02-06 19:13:09.147 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:13:09.150 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 69 application/json;+charset=utf-8 1120.5021ms
+2021-02-06 19:13:10.433 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-06 19:13:10.439 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-06 19:13:10.442 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 2235.8729ms
+2021-02-06 19:13:10.447 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:13:10.449 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - - - 200 69 application/json;+charset=utf-8 2419.1216ms
+2021-02-06 19:18:33.134 +08:00 [INF] Starting web host.
+2021-02-06 19:18:37.242 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 19:18:37.374 +08:00 [INF] Loaded ABP modules:
+2021-02-06 19:18:37.377 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 19:18:37.378 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 19:18:37.380 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 19:18:37.381 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 19:18:37.382 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 19:18:37.383 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 19:18:37.384 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 19:18:37.385 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 19:18:37.386 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 19:18:37.387 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 19:18:37.388 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 19:18:37.389 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 19:18:37.390 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 19:18:37.391 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 19:18:37.392 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 19:18:37.393 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 19:18:37.393 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 19:18:37.394 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 19:18:37.395 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 19:18:37.396 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 19:18:37.400 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 19:18:37.401 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 19:18:37.402 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 19:18:37.403 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 19:18:37.404 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 19:18:37.405 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 19:18:37.407 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 19:18:37.409 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 19:18:37.410 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 19:18:37.412 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 19:18:37.415 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 19:18:37.417 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 19:18:37.419 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 19:18:37.420 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 19:18:37.423 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 19:18:37.424 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 19:18:37.426 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 19:18:37.428 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 19:18:37.431 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 19:18:37.433 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 19:18:37.435 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 19:18:37.437 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 19:18:37.438 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 19:18:37.440 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 19:18:37.441 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 19:18:37.443 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 19:18:38.173 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 19:18:38.688 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 19:18:38.691 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 19:18:38.695 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 19:18:38.698 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 19:18:38.703 +08:00 [INF] Hosting environment: Development
+2021-02-06 19:18:38.707 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 19:18:40.730 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:18:40.840 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 112.4327ms
+2021-02-06 19:18:42.715 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:18:42.719 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 3.8121ms
+2021-02-06 19:18:45.550 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:18:45.553 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 2.4320ms
+2021-02-06 19:18:51.532 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:18:51.535 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 3.4433ms
+2021-02-06 19:18:53.234 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:18:53.237 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 3.0591ms
+2021-02-06 19:18:59.775 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:18:59.805 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:18:59.808 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 33.0304ms
+2021-02-06 19:18:59.853 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:18:59.855 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - -
+2021-02-06 19:18:59.855 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - -
+2021-02-06 19:18:59.855 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:18:59.882 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:18:59.882 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:18:59.890 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 35.0534ms
+2021-02-06 19:18:59.898 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 44.1092ms
+2021-02-06 19:19:00.323 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js'
+2021-02-06 19:19:00.327 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js - - - 200 2161777 application/javascript 471.9469ms
+2021-02-06 19:19:00.338 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js'
+2021-02-06 19:19:00.342 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js - - - 200 2475934 application/javascript 486.3254ms
+2021-02-06 19:19:00.755 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:19:00.755 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - -
+2021-02-06 19:19:00.763 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:19:00.763 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:19:00.771 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - -
+2021-02-06 19:19:00.779 +08:00 [INF] Sending file. Request path: '/static/media/jaeger-logo.a7093b12.svg'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\media\jaeger-logo.a7093b12.svg'
+2021-02-06 19:19:00.787 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - - - 200 161920 image/svg+xml 16.1935ms
+2021-02-06 19:19:00.958 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:19:00.964 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:19:01.137 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-02-06 19:19:01.157 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-02-06 19:19:01.160 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 24.0457ms
+2021-02-06 19:28:23.127 +08:00 [INF] Starting web host.
+2021-02-06 19:28:27.375 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 19:28:27.512 +08:00 [INF] Loaded ABP modules:
+2021-02-06 19:28:27.514 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 19:28:27.516 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 19:28:27.517 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 19:28:27.518 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 19:28:27.519 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 19:28:27.520 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 19:28:27.521 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 19:28:27.522 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 19:28:27.525 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 19:28:27.527 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 19:28:27.528 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 19:28:27.529 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 19:28:27.530 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 19:28:27.531 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 19:28:27.532 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 19:28:27.534 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 19:28:27.535 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 19:28:27.536 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 19:28:27.537 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 19:28:27.542 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 19:28:27.543 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 19:28:27.544 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 19:28:27.546 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 19:28:27.547 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 19:28:27.549 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 19:28:27.550 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 19:28:27.553 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 19:28:27.558 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 19:28:27.562 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 19:28:27.566 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 19:28:27.568 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 19:28:27.571 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 19:28:27.573 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 19:28:27.575 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 19:28:27.577 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 19:28:27.579 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 19:28:27.580 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 19:28:27.582 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 19:28:27.584 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 19:28:27.589 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 19:28:27.596 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 19:28:27.599 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 19:28:27.605 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 19:28:27.611 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 19:28:27.615 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 19:28:27.621 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 19:28:28.392 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 19:28:28.935 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 19:28:28.937 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 19:28:28.940 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 19:28:28.942 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 19:28:28.943 +08:00 [INF] Hosting environment: Development
+2021-02-06 19:28:28.945 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 19:28:32.651 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:28:32.746 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 98.0154ms
+2021-02-06 19:28:34.649 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:28:34.652 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 3.1531ms
+2021-02-06 19:28:39.756 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:28:39.802 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:28:39.808 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 51.6444ms
+2021-02-06 19:28:39.860 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:28:39.864 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:28:39.889 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:28:39.890 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:28:39.898 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 33.7443ms
+2021-02-06 19:28:39.903 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 43.4612ms
+2021-02-06 19:28:40.381 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:28:40.382 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - -
+2021-02-06 19:28:40.390 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:28:40.390 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:28:40.564 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:28:40.568 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:28:40.746 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-02-06 19:28:40.749 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-02-06 19:28:40.753 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 7.1338ms
+2021-02-06 19:28:42.710 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-06 19:28:43.115 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-06 19:28:43.180 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 2603.9705ms
+2021-02-06 19:28:43.184 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:28:43.188 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 2807.1204ms
+2021-02-06 19:28:43.269 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-06 19:28:43.277 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 2663.2882ms
+2021-02-06 19:28:43.284 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:28:43.288 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - - - 200 69 application/json;+charset=utf-8 2906.0609ms
+2021-02-06 19:29:04.244 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:29:04.246 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 2.2793ms
+2021-02-06 19:29:05.580 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/search - -
+2021-02-06 19:29:05.584 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/search - - - 404 0 - 4.4179ms
+2021-02-06 19:29:06.828 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/search - -
+2021-02-06 19:29:06.830 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/search - - - 404 0 - 2.7175ms
+2021-02-06 19:29:09.298 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:29:09.303 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:29:09.314 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 16.1425ms
+2021-02-06 19:29:09.368 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:29:09.378 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:29:09.409 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:29:09.409 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:29:09.413 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 35.7504ms
+2021-02-06 19:29:09.419 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 50.7404ms
+2021-02-06 19:29:09.733 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:29:09.734 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - -
+2021-02-06 19:29:09.737 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:29:09.740 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:29:09.751 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:29:09.752 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:29:13.204 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-02-06 19:39:10.022 +08:00 [INF] Starting web host.
+2021-02-06 19:39:14.121 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 19:39:14.256 +08:00 [INF] Loaded ABP modules:
+2021-02-06 19:39:14.259 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 19:39:14.260 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 19:39:14.261 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 19:39:14.262 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 19:39:14.263 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 19:39:14.265 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 19:39:14.266 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 19:39:14.267 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 19:39:14.268 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 19:39:14.269 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 19:39:14.270 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 19:39:14.273 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 19:39:14.273 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 19:39:14.274 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 19:39:14.275 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 19:39:14.276 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 19:39:14.277 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 19:39:14.278 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 19:39:14.279 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 19:39:14.280 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 19:39:14.281 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 19:39:14.282 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 19:39:14.283 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 19:39:14.284 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 19:39:14.285 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 19:39:14.286 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 19:39:14.293 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 19:39:14.295 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 19:39:14.296 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 19:39:14.298 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 19:39:14.299 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 19:39:14.301 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 19:39:14.303 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 19:39:14.305 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 19:39:14.307 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 19:39:14.308 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 19:39:14.310 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 19:39:14.312 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 19:39:14.313 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 19:39:14.315 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 19:39:14.316 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 19:39:14.318 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 19:39:14.321 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 19:39:14.323 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 19:39:14.324 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 19:39:14.326 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 19:39:15.058 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 19:39:15.541 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 19:39:15.543 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 19:39:15.546 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 19:39:15.549 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 19:39:15.551 +08:00 [INF] Hosting environment: Development
+2021-02-06 19:39:15.554 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 19:39:23.842 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:39:23.892 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:39:23.898 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 58.4417ms
+2021-02-06 19:39:23.944 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:39:23.944 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:39:23.977 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:39:23.977 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:39:23.984 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 40.3667ms
+2021-02-06 19:39:23.990 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 46.2073ms
+2021-02-06 19:39:24.438 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:39:24.446 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - -
+2021-02-06 19:39:24.557 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:39:24.557 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:39:24.691 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:39:24.697 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:39:24.829 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-02-06 19:39:24.833 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-02-06 19:39:24.837 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 8.0297ms
+2021-02-06 19:39:34.929 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-06 19:39:36.364 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-06 19:39:36.384 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 11680.8166ms
+2021-02-06 19:39:36.393 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:39:36.407 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 11968.5096ms
+2021-02-06 19:39:36.520 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-06 19:39:36.526 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 11822.9917ms
+2021-02-06 19:39:36.530 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:39:36.535 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/JaegerTestWeb1/operations - - - 200 69 application/json;+charset=utf-8 12088.7607ms
+2021-02-06 19:39:48.507 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-06 19:39:48.512 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:39:48.520 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:39:48.540 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-06 19:39:48.546 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 20.8054ms
+2021-02-06 19:39:48.553 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:39:48.556 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 48.5323ms
+2021-02-06 19:39:49.861 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611589856000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612607989856000 - -
+2021-02-06 19:39:49.863 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:39:49.875 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:39:50.546 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-06 19:39:50.608 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 725.6608ms
+2021-02-06 19:39:50.612 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:39:50.614 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611589856000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612607989856000 - - - 200 - application/json;+charset=utf-8 753.1285ms
+2021-02-06 19:40:05.856 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-02-06 19:40:05.856 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:40:05.856 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-02-06 19:40:05.856 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:40:05.866 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:40:05.874 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 18.7657ms
+2021-02-06 19:40:05.875 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:40:05.884 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 28.5112ms
+2021-02-06 19:40:06.748 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-02-06 19:40:06.751 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 895.9991ms
+2021-02-06 19:40:06.903 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-02-06 19:40:06.903 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-02-06 19:40:06.974 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-02-06 19:40:06.978 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 75.0408ms
+2021-02-06 19:40:07.061 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-02-06 19:40:07.065 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 161.7221ms
+2021-02-06 19:40:07.608 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-02-06 19:40:07.613 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 1757.1057ms
+2021-02-06 19:40:15.301 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611615170000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608015170000 - -
+2021-02-06 19:40:15.305 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:40:15.307 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:40:15.709 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-06 19:40:15.746 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 434.8112ms
+2021-02-06 19:40:15.749 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:40:15.752 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611615170000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608015170000 - - - 200 - application/json;+charset=utf-8 450.4261ms
+2021-02-06 19:42:35.853 +08:00 [INF] Starting web host.
+2021-02-06 19:42:40.014 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 19:42:40.151 +08:00 [INF] Loaded ABP modules:
+2021-02-06 19:42:40.152 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 19:42:40.153 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 19:42:40.154 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 19:42:40.155 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 19:42:40.156 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 19:42:40.157 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 19:42:40.158 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 19:42:40.159 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 19:42:40.160 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 19:42:40.161 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 19:42:40.162 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 19:42:40.163 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 19:42:40.164 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 19:42:40.166 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 19:42:40.167 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 19:42:40.168 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 19:42:40.170 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 19:42:40.170 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 19:42:40.171 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 19:42:40.172 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 19:42:40.173 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 19:42:40.174 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 19:42:40.175 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 19:42:40.176 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 19:42:40.177 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 19:42:40.178 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 19:42:40.183 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 19:42:40.185 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 19:42:40.186 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 19:42:40.188 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 19:42:40.189 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 19:42:40.191 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 19:42:40.193 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 19:42:40.195 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 19:42:40.198 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 19:42:40.200 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 19:42:40.202 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 19:42:40.203 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 19:42:40.205 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 19:42:40.207 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 19:42:40.208 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 19:42:40.210 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 19:42:40.211 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 19:42:40.214 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 19:42:40.216 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 19:42:40.218 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 19:42:40.962 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 19:42:41.455 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 19:42:41.457 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 19:42:41.460 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 19:42:41.464 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 19:42:41.467 +08:00 [INF] Hosting environment: Development
+2021-02-06 19:42:41.468 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 19:42:43.079 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.158 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.199 +08:00 [DBG] Reading message.
+2021-02-06 19:42:43.657 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.657 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.661 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.661 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.663 +08:00 [DBG] Reading message.
+2021-02-06 19:42:43.665 +08:00 [DBG] Reading message.
+2021-02-06 19:42:43.806 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.828 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.837 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.847 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.849 +08:00 [DBG] Reading message.
+2021-02-06 19:42:43.856 +08:00 [DBG] Reading message.
+2021-02-06 19:42:43.985 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.985 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:43.988 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.990 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:43.997 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.006 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.144 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.146 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.148 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.160 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.162 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.164 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:3359744420130065409
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:-2161399678981594723
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:447987940051790693
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:4321521802012766219
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:-2347969196890753850
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:4797001118089261519
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:4797001118089261519
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:7481603548745705636
+2021-02-06 19:42:44.219 +08:00 [INF] get one trace message,trace id:-1275515000627324903
+2021-02-06 19:42:44.244 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.244 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.245 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.248 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.252 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.254 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.258 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.260 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.261 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.271 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.271 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.271 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.271 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.273 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.275 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.277 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.279 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.281 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.288 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 629.2531ms
+2021-02-06 19:42:44.288 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 301.2532ms
+2021-02-06 19:42:44.289 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 632.0295ms
+2021-02-06 19:42:44.294 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 309.1108ms
+2021-02-06 19:42:44.301 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1225.3379ms
+2021-02-06 19:42:44.333 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.334 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 528.4090ms
+2021-02-06 19:42:44.339 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.342 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 514.1212ms
+2021-02-06 19:42:44.344 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 183.5789ms
+2021-02-06 19:42:44.345 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 201.5906ms
+2021-02-06 19:42:44.348 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.349 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.356 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.363 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.365 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.369 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.371 +08:00 [INF] get one trace message,trace id:7858350462114673235
+2021-02-06 19:42:44.372 +08:00 [INF] get one trace message,trace id:2904820711017401656
+2021-02-06 19:42:44.373 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.375 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.377 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.380 +08:00 [INF] get one trace message,trace id:7481603548745705636
+2021-02-06 19:42:44.380 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.382 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.385 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.387 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 53.8018ms
+2021-02-06 19:42:44.389 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 50.2829ms
+2021-02-06 19:42:44.390 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.395 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 47.7876ms
+2021-02-06 19:42:44.465 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.465 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.469 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.477 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.487 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.495 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.501 +08:00 [INF] get one trace message,trace id:-6691995662342854708
+2021-02-06 19:42:44.509 +08:00 [INF] get one trace message,trace id:2901818780261894601
+2021-02-06 19:42:44.518 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.523 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.534 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.539 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.553 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 87.8196ms
+2021-02-06 19:42:44.560 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 95.0657ms
+2021-02-06 19:42:44.605 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.605 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.610 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.615 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.624 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.631 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.643 +08:00 [INF] get one trace message,trace id:6142818874034737697
+2021-02-06 19:42:44.657 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.658 +08:00 [INF] get one trace message,trace id:1847386920960863333
+2021-02-06 19:42:44.664 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.672 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.674 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 69.3818ms
+2021-02-06 19:42:44.676 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.680 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 75.8102ms
+2021-02-06 19:42:44.729 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.729 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.731 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.733 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.735 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.737 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.739 +08:00 [INF] get one trace message,trace id:-6278137772132857905
+2021-02-06 19:42:44.741 +08:00 [INF] get one trace message,trace id:9073888149173299513
+2021-02-06 19:42:44.742 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.745 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.747 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.748 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.750 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 21.4780ms
+2021-02-06 19:42:44.753 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 24.2806ms
+2021-02-06 19:42:44.871 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.871 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:44.874 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.875 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.878 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.880 +08:00 [DBG] Reading message.
+2021-02-06 19:42:44.882 +08:00 [INF] get one trace message,trace id:-7146286852467777776
+2021-02-06 19:42:44.884 +08:00 [INF] get one trace message,trace id:8686515068247919643
+2021-02-06 19:42:44.885 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.889 +08:00 [DBG] Sending message.
+2021-02-06 19:42:44.890 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.892 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:44.894 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 23.1284ms
+2021-02-06 19:42:44.896 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 25.1417ms
+2021-02-06 19:42:44.998 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.003 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.007 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.011 +08:00 [INF] get one trace message,trace id:6914915863743616476
+2021-02-06 19:42:45.013 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.015 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.020 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.023 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.026 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.029 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.032 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 34.5283ms
+2021-02-06 19:42:45.035 +08:00 [INF] get one trace message,trace id:-4053500420720733761
+2021-02-06 19:42:45.036 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.039 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.041 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.045 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.047 +08:00 [INF] get one trace message,trace id:8790518994179602353
+2021-02-06 19:42:45.049 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 35.4039ms
+2021-02-06 19:42:45.050 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.054 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.057 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 27.7684ms
+2021-02-06 19:42:45.076 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.079 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.082 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.084 +08:00 [INF] get one trace message,trace id:8790518994179602353
+2021-02-06 19:42:45.085 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.087 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.089 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 12.8654ms
+2021-02-06 19:42:45.092 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.095 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.097 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.099 +08:00 [INF] get one trace message,trace id:7357427827570142653
+2021-02-06 19:42:45.101 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.103 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.106 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 13.5490ms
+2021-02-06 19:42:45.204 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.206 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.209 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.211 +08:00 [INF] get one trace message,trace id:2148778398976148543
+2021-02-06 19:42:45.213 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.214 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.217 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 12.6630ms
+2021-02-06 19:42:45.220 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.227 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.234 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.240 +08:00 [INF] get one trace message,trace id:-6874364186796846033
+2021-02-06 19:42:45.241 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.243 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.245 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 25.2669ms
+2021-02-06 19:42:45.299 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.299 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.304 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.307 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.309 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.311 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.313 +08:00 [INF] get one trace message,trace id:-2165911005574596254
+2021-02-06 19:42:45.316 +08:00 [INF] get one trace message,trace id:6318140830821449795
+2021-02-06 19:42:45.318 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.319 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.321 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.322 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.325 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 25.4264ms
+2021-02-06 19:42:45.327 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 27.6349ms
+2021-02-06 19:42:45.411 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.411 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 19:42:45.417 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.424 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.438 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.446 +08:00 [DBG] Reading message.
+2021-02-06 19:42:45.453 +08:00 [INF] get one trace message,trace id:-8542981504225622508
+2021-02-06 19:42:45.460 +08:00 [INF] get one trace message,trace id:-8831241190058183356
+2021-02-06 19:42:45.463 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.466 +08:00 [DBG] Sending message.
+2021-02-06 19:42:45.470 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.475 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 19:42:45.481 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 69.9657ms
+2021-02-06 19:42:45.484 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 73.3808ms
+2021-02-06 19:44:47.018 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/ - -
+2021-02-06 19:44:47.022 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/ - - - 404 0 - 3.9090ms
+2021-02-06 19:44:49.409 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/search?end=1612611615170000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608015170000 - -
+2021-02-06 19:44:49.414 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/search?end=1612611615170000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608015170000 - - - 404 0 - 4.8766ms
+2021-02-06 19:44:53.988 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-06 19:44:54.006 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-06 19:44:54.009 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 20.6535ms
+2021-02-06 19:44:54.516 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-06 19:44:54.517 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-06 19:44:54.520 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:44:54.528 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:44:54.702 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:44:54.709 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:44:54.823 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-06 19:44:54.855 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-06 19:44:54.916 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 193.33ms
+2021-02-06 19:44:54.916 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 171.1002ms
+2021-02-06 19:44:54.920 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-06 19:44:54.922 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-06 19:44:54.926 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 409.9845ms
+2021-02-06 19:44:54.927 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 409.7994ms
+2021-02-06 19:44:58.781 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611898658000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608298658000 - -
+2021-02-06 19:44:58.785 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:44:58.795 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:44:59.373 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-06 19:44:59.452 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 650.058ms
+2021-02-06 19:44:59.454 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:44:59.457 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611898658000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608298658000 - - - 200 - application/json;+charset=utf-8 676.1793ms
+2021-02-06 19:45:02.024 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - -
+2021-02-06 19:45:02.024 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - -
+2021-02-06 19:45:02.095 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css'
+2021-02-06 19:45:02.097 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css'
+2021-02-06 19:45:02.099 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css - - - 200 45958 text/css 75.0389ms
+2021-02-06 19:45:02.104 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css - - - 200 306397 text/css 80.2699ms
+2021-02-06 19:45:02.191 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-02-06 19:45:02.197 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-02-06 19:45:02.211 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-02-06 19:45:02.213 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-02-06 19:45:02.239 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-02-06 19:45:02.249 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 37.5454ms
+2021-02-06 19:45:02.261 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-02-06 19:45:02.270 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 56.3427ms
+2021-02-06 19:45:02.782 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-02-06 19:45:02.819 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 622.8956ms
+2021-02-06 19:45:03.109 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-02-06 19:45:03.114 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 923.3374ms
+2021-02-06 19:45:05.786 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611905774000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608305774000 - -
+2021-02-06 19:45:05.789 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:45:05.793 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:45:05.939 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-06 19:45:05.990 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 189.0344ms
+2021-02-06 19:45:05.993 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:45:05.999 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611905774000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608305774000 - - - 200 - application/json;+charset=utf-8 211.8803ms
+2021-02-06 19:45:24.294 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611924160000&limit=1&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608324160000 - -
+2021-02-06 19:45:24.298 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:45:24.302 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-06 19:45:24.322 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-06 19:45:24.333 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 23.156ms
+2021-02-06 19:45:24.338 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-06 19:45:24.341 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1612611924160000&limit=1&lookback=1h&maxDuration&minDuration&service=hello-world&start=1612608324160000 - - - 200 - application/json;+charset=utf-8 46.4161ms
+2021-02-06 21:02:19.330 +08:00 [INF] Starting web host.
+2021-02-06 21:02:23.294 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 21:02:23.446 +08:00 [INF] Loaded ABP modules:
+2021-02-06 21:02:23.447 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 21:02:23.448 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 21:02:23.449 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 21:02:23.450 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 21:02:23.451 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 21:02:23.452 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 21:02:23.453 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 21:02:23.454 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 21:02:23.455 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 21:02:23.479 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 21:02:23.480 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 21:02:23.481 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 21:02:23.482 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 21:02:23.483 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 21:02:23.484 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 21:02:23.485 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 21:02:23.486 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 21:02:23.487 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 21:02:23.488 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 21:02:23.491 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 21:02:23.492 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 21:02:23.493 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 21:02:23.494 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 21:02:23.495 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 21:02:23.496 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 21:02:23.497 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 21:02:23.499 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 21:02:23.501 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 21:02:23.502 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 21:02:23.507 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 21:02:23.509 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 21:02:23.511 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 21:02:23.513 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 21:02:23.515 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 21:02:23.518 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 21:02:23.521 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 21:02:23.523 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 21:02:23.524 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 21:02:23.526 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 21:02:23.527 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 21:02:23.529 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 21:02:23.530 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 21:02:23.532 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 21:02:23.533 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 21:02:23.535 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 21:02:23.538 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 21:02:24.276 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 21:02:24.785 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 21:02:24.787 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 21:02:24.791 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 21:02:24.794 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 21:02:24.796 +08:00 [INF] Hosting environment: Development
+2021-02-06 21:02:24.799 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 21:05:12.064 +08:00 [INF] Starting web host.
+2021-02-06 21:05:15.982 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 21:05:16.155 +08:00 [INF] Loaded ABP modules:
+2021-02-06 21:05:16.157 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 21:05:16.158 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 21:05:16.159 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 21:05:16.160 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 21:05:16.161 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 21:05:16.163 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 21:05:16.164 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 21:05:16.165 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 21:05:16.166 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 21:05:16.167 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 21:05:16.168 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 21:05:16.170 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 21:05:16.171 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 21:05:16.172 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 21:05:16.173 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 21:05:16.174 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 21:05:16.175 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 21:05:16.176 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 21:05:16.179 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 21:05:16.180 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 21:05:16.181 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 21:05:16.182 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 21:05:16.184 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 21:05:16.185 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 21:05:16.186 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 21:05:16.187 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 21:05:16.189 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 21:05:16.191 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 21:05:16.196 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 21:05:16.198 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 21:05:16.199 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 21:05:16.201 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 21:05:16.202 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 21:05:16.204 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 21:05:16.205 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 21:05:16.207 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 21:05:16.208 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 21:05:16.212 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 21:05:16.213 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 21:05:16.229 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 21:05:16.230 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 21:05:16.232 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 21:05:16.234 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 21:05:16.235 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 21:05:16.237 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 21:05:16.239 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 21:05:16.957 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 21:05:17.428 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 21:05:17.431 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 21:05:17.433 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 21:05:17.435 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 21:05:17.436 +08:00 [INF] Hosting environment: Development
+2021-02-06 21:05:17.438 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 21:05:18.775 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:05:18.868 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:05:18.886 +08:00 [DBG] Reading message.
+2021-02-06 21:05:19.495 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:05:19.495 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:05:19.501 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:05:19.501 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:05:19.503 +08:00 [DBG] Reading message.
+2021-02-06 21:05:19.505 +08:00 [DBG] Reading message.
+2021-02-06 21:08:41.978 +08:00 [INF] Starting web host.
+2021-02-06 21:08:46.004 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 21:08:46.201 +08:00 [INF] Loaded ABP modules:
+2021-02-06 21:08:46.203 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 21:08:46.204 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 21:08:46.205 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 21:08:46.206 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 21:08:46.207 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 21:08:46.208 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 21:08:46.209 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 21:08:46.210 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 21:08:46.211 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 21:08:46.212 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 21:08:46.213 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 21:08:46.214 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 21:08:46.218 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 21:08:46.219 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 21:08:46.220 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 21:08:46.221 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 21:08:46.222 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 21:08:46.223 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 21:08:46.224 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 21:08:46.225 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 21:08:46.226 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 21:08:46.227 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 21:08:46.228 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 21:08:46.229 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 21:08:46.230 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 21:08:46.233 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 21:08:46.234 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 21:08:46.236 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 21:08:46.237 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 21:08:46.239 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 21:08:46.240 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 21:08:46.242 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 21:08:46.243 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 21:08:46.245 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 21:08:46.248 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 21:08:46.250 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 21:08:46.252 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 21:08:46.254 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 21:08:46.255 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 21:08:46.257 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 21:08:46.258 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 21:08:46.260 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 21:08:46.261 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 21:08:46.264 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 21:08:46.266 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 21:08:46.267 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 21:08:46.991 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 21:08:47.477 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 21:08:47.480 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 21:08:47.483 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 21:08:47.485 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 21:08:47.487 +08:00 [INF] Hosting environment: Development
+2021-02-06 21:08:47.489 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 21:08:53.567 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:08:53.640 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:08:53.658 +08:00 [DBG] Reading message.
+2021-02-06 21:08:53.723 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:08:53.723 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:08:53.736 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:08:53.738 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:08:53.743 +08:00 [DBG] Reading message.
+2021-02-06 21:08:53.745 +08:00 [DBG] Reading message.
+2021-02-06 21:10:46.453 +08:00 [INF] get one trace message,trace id:-1860026973217023662
+2021-02-06 21:10:46.453 +08:00 [INF] get one trace message,trace id:-8982586769509204700
+2021-02-06 21:10:46.453 +08:00 [INF] get one trace message,trace id:-8982586769509204700
+2021-02-06 21:10:46.487 +08:00 [DBG] Sending message.
+2021-02-06 21:10:46.487 +08:00 [DBG] Sending message.
+2021-02-06 21:10:46.487 +08:00 [DBG] Sending message.
+2021-02-06 21:10:46.497 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:10:46.497 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:10:46.497 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:10:46.507 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 112940.0951ms
+2021-02-06 21:10:46.507 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 112780.2858ms
+2021-02-06 21:10:46.507 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 112780.2848ms
+2021-02-06 21:11:01.504 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:11:01.508 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:11:01.512 +08:00 [DBG] Reading message.
+2021-02-06 21:11:15.947 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:11:15.946 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:11:35.604 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:12:30.418 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:12:31.601 +08:00 [DBG] Reading message.
+2021-02-06 21:12:45.574 +08:00 [DBG] Reading message.
+2021-02-06 21:13:09.888 +08:00 [INF] get one trace message,trace id:624791791477910544
+2021-02-06 21:16:51.925 +08:00 [INF] Starting web host.
+2021-02-06 21:16:56.149 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 21:16:56.277 +08:00 [INF] Loaded ABP modules:
+2021-02-06 21:16:56.279 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-06 21:16:56.280 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-06 21:16:56.281 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-06 21:16:56.282 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-06 21:16:56.283 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-06 21:16:56.284 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-06 21:16:56.285 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-06 21:16:56.286 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-06 21:16:56.287 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-06 21:16:56.289 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-06 21:16:56.290 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-06 21:16:56.291 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-06 21:16:56.292 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-06 21:16:56.293 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-06 21:16:56.294 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-06 21:16:56.295 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-06 21:16:56.296 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-06 21:16:56.297 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-06 21:16:56.298 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-06 21:16:56.299 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-06 21:16:56.300 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-06 21:16:56.301 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-06 21:16:56.302 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-06 21:16:56.303 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-06 21:16:56.305 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-06 21:16:56.306 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-06 21:16:56.308 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-06 21:16:56.309 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-06 21:16:56.311 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-06 21:16:56.312 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-06 21:16:56.314 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-06 21:16:56.315 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-06 21:16:56.317 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-06 21:16:56.319 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-06 21:16:56.324 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-06 21:16:56.326 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-06 21:16:56.327 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-06 21:16:56.329 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-06 21:16:56.330 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-06 21:16:56.332 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-06 21:16:56.333 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-06 21:16:56.335 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-06 21:16:56.338 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-06 21:16:56.340 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-06 21:16:56.341 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-06 21:16:56.343 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-06 21:16:57.185 +08:00 [INF] Initialized all ABP modules.
+2021-02-06 21:16:57.680 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-06 21:16:57.683 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-06 21:16:57.685 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-06 21:16:57.688 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-06 21:16:57.689 +08:00 [INF] Hosting environment: Development
+2021-02-06 21:16:57.691 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-06 21:17:08.769 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:17:08.844 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:17:08.862 +08:00 [DBG] Reading message.
+2021-02-06 21:17:09.247 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:17:09.247 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:17:09.253 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:17:09.254 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:17:09.258 +08:00 [DBG] Reading message.
+2021-02-06 21:17:09.259 +08:00 [DBG] Reading message.
+2021-02-06 21:19:10.312 +08:00 [INF] get one trace message,trace id:8469974998219771064
+2021-02-06 21:19:10.312 +08:00 [INF] get one trace message,trace id:6727471197192695200
+2021-02-06 21:19:10.312 +08:00 [INF] get one trace message,trace id:6727471197192695200
+2021-02-06 21:19:10.349 +08:00 [DBG] Sending message.
+2021-02-06 21:19:10.349 +08:00 [DBG] Sending message.
+2021-02-06 21:19:10.349 +08:00 [DBG] Sending message.
+2021-02-06 21:19:10.360 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:10.360 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:10.360 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:10.370 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 121121.7186ms
+2021-02-06 21:19:10.370 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 121121.8720ms
+2021-02-06 21:19:10.370 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 121602.8839ms
+2021-02-06 21:19:38.102 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:19:38.110 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:38.120 +08:00 [DBG] Reading message.
+2021-02-06 21:19:40.441 +08:00 [INF] get one trace message,trace id:-2979700218084858954
+2021-02-06 21:19:40.442 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:19:40.442 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:19:40.453 +08:00 [DBG] Sending message.
+2021-02-06 21:19:40.460 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:40.463 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:40.465 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:40.472 +08:00 [DBG] Reading message.
+2021-02-06 21:19:40.476 +08:00 [DBG] Reading message.
+2021-02-06 21:19:40.479 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 2376.6263ms
+2021-02-06 21:19:45.290 +08:00 [INF] get one trace message,trace id:-2979700218084858954
+2021-02-06 21:19:49.222 +08:00 [INF] get one trace message,trace id:-8656415170986055662
+2021-02-06 21:19:49.228 +08:00 [DBG] Sending message.
+2021-02-06 21:19:49.231 +08:00 [DBG] Sending message.
+2021-02-06 21:19:49.236 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:49.240 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:19:49.258 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 8816.0715ms
+2021-02-06 21:19:49.260 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 8818.3342ms
+2021-02-06 21:21:13.918 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:21:13.921 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:21:13.923 +08:00 [DBG] Reading message.
+2021-02-06 21:21:36.788 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:21:36.814 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-06 21:21:38.317 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:21:40.552 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-06 21:21:41.457 +08:00 [DBG] Reading message.
+2021-02-06 21:21:45.320 +08:00 [INF] get one trace message,trace id:-3308212168240592077
+2021-02-06 21:21:45.358 +08:00 [DBG] Reading message.
+2021-02-06 21:21:45.937 +08:00 [INF] get one trace message,trace id:-3308212168240592077
+2021-02-06 21:21:45.939 +08:00 [DBG] Sending message.
