@@ -1,15 +1,10 @@
 ﻿
-using CZGL.Tracing.Models;
+using CZGL.Tracing.Caches;
 using CZGL.Tracing.Services;
-using Jaeger.ApiV2;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CZGL.Tracing
 {
@@ -29,8 +24,7 @@ namespace CZGL.Tracing
                 option.Invoke(tracingOption);
             }
 
-            services.AddTransient<ITracingCacheDue, TracingCacheDue>();
-            services.AddTransient<TraceingCache>();
+            services.AddSingleton<ConcurrentCache>();
         }
 
         /// <summary>

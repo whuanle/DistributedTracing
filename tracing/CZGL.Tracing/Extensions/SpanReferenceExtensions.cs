@@ -17,9 +17,9 @@ namespace CZGL.Tracing.Extensions
         {
             return new SpanReference
             {
-                TraceId = TracingUtil.GetTraceId(spanRef.TraceId),
-                SpanId = TracingUtil.GetSpanId(spanRef.SpanId),
-                RefType = spanRef.RefType
+                TraceID = TracingUtil.GetTraceId(spanRef.TraceId),
+                SpanID = TracingUtil.GetSpanId(spanRef.SpanId),
+                RefType = spanRef.RefType == SpanRefType.ChildOf ? "CHILD_OF" : "Follows_From"
             };
         }
 
@@ -38,9 +38,9 @@ namespace CZGL.Tracing.Extensions
         {
             return new SpanRef
             {
-                TraceId = ByteString.CopyFrom(TraceId.FromString(span.TraceId).ToByteArray()),
-                SpanId = ByteString.CopyFrom(SpanId.FromString(span.SpanId).ToByteArray()),
-                RefType = span.RefType
+                TraceId = ByteString.CopyFrom(TraceId.FromString(span.TraceID).ToByteArray()),
+                SpanId = ByteString.CopyFrom(SpanId.FromString(span.SpanID).ToByteArray()),
+                RefType = span.RefType == "CHILD_OF" ? SpanRefType.ChildOf : SpanRefType.FollowsFrom
             };
         }
 

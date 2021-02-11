@@ -1,0 +1,319 @@
+2021-02-11 18:06:44.978 +08:00 [INF] Starting web host.
+2021-02-11 18:06:51.544 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 18:06:51.729 +08:00 [INF] Loaded ABP modules:
+2021-02-11 18:06:51.731 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-11 18:06:51.732 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-11 18:06:51.733 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-11 18:06:51.734 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-11 18:06:51.735 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-11 18:06:51.736 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-11 18:06:51.737 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-11 18:06:51.738 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-11 18:06:51.739 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-11 18:06:51.740 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-11 18:06:51.741 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-11 18:06:51.742 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-11 18:06:51.745 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-11 18:06:51.746 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-11 18:06:51.747 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-11 18:06:51.748 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-11 18:06:51.749 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-11 18:06:51.750 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-11 18:06:51.751 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-11 18:06:51.752 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-11 18:06:51.753 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-11 18:06:51.754 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-11 18:06:51.755 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-11 18:06:51.756 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-11 18:06:51.756 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-11 18:06:51.758 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-11 18:06:51.761 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-11 18:06:51.763 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-11 18:06:51.765 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-11 18:06:51.766 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-11 18:06:51.768 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-11 18:06:51.770 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-11 18:06:51.771 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-11 18:06:51.773 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-11 18:06:51.776 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-11 18:06:51.778 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-11 18:06:51.780 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-11 18:06:51.782 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-11 18:06:51.783 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-11 18:06:51.785 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-11 18:06:51.787 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-11 18:06:51.788 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-11 18:06:51.792 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-11 18:06:51.794 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-11 18:06:51.795 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-11 18:06:51.797 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-11 18:06:53.441 +08:00 [INF] Initialized all ABP modules.
+2021-02-11 18:06:54.150 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-11 18:06:54.153 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-11 18:06:54.154 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-11 18:06:54.157 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 18:06:54.158 +08:00 [INF] Hosting environment: Development
+2021-02-11 18:06:54.160 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-11 18:07:03.497 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038022976000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613034422976000 - -
+2021-02-11 18:07:03.662 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:07:03.909 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:07:06.253 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-11 18:07:06.347 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 2422.8781ms
+2021-02-11 18:07:06.352 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:07:06.361 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038022976000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613034422976000 - - - 200 - application/json;+charset=utf-8 2868.3999ms
+2021-02-11 18:10:23.439 +08:00 [INF] Starting web host.
+2021-02-11 18:10:27.218 +08:00 [INF] User profile is available. Using 'X:\Users\whuanle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 18:10:27.348 +08:00 [INF] Loaded ABP modules:
+2021-02-11 18:10:27.351 +08:00 [INF] - AbpBase.Domain.Shared.AbpBaseDomainSharedModule
+2021-02-11 18:10:27.353 +08:00 [INF] - AbpBase.Domain.AbpBaseDomainModule
+2021-02-11 18:10:27.354 +08:00 [INF] - AbpBase.Application.Contracts.AbpBaseApplicationContractsModule
+2021-02-11 18:10:27.356 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-02-11 18:10:27.357 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-02-11 18:10:27.358 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-02-11 18:10:27.359 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-02-11 18:10:27.360 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-02-11 18:10:27.362 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-02-11 18:10:27.363 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-02-11 18:10:27.366 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-02-11 18:10:27.367 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-02-11 18:10:27.369 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-02-11 18:10:27.371 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-02-11 18:10:27.372 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-02-11 18:10:27.373 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-02-11 18:10:27.374 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-02-11 18:10:27.375 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-02-11 18:10:27.376 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-02-11 18:10:27.377 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-02-11 18:10:27.378 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-02-11 18:10:27.379 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-02-11 18:10:27.383 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-02-11 18:10:27.384 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-02-11 18:10:27.386 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.Sqlite.AbpEntityFrameworkCoreSqliteModule
+2021-02-11 18:10:27.387 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-02-11 18:10:27.390 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2021-02-11 18:10:27.392 +08:00 [INF] - AbpBase.Database.AbpBaseDatabaseModule
+2021-02-11 18:10:27.393 +08:00 [INF] - AbpBase.Application.AbpBaseApplicationModule
+2021-02-11 18:10:27.395 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-02-11 18:10:27.400 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-02-11 18:10:27.403 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-02-11 18:10:27.405 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-02-11 18:10:27.408 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-02-11 18:10:27.410 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-02-11 18:10:27.413 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-02-11 18:10:27.415 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-02-11 18:10:27.417 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-02-11 18:10:27.419 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-02-11 18:10:27.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-02-11 18:10:27.423 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-02-11 18:10:27.425 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-02-11 18:10:27.429 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-02-11 18:10:27.432 +08:00 [INF] - AbpBase.HttpApi.AbpBaseHttpApiModule
+2021-02-11 18:10:27.434 +08:00 [INF] - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2021-02-11 18:10:27.436 +08:00 [INF] - AbpBase.Web.AbpBaseWebModule
+2021-02-11 18:10:28.209 +08:00 [INF] Initialized all ABP modules.
+2021-02-11 18:10:28.711 +08:00 [INF] Now listening on: http://[::]:14250
+2021-02-11 18:10:28.714 +08:00 [INF] Now listening on: http://[::]:16686
+2021-02-11 18:10:28.716 +08:00 [INF] Now listening on: https://[::]:4433
+2021-02-11 18:10:28.718 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 18:10:28.719 +08:00 [INF] Hosting environment: Development
+2021-02-11 18:10:28.721 +08:00 [INF] Content root path: H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web
+2021-02-11 18:10:32.556 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:10:32.633 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:32.782 +08:00 [DBG] Reading message.
+2021-02-11 18:10:33.358 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:10:33.369 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:10:33.383 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:33.384 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:33.386 +08:00 [DBG] Reading message.
+2021-02-11 18:10:33.388 +08:00 [DBG] Reading message.
+2021-02-11 18:10:34.223 +08:00 [INF] get one trace message,trace id:8888004260437651789
+2021-02-11 18:10:34.230 +08:00 [INF] get one trace message,trace id:6539123341412340500
+2021-02-11 18:10:34.245 +08:00 [INF] get one trace message,trace id:8888004260437651789
+2021-02-11 18:10:34.267 +08:00 [DBG] Sending message.
+2021-02-11 18:10:34.266 +08:00 [DBG] Sending message.
+2021-02-11 18:10:34.267 +08:00 [DBG] Sending message.
+2021-02-11 18:10:34.276 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:34.276 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:34.276 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:10:34.284 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 1732.4163ms
+2021-02-11 18:10:34.284 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 924.8461ms
+2021-02-11 18:10:34.284 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 914.3620ms
+2021-02-11 18:10:49.719 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:10:49.732 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:10:49.813 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:10:49.814 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:10:53.874 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:10:53.958 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:10:59.121 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:11:01.073 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 6904.3214ms
+2021-02-11 18:11:01.241 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:11:01.300 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 11580.8770ms
+2021-02-11 18:11:01.791 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:11:01.806 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:11:02.001 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:11:02.232 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:11:02.304 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 176.6533ms
+2021-02-11 18:11:02.355 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:11:02.389 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 597.3748ms
+2021-02-11 18:11:02.896 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-11 18:11:03.531 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-11 18:11:03.698 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:11:03.727 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:11:03.794 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 9709.2252ms
+2021-02-11 18:11:03.847 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:11:03.934 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:11:04.185 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 69 application/json;+charset=utf-8 14437.4769ms
+2021-02-11 18:11:04.778 +08:00 [FTL] 
+Action:    CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)
+Source:    System.Linq
+TargetSite:    Void ThrowNoElementsException()
+InnerException:    
+Message:    Sequence contains no elements
+HelpLink:    
+
+2021-02-11 18:11:04.782 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json; charset=utf-8
+2021-02-11 18:11:04.784 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 822.5307ms
+2021-02-11 18:11:04.789 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:11:04.793 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 69 application/json;+charset=utf-8 1109.5578ms
+2021-02-11 18:11:17.914 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/search - -
+2021-02-11 18:11:18.009 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/search - - - 404 0 - 94.8991ms
+2021-02-11 18:11:21.616 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/index.html - -
+2021-02-11 18:11:22.316 +08:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\index.html'
+2021-02-11 18:11:22.416 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/index.html - - - 200 2931 text/html 800.4624ms
+2021-02-11 18:11:23.082 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:11:23.101 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:11:23.101 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - -
+2021-02-11 18:11:23.127 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:11:23.170 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - -
+2021-02-11 18:11:23.171 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - -
+2021-02-11 18:11:23.172 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:11:23.216 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:11:23.249 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - -
+2021-02-11 18:11:23.318 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - -
+2021-02-11 18:11:23.319 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:11:23.419 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:11:23.670 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 404.4024ms
+2021-02-11 18:11:23.684 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:11:23.703 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:11:23.907 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 824.8548ms
+2021-02-11 18:11:24.051 +08:00 [INF] Sending file. Request path: '/static/media/jaeger-logo.a7093b12.svg'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\media\jaeger-logo.a7093b12.svg'
+2021-02-11 18:11:24.159 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/media/jaeger-logo.a7093b12.svg - - - 200 161920 image/svg+xml 1057.7241ms
+2021-02-11 18:11:24.247 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/favicon.ico - -
+2021-02-11 18:11:24.287 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 781.2377ms
+2021-02-11 18:11:24.319 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\favicon.ico'
+2021-02-11 18:11:24.349 +08:00 [INF] Sending file. Request path: '/static/css/main.ff19d057.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\main.ff19d057.chunk.css.map'
+2021-02-11 18:11:24.358 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:11:24.410 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/main.ff19d057.chunk.css.map - - - 200 262126 text/plain 1149.5459ms
+2021-02-11 18:11:24.443 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/favicon.ico - - - 200 1406 image/x-icon 196.6305ms
+2021-02-11 18:11:24.483 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 1385.0325ms
+2021-02-11 18:11:24.978 +08:00 [INF] Sending file. Request path: '/static/css/1.c303f33f.chunk.css.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\css\1.c303f33f.chunk.css.map'
+2021-02-11 18:11:25.074 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/css/1.c303f33f.chunk.css.map - - - 200 923336 text/plain 1744.6260ms
+2021-02-11 18:11:27.652 +08:00 [INF] Sending file. Request path: '/static/js/main.7ae2cb61.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\main.7ae2cb61.chunk.js.map'
+2021-02-11 18:11:27.740 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/main.7ae2cb61.chunk.js.map - - - 200 3605316 text/plain 4558.1810ms
+2021-02-11 18:11:29.802 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038289752000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613034689752000 - -
+2021-02-11 18:11:29.887 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:11:30.183 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:11:33.205 +08:00 [INF] Sending file. Request path: '/static/js/1.aabfda20.chunk.js.map'. Physical path: 'H:\文章\f分布式日志\LinkToTrack\src\AbpBase.Web\wwwroot\static\js\1.aabfda20.chunk.js.map'
+2021-02-11 18:11:33.337 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/static/js/1.aabfda20.chunk.js.map - - - 200 9941902 text/plain 10164.1861ms
+2021-02-11 18:11:33.669 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-11 18:11:34.953 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 4668.5971ms
+2021-02-11 18:11:35.061 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:11:35.126 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038289752000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613034689752000 - - - 200 - application/json;+charset=utf-8 5352.3659ms
+2021-02-11 18:12:48.414 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:12:48.427 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:12:48.450 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:12:48.507 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:12:48.548 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:12:48.604 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:12:48.719 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:12:48.826 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:12:48.829 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 174.4252ms
+2021-02-11 18:12:48.942 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:12:48.957 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 208.1734ms
+2021-02-11 18:12:48.986 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 571.9938ms
+2021-02-11 18:12:49.071 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:12:49.151 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 708.5526ms
+2021-02-11 18:13:16.785 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:13:16.787 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:13:16.854 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:13:16.870 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:13:16.999 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:13:17.032 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:13:17.327 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:13:17.486 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:13:17.554 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 322.0132ms
+2021-02-11 18:13:17.574 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/dependencies?endTs=1613038397508&lookback=604800000 - -
+2021-02-11 18:13:17.609 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 313.8083ms
+2021-02-11 18:13:17.687 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:13:17.708 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Dependencies (CZGL.Tracing.UI)'
+2021-02-11 18:13:17.817 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 1026.6086ms
+2021-02-11 18:13:17.955 +08:00 [INF] Route matched with {action = "Dependencies", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.SpanReference]] Dependencies(Int64, Int64) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:13:17.955 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:13:18.082 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 1286.1781ms
+2021-02-11 18:13:18.155 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.SpanReference, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-11 18:13:18.266 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Dependencies (CZGL.Tracing.UI) in 231.0555ms
+2021-02-11 18:13:18.328 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Dependencies (CZGL.Tracing.UI)'
+2021-02-11 18:13:18.364 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/dependencies?endTs=1613038397508&lookback=604800000 - - - 200 - application/json;+charset=utf-8 790.3503ms
+2021-02-11 18:13:20.475 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - -
+2021-02-11 18:13:20.556 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:13:20.556 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/services - -
+2021-02-11 18:13:20.652 +08:00 [INF] Route matched with {action = "ServiceOperation", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] ServiceOperation(System.String) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:13:20.710 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:13:21.021 +08:00 [INF] Route matched with {action = "Services", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[System.String]] Services() on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:13:21.176 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:13:21.256 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI) in 416.4734ms
+2021-02-11 18:13:21.309 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.ServiceOperation (CZGL.Tracing.UI)'
+2021-02-11 18:13:21.353 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services/hello-world/operations - - - 200 - application/json;+charset=utf-8 878.5522ms
+2021-02-11 18:13:21.505 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-02-11 18:13:21.710 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI) in 534.3383ms
+2021-02-11 18:13:21.818 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Services (CZGL.Tracing.UI)'
+2021-02-11 18:13:21.911 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/services - - - 200 - application/json;+charset=utf-8 1371.3108ms
+2021-02-11 18:14:46.677 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:14:46.726 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:46.779 +08:00 [DBG] Reading message.
+2021-02-11 18:14:46.952 +08:00 [INF] get one trace message,trace id:-2003282688341333229
+2021-02-11 18:14:47.002 +08:00 [DBG] Sending message.
+2021-02-11 18:14:47.055 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:47.093 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 416.3382ms
+2021-02-11 18:14:47.483 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:14:47.483 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:14:47.547 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:47.593 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:47.642 +08:00 [DBG] Reading message.
+2021-02-11 18:14:47.710 +08:00 [DBG] Reading message.
+2021-02-11 18:14:47.812 +08:00 [INF] get one trace message,trace id:-5273109980391075326
+2021-02-11 18:14:47.886 +08:00 [INF] get one trace message,trace id:-2003282688341333229
+2021-02-11 18:14:47.912 +08:00 [DBG] Sending message.
+2021-02-11 18:14:47.930 +08:00 [DBG] Sending message.
+2021-02-11 18:14:47.932 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:47.934 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:14:47.966 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 484.1150ms
+2021-02-11 18:14:48.015 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 533.7983ms
+2021-02-11 18:15:54.360 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:15:54.375 +08:00 [INF] Request starting HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc -
+2021-02-11 18:15:54.424 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:15:54.481 +08:00 [INF] Executing endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:15:54.548 +08:00 [DBG] Reading message.
+2021-02-11 18:15:54.625 +08:00 [DBG] Reading message.
+2021-02-11 18:15:54.748 +08:00 [INF] get one trace message,trace id:-155253577908508251
+2021-02-11 18:15:54.836 +08:00 [INF] get one trace message,trace id:-155253577908508251
+2021-02-11 18:15:54.879 +08:00 [DBG] Sending message.
+2021-02-11 18:15:54.941 +08:00 [DBG] Sending message.
+2021-02-11 18:15:55.002 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:15:55.067 +08:00 [INF] Executed endpoint 'gRPC - /jaeger.api_v2.CollectorService/PostSpans'
+2021-02-11 18:15:55.159 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 800.4349ms
+2021-02-11 18:15:55.223 +08:00 [INF] Request finished HTTP/2 POST http://127.0.0.1:14250/jaeger.api_v2.CollectorService/PostSpans application/grpc - - 200 - application/grpc 834.2409ms
+2021-02-11 18:17:24.509 +08:00 [INF] Request starting HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038644156000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613035044156000 - -
+2021-02-11 18:17:24.546 +08:00 [INF] Executing endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:17:24.604 +08:00 [INF] Route matched with {action = "Traces", controller = "Tracing", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CZGL.Tracing.Models.QueryResponseServices`1[CZGL.Tracing.Models.QueryTracingObject]] Traces(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int64, Int64, System.String, Int32) on controller CZGL.Tracing.UI.Controllers.TracingController (CZGL.Tracing.UI).
+2021-02-11 18:17:24.861 +08:00 [INF] Executing ObjectResult, writing value of type 'CZGL.Tracing.Models.QueryResponseServices`1[[CZGL.Tracing.Models.QueryTracingObject, CZGL.Tracing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-02-11 18:17:25.145 +08:00 [INF] Executed action CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI) in 446.0834ms
+2021-02-11 18:17:25.148 +08:00 [INF] Executed endpoint 'CZGL.Tracing.UI.Controllers.TracingController.Traces (CZGL.Tracing.UI)'
+2021-02-11 18:17:25.151 +08:00 [INF] Request finished HTTP/2 GET https://127.0.0.1:4433/api/traces?end=1613038644156000&limit=20&lookback=1h&maxDuration&minDuration&service=hello-world&start=1613035044156000 - - - 200 - application/json;+charset=utf-8 641.9883ms

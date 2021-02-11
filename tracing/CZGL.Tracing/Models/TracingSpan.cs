@@ -14,9 +14,9 @@ namespace CZGL.Tracing.Models
 
         [JsonPropertyName("spanID")]
         public string SpanId { get; set; }
+        public uint Flags { get; set; }
         public string OperationName { get; set; }
         public SpanReference[] References { get; set; }
-        public uint Flags { get; set; }
 
         public long StartTime { get; set; }
         public int Duration { get; set; }

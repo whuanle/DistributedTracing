@@ -4,12 +4,13 @@ namespace CZGL.Tracing.Models
 {
     public class SpanReference
     {
-        public string TraceId { get; set; }
-        public string SpanId { get; set; }
+        public string TraceID { get; set; }
+        public string SpanID { get; set; }
 
         /// <summary>
         /// <para><see cref="Jaeger.ApiV2.SpanRefType"/></para>
+        /// <para>CHILD_OF/Follows_From</para>
         /// </summary>
-        public SpanRefType RefType { get; set; }
+        public string RefType { get; set; }
     }
 }

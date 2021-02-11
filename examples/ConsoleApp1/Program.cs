@@ -37,7 +37,6 @@ namespace ConsoleApp1
         {
             using (var scope = _tracer.BuildSpan("format-string").StartActive(true))
             {
-
                 var url = $"http://127.0.0.1:18081/api/format/{helloTo}";
 
                 // 为 Header 头生成信息
@@ -115,16 +114,18 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
+            long value = Convert.ToInt64("6aa1d92bbfcc6977",16);
             byte[] bytes = BitConverter.GetBytes(1611318628516206);
             Array.Reverse(bytes);
             if (BitConverter.IsLittleEndian)
             {
-                var tmp =  BinaryPrimitives.ReadInt64LittleEndian(bytes);
+                value =  BinaryPrimitives.ReadInt64LittleEndian(bytes);
             }
             else
             {
-                var tmp = BinaryPrimitives.ReadInt64BigEndian(bytes);
+                value = BinaryPrimitives.ReadInt64BigEndian(bytes);
             }
+
             Console.WriteLine();
             using ILoggerFactory loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
             while (true)

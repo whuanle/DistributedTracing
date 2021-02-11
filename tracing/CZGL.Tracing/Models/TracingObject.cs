@@ -18,6 +18,7 @@ namespace CZGL.Tracing.Models
         /// 请忽略此 Id
         /// </summary>
         [JsonIgnore]
+        [Newtonsoft.Json.JsonIgnore]
         public ObjectId _id { get; set; }
 
         /// <summary>
@@ -25,6 +26,7 @@ namespace CZGL.Tracing.Models
         /// </summary>
         [BsonIgnore]
         [JsonIgnore]
+        [Newtonsoft.Json.JsonIgnore]
         public object ObjLock { get; } = new object();
 
         /// <summary>
@@ -39,6 +41,7 @@ namespace CZGL.Tracing.Models
         /// </summary>
         [BsonIgnore]
         [JsonIgnore]
+        [Newtonsoft.Json.JsonIgnore]
         public long TraceId { get; set; }
 
         public List<TracingSpan> Spans { get; set; }
